@@ -1,22 +1,22 @@
 {
   "date": "2026-03-14",
   "overview": {
-    "active": 2009,
-    "dead_total": 612,
+    "active": 2011,
+    "dead_total": 610,
     "new_today": 205,
     "dead_today": 142,
     "suspicious": 489,
     "asn_changes": 0,
-    "cert_changes": 16,
+    "cert_changes": 17,
     "last_run": {
       "run_date": "2026-03-14",
-      "total_found": 1907,
-      "new_hosts": 2,
+      "total_found": 1910,
+      "new_hosts": 0,
       "dead_hosts": 0,
-      "duration_sec": 24.674352884292603
+      "duration_sec": 23.281785011291504
     },
     "today": "2026-03-14",
-    "exported_at": "2026-03-14T22:27:25Z"
+    "exported_at": "2026-03-14T22:28:24Z"
   },
   "active_hosts": [
     {
@@ -4539,6 +4539,15 @@
     },
     {
       "ip": "207.174.1.246",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 398019,
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "142.202.188.61",
       "malware_family": "rdp_template_desktop2",
       "asn": 398019,
       "asn_name": "Dynu Systems Incorporated",
@@ -14870,6 +14879,15 @@
       "first_seen": "2026-03-13"
     },
     {
+      "ip": "172.81.63.28",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 398019,
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-13"
+    },
+    {
       "ip": "84.21.189.60",
       "malware_family": "rdp_template_desktop_tcrdu4c",
       "asn": 60781,
@@ -18118,7 +18136,7 @@
     },
     {
       "malware_family": "rdp_template_desktop2",
-      "host_count": 497,
+      "host_count": 499,
       "bph_count": 29,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"

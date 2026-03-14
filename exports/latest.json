@@ -1,21 +1,21 @@
 {
   "overview": {
-    "active": 2009,
-    "dead_total": 612,
+    "active": 2011,
+    "dead_total": 610,
     "new_today": 205,
     "dead_today": 142,
     "suspicious": 489,
     "asn_changes": 0,
-    "cert_changes": 16,
+    "cert_changes": 17,
     "last_run": {
       "run_date": "2026-03-14",
-      "total_found": 1907,
-      "new_hosts": 2,
+      "total_found": 1910,
+      "new_hosts": 0,
       "dead_hosts": 0,
-      "duration_sec": 24.674352884292603
+      "duration_sec": 23.281785011291504
     },
     "today": "2026-03-14",
-    "exported_at": "2026-03-14T22:27:25Z"
+    "exported_at": "2026-03-14T22:28:24Z"
   },
   "active_hosts": [
     {
@@ -12076,6 +12076,30 @@
       "ssl_cn": "DESKTOP-2NFCDE2",
       "ssl_is_selfsig": 1,
       "ssl_fingerprint": "f403c2cc3baf84aab8b5d0fa075f35ee70a2f5e1eafe2bb55889853139e96556",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_desktop2",
+      "source_query": "\"DESKTOP-2NFCDE2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14",
+      "notes": null,
+      "malware_family": "rdp_template_desktop2",
+      "is_bph": 0,
+      "tags": []
+    },
+    {
+      "ip": "142.202.188.61",
+      "asn": 398019,
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "country_name": "United States",
+      "city": "Phoenix",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "2eb93f355deea78879444a1a0959c8c2605db47cc91ced8973757d17d16f7e38",
       "http_server": "",
       "open_ports": [
         3389
@@ -26283,7 +26307,7 @@
       "city": "Amsterdam",
       "ssl_cn": "WIN-J9D866ESIJ2",
       "ssl_is_selfsig": 1,
-      "ssl_fingerprint": "f7e16a5f04f43483ca2b5a1e3053f87e55c164884a6a55a29ccca0f786cab64e",
+      "ssl_fingerprint": "23268f55dd58a364bbeca4451c2a2f9c2bc2a12a4068cee0744aec09591b81ce",
       "http_server": "",
       "open_ports": [
         3389
@@ -39619,6 +39643,30 @@
       "tags": []
     },
     {
+      "ip": "172.81.63.28",
+      "asn": 398019,
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "country_name": "United States",
+      "city": "Phoenix",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "2fa7e56baea6a5658e460cc2f50c05590dd4aa4ed5c2900e9f99dc4abf0c6eb8",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_desktop2",
+      "source_query": "\"DESKTOP-2NFCDE2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-14",
+      "notes": null,
+      "malware_family": "rdp_template_desktop2",
+      "is_bph": 0,
+      "tags": []
+    },
+    {
       "ip": "84.21.189.60",
       "asn": 60781,
       "asn_name": "RapidSeedbox Ltd",
@@ -48237,18 +48285,6 @@
   ],
   "dead_hosts": [
     {
-      "ip": "142.202.188.61",
-      "asn": 398019,
-      "asn_name": "Dynu Systems Incorporated",
-      "country_code": "US",
-      "ssl_cn": "DESKTOP-2NFCDE2",
-      "is_suspicious": 0,
-      "first_seen": "2026-03-10",
-      "last_seen": "2026-03-13",
-      "source_name": "rdp_template_desktop2",
-      "malware_family": "rdp_template_desktop2"
-    },
-    {
       "ip": "212.113.112.190",
       "asn": 215590,
       "asn_name": "LIMITED LIABILITY COMPANY RELCOM-SPB",
@@ -49783,18 +49819,6 @@
       "last_seen": "2026-03-13",
       "source_name": "rdp_template_desktop_tcrdu4c",
       "malware_family": "rdp_template_desktop_tcrdu4c"
-    },
-    {
-      "ip": "172.81.63.28",
-      "asn": 398019,
-      "asn_name": "Dynu Systems Incorporated",
-      "country_code": "US",
-      "ssl_cn": "DESKTOP-2NFCDE2",
-      "is_suspicious": 0,
-      "first_seen": "2026-03-13",
-      "last_seen": "2026-03-13",
-      "source_name": "rdp_template_desktop2",
-      "malware_family": "rdp_template_desktop2"
     },
     {
       "ip": "46.8.19.89",
@@ -54235,6 +54259,30 @@
       "last_seen": "2026-03-11",
       "source_name": "rdp_stark_win_template",
       "malware_family": "rdp_stark_win_template"
+    },
+    {
+      "ip": "45.67.231.241",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "NL",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-11",
+      "source_name": "rdp_stark_win_template",
+      "malware_family": "rdp_stark_win_template"
+    },
+    {
+      "ip": "91.215.85.140",
+      "asn": 200593,
+      "asn_name": "PROSPERO OOO",
+      "country_code": "RU",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "source_name": "rdp_template_desktop2",
+      "malware_family": "rdp_template_desktop2"
     }
   ],
   "new_today": [
@@ -56511,7 +56559,7 @@
     },
     {
       "malware_family": "rdp_template_desktop2",
-      "host_count": 497,
+      "host_count": 499,
       "bph_count": 29,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
@@ -56581,7 +56629,7 @@
       "asn": 398019,
       "asn_name": "Dynu Systems Incorporated",
       "country_code": "US",
-      "host_count": 43,
+      "host_count": 45,
       "suspicious_count": 0,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
@@ -57078,8 +57126,8 @@
       "query_name": "rdp_template_desktop2",
       "category": "rdp_template",
       "query_str": "\"DESKTOP-2NFCDE2\" port:3389",
-      "total_hits": 1937,
-      "total_new": 1937,
+      "total_hits": 1939,
+      "total_new": 1939,
       "days_run": 4,
       "peak_hits": 485,
       "last_active": "2026-03-14"
@@ -57088,10 +57136,10 @@
       "query_name": "rdp_template_desktop_tcrdu4c",
       "category": "rdp_template",
       "query_str": "\"DESKTOP-TCRDU4C\" port:3389",
-      "total_hits": 1912,
-      "total_new": 1912,
+      "total_hits": 1913,
+      "total_new": 1913,
       "days_run": 4,
-      "peak_hits": 485,
+      "peak_hits": 486,
       "last_active": "2026-03-14"
     },
     {
@@ -57285,9 +57333,54 @@
       "asn_changes": 0,
       "cert_changes": 2,
       "duration_sec": 24.674352884292603
+    },
+    {
+      "run_date": "2026-03-14",
+      "total_found": 1910,
+      "new_hosts": 0,
+      "dead_hosts": 0,
+      "asn_changes": 0,
+      "cert_changes": 1,
+      "duration_sec": 23.281785011291504
     }
   ],
   "changes": [
+    {
+      "event_date": "2026-03-14",
+      "ip": "194.124.250.39",
+      "event_type": "cert_changed",
+      "old_value": "f7e16a5f04f43483ca2b5a1e3053f87e",
+      "new_value": "23268f55dd58a364bbeca4451c2a2f9c",
+      "detail": "Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2",
+      "asn_name": "FAST GEO HOSTING S.R.L.",
+      "country_code": "NL",
+      "malware_family": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "event_date": "2026-03-14",
+      "ip": "142.202.188.61",
+      "event_type": "reactivated",
+      "old_value": null,
+      "new_value": null,
+      "detail": "Wieder aktiv auf AS398019 Dynu Systems Incorporated",
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "malware_family": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
+    {
+      "event_date": "2026-03-14",
+      "ip": "172.81.63.28",
+      "event_type": "reactivated",
+      "old_value": null,
+      "new_value": null,
+      "detail": "Wieder aktiv auf AS398019 Dynu Systems Incorporated",
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "malware_family": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
     {
       "event_date": "2026-03-14",
       "ip": "62.60.252.148",
@@ -59650,42 +59743,6 @@
       "asn_name": "Ace Data Centers II, L.L.C.",
       "country_code": "US",
       "malware_family": "rdp_template_desktop2",
-      "is_suspicious": 0
-    },
-    {
-      "event_date": "2026-03-14",
-      "ip": "83.217.209.159",
-      "event_type": "cert_changed",
-      "old_value": "315838a9385b3c555847ffd41c29ac7a",
-      "new_value": "711df2651593adcb2a151ef42e0848a1",
-      "detail": "Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2",
-      "asn_name": "Partner Hosting LTD",
-      "country_code": "DE",
-      "malware_family": "rdp_template_desktop2",
-      "is_suspicious": 0
-    },
-    {
-      "event_date": "2026-03-14",
-      "ip": "213.176.72.68",
-      "event_type": "reactivated",
-      "old_value": null,
-      "new_value": null,
-      "detail": "Wieder aktiv auf AS207957 SERV.HOST GROUP LTD",
-      "asn_name": "SERV.HOST GROUP LTD",
-      "country_code": "DE",
-      "malware_family": "rdp_template_desktop2",
-      "is_suspicious": 0
-    },
-    {
-      "event_date": "2026-03-13",
-      "ip": "144.31.49.59",
-      "event_type": "dead",
-      "old_value": null,
-      "new_value": null,
-      "detail": "Nicht mehr in Shodan-Ergebnissen gefunden",
-      "asn_name": "Ace Data Centers II, L.L.C.",
-      "country_code": "US",
-      "malware_family": "rdp_template_win_j9d",
       "is_suspicious": 0
     }
   ]

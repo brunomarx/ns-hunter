@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-14T22:27:25.786173",
+  "generated_at": "2026-03-14T22:28:24.919084",
   "date": "2026-03-14",
   "malware_family": "NetSupport RAT",
-  "total": 2009,
+  "total": 2011,
   "iocs": [
     {
       "ip": "194.87.141.97",
@@ -219,6 +219,22 @@
       "country_code": "US",
       "ssl_cn": "DESKTOP-2NFCDE2",
       "ssl_fingerprint": "f403c2cc3baf84aab8b5d0fa075f35ee70a2f5e1eafe2bb55889853139e96556",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "142.202.188.61",
+      "asn": 398019,
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_fingerprint": "2eb93f355deea78879444a1a0959c8c2605db47cc91ced8973757d17d16f7e38",
       "http_server": "",
       "open_ports": [
         3389
@@ -10106,7 +10122,7 @@
       "asn_name": "FAST GEO HOSTING S.R.L.",
       "country_code": "NL",
       "ssl_cn": "WIN-J9D866ESIJ2",
-      "ssl_fingerprint": "f7e16a5f04f43483ca2b5a1e3053f87e55c164884a6a55a29ccca0f786cab64e",
+      "ssl_fingerprint": "23268f55dd58a364bbeca4451c2a2f9c2bc2a12a4068cee0744aec09591b81ce",
       "http_server": "",
       "open_ports": [
         3389
@@ -25787,6 +25803,22 @@
       "country_code": "US",
       "ssl_cn": "DESKTOP-2NFCDE2",
       "ssl_fingerprint": "b1ee449f6bf95ac0a50fa290be848cea4f93f5df35acfb69fc16da6f28f1d025",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "172.81.63.28",
+      "asn": 398019,
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_fingerprint": "2fa7e56baea6a5658e460cc2f50c05590dd4aa4ed5c2900e9f99dc4abf0c6eb8",
       "http_server": "",
       "open_ports": [
         3389

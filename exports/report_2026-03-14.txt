@@ -2,7 +2,7 @@
   NetSupport RAT Infrastructure Hunter — 2026-03-14
 ==============================================================
 
-📊 GESAMT AKTIVE HOSTS: 2009
+📊 GESAMT AKTIVE HOSTS: 2011
 
 🔴 NEU HEUTE (205)
   ⚠️ 45.153.127.229     AS9009     EDIS Infrastructure in Romania RO  SSL:DESKTOP-TCRDU4C
@@ -355,7 +355,7 @@
    83.143.112.77      AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-03-10)
    212.23.196.146     AS63023    xTom GmbH                    (seit 2026-03-10)
 
-🔑 ZERTIFIKAT-WECHSEL (16)
+🔑 ZERTIFIKAT-WECHSEL (17)
    83.217.209.159 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
    45.12.130.21 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
    77.91.66.153 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
@@ -372,6 +372,7 @@
    62.60.252.148 | Old CN: VM-167e4d4f-a2ac-4290-b931-b288c04480b1 → New CN: WIN-J9D866ESIJ2
    194.124.250.39 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
    62.60.252.148 | Old CN: WIN-J9D866ESIJ2 → New CN: VM-167e4d4f-a2ac-4290-b931-b288c04480b1
+   194.124.250.39 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
 
 📡 TOP ASNs (aktive Hosts)
    AS44477    STARK INDUSTRIES SOLUTIONS LTD 374 Hosts  ██████████████████████████████ ⚠️ BPH
@@ -379,7 +380,7 @@
    AS44477    STARK INDUSTRIES SOLUTIONS LTD. 110 Hosts  ██████████████████████████████ ⚠️ BPH
    AS401152   Ace Data Centers II, L.L.C.   61 Hosts  ██████████████████████████████
    AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  59 Hosts  ██████████████████████████████
-   AS398019   Dynu Systems Incorporated     43 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     45 Hosts  ██████████████████████████████
    AS204601   Celeritas International LLC   38 Hosts  ██████████████████████████████
    AS215439   play2go.cloud - Cheap and reliable hosting  35 Hosts  ██████████████████████████████
    AS63023    xTom GmbH                     31 Hosts  ██████████████████████████████

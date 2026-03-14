@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ns-hunter — C2 Intelligence Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:            #020617;
+  --surface:       #0f172a;
+  --surface2:      #1e293b;
+  --border:        #1e293b;
+  --border2:       #334155;
+  --text:          #f8fafc;
+  --muted:         #94a3b8;
+  --muted2:        #64748b;
+  --muted3:        #475569;
+  --sva-blue:      #0081c6;
+  --sva-blue-l:    #58c6f1;
+  --sva-blue-d:    #00406f;
+  --sva-orange:    #f29100;
+  --sva-red:       #e31b12;
+  --green:         #22c55e;
+  --yellow:        #eab308;
+  --font:          'DM Sans', 'Helvetica Neue', Arial, sans-serif;
+  --mono:          'JetBrains Mono', monospace;
+  --sw:            220px;
+  --r:             8px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:14px;min-height:100vh;display:flex}
+
+/* ── Sidebar ── */
+.sb{width:var(--sw);background:var(--surface);border-right:1px solid var(--border);position:fixed;top:0;left:0;bottom:0;z-index:100;display:flex;flex-direction:column;overflow-y:auto}
+.sb-logo{padding:18px 16px 14px;border-bottom:1px solid var(--border)}
+.sb-logo-title{font-family:var(--mono);font-size:16px;font-weight:600;color:var(--sva-blue-l);letter-spacing:-0.5px}
+.sb-logo-sub{font-size:10px;color:var(--muted3);text-transform:uppercase;letter-spacing:1px;margin-top:2px}
+.sb-sec{font-size:10px;font-weight:600;color:var(--muted3);text-transform:uppercase;letter-spacing:1px;padding:16px 16px 5px}
+.ni{display:flex;align-items:center;gap:9px;padding:8px 16px;font-size:13px;color:var(--muted);cursor:pointer;border-left:2px solid transparent;transition:all .15s}
+.ni:hover{color:var(--text);background:var(--surface2)}
+.ni.on{color:var(--sva-blue-l);border-left-color:var(--sva-blue);background:rgba(0,129,198,.08)}
+.ni-icon{width:16px;text-align:center;font-size:13px}
+.sb-foot{margin-top:auto;padding:12px 16px;border-top:1px solid var(--border)}
+.src-dot{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0;display:inline-block}
+.src-dot.stale{background:var(--yellow)}
+.src-dot.err{background:var(--sva-red)}
+
+/* ── Main ── */
+.main{margin-left:var(--sw);flex:1;display:flex;flex-direction:column;min-height:100vh}
+.topbar{display:flex;align-items:center;gap:12px;padding:0 24px;height:56px;border-bottom:1px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:50}
+.topbar-title{font-size:15px;font-weight:600;flex:1}
+.topbar-meta{font-family:var(--mono);font-size:11px;color:var(--muted3)}
+.content{padding:24px;flex:1}
+
+/* ── Buttons ── */
+.btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:var(--r);font-size:12px;font-weight:500;cursor:pointer;border:none;transition:all .15s;font-family:var(--font)}
+.btn-p{background:var(--sva-blue);color:#fff}.btn-p:hover{background:var(--sva-blue-d)}
+.btn-g{background:transparent;color:var(--muted);border:1px solid var(--border2)}.btn-g:hover{color:var(--text);border-color:var(--muted)}
+
+/* ── Stat Grid ── */
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-bottom:24px}
+.sc{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px;transition:border-color .15s}
+.sc:hover{border-color:var(--border2)}
+.sc.acc{border-top:2px solid var(--sva-blue)}
+.sc.dan{border-top:2px solid var(--sva-red)}
+.sc.warn{border-top:2px solid var(--sva-orange)}
+.sc.ok{border-top:2px solid var(--green)}
+.sv{font-family:var(--mono);font-size:28px;font-weight:600;line-height:1}
+.sl{font-size:10px;color:var(--muted2);text-transform:uppercase;letter-spacing:.5px;margin-top:5px}
+
+/* ── Card ── */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;margin-bottom:16px}
+.ch{display:flex;align-items:center;justify-content:space-between;padding:13px 18px;border-bottom:1px solid var(--border)}
+.ct{font-size:13px;font-weight:600}
+.cb{padding:16px 18px}
+
+/* ── Table ── */
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{text-align:left;padding:9px 14px;font-size:10px;font-weight:600;color:var(--muted3);text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border);background:var(--bg);white-space:nowrap}
+td{padding:8px 14px;border-bottom:1px solid var(--border);color:var(--muted);vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.015)}
+
+/* ── Badges ── */
+.b{display:inline-block;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.3px}
+.b-bph{background:rgba(242,145,0,.15);color:var(--sva-orange)}
+.b-susp{background:rgba(227,27,18,.12);color:var(--sva-red)}
+.b-new{background:rgba(0,129,198,.15);color:var(--sva-blue-l)}
+.b-dead{background:rgba(100,116,139,.15);color:var(--muted2)}
+.b-cl{background:rgba(88,198,241,.12);color:var(--sva-blue-l)}
+.b-ok{background:rgba(34,197,94,.12);color:var(--green)}
+
+/* ── Copy Block ── */
+.copy-wrap{position:relative}
+.copy-block{background:var(--bg);border:1px solid var(--border2);border-radius:var(--r);padding:14px 16px;font-family:var(--mono);font-size:12px;color:var(--muted);white-space:pre-wrap;word-break:break-all;line-height:1.85;max-height:300px;overflow-y:auto}
+.copy-btn{position:absolute;top:8px;right:8px;background:var(--surface2);border:1px solid var(--border2);color:var(--muted);font-size:11px;padding:3px 9px;border-radius:4px;cursor:pointer;font-family:var(--font);transition:all .15s}
+.copy-btn:hover{color:var(--text)}.copy-btn.done{color:var(--green);border-color:var(--green)}
+
+/* ── Tabs ── */
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--border);margin-bottom:20px}
+.tab{padding:8px 15px;font-size:13px;color:var(--muted2);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:all .15s}
+.tab:hover{color:var(--text)}.tab.on{color:var(--sva-blue-l);border-bottom-color:var(--sva-blue)}
+
+/* ── Mini Chart ── */
+.chart-wrap{display:flex;align-items:flex-end;gap:3px;height:80px;padding:0 2px}
+.bar-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.bar{width:100%;background:var(--sva-blue);border-radius:2px 2px 0 0;opacity:.65;transition:opacity .15s;min-height:2px}.bar:hover{opacity:1}
+.bar.d{background:var(--sva-red);opacity:.45}
+
+/* ── Guide ── */
+.g-h1{font-size:20px;font-weight:600;padding-bottom:10px;border-bottom:1px solid var(--border);margin-bottom:20px}
+.g-h2{font-size:14px;font-weight:600;color:var(--sva-blue-l);margin:20px 0 8px;display:flex;align-items:center;gap:7px}
+.g-p{color:var(--muted);line-height:1.7;margin-bottom:10px;font-size:13px}
+.g-box{background:var(--surface2);border-left:3px solid var(--sva-blue);padding:12px 16px;border-radius:0 var(--r) var(--r) 0;margin:12px 0;font-size:13px;color:var(--muted);line-height:1.6}
+.g-warn{background:rgba(242,145,0,.07);border-left:3px solid var(--sva-orange);padding:12px 16px;border-radius:0 var(--r) var(--r) 0;margin:12px 0;font-size:13px;color:var(--muted)}
+.g-term{display:inline-block;background:var(--surface2);border:1px solid var(--border2);color:var(--sva-blue-l);font-family:var(--mono);font-size:11px;padding:1px 6px;border-radius:4px;margin:1px}
+.g-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+@media(max-width:700px){.g-grid{grid-template-columns:1fr}}
+
+/* ── Empty / Spinner ── */
+.empty{text-align:center;padding:40px;color:var(--muted3)}
+.spinner{width:22px;height:22px;border:2px solid var(--border2);border-top-color:var(--sva-blue);border-radius:50%;animation:spin .6s linear infinite;margin:0 auto 12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── Modal ── */
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center;z-index:999}
+.ov.open{display:flex}
+.mb{background:var(--surface);border:1px solid var(--border2);border-radius:12px;padding:26px;width:500px;max-width:95vw}
+.mb-title{font-size:15px;font-weight:600;margin-bottom:16px}
+.mb-label{font-size:11px;color:var(--muted2);text-transform:uppercase;letter-spacing:.5px;margin:13px 0 5px}
+.mb-input{width:100%;background:var(--surface2);border:1px solid var(--border2);border-radius:var(--r);color:var(--text);font-family:var(--mono);font-size:12px;padding:8px 12px;outline:none;transition:border-color .15s}
+.mb-input:focus{border-color:var(--sva-blue)}
+.mb-hint{font-size:11px;color:var(--muted3);margin-top:3px}
+
+/* ── Responsive ── */
+@media(max-width:768px){.sb{display:none}.main{margin-left:0}}
+</style>
+</head>
+<body>
+
+<!-- Modal -->
+<div class="ov" id="cfg-modal">
+  <div class="mb">
+    <div class="mb-title">⚙ Datenquelle</div>
+    <div class="mb-label">GitHub Raw URL (exports/latest.json)</div>
+    <input class="mb-input" id="cfg-url" type="url"
+      placeholder="https://raw.githubusercontent.com/USER/REPO/main/exports/latest.json">
+    <div class="mb-hint">Raw-URL deiner exports/latest.json auf GitHub</div>
+    <div class="mb-label">Auto-Refresh (Minuten, 0 = aus)</div>
+    <input class="mb-input" id="cfg-interval" type="number" value="60" min="0">
+    <div style="display:flex;gap:10px;margin-top:18px">
+      <button class="btn btn-p" onclick="saveCfg()">Laden</button>
+      <button class="btn btn-g" onclick="closeCfg()">Abbrechen</button>
+    </div>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="sb">
+  <div class="sb-logo">
+    <div class="sb-logo-title">ns-hunter</div>
+    <div class="sb-logo-sub">C2 Infrastructure Tracker</div>
+  </div>
+  <div class="sb-sec">Übersicht</div>
+  <div class="ni on" onclick="show('overview')" id="ni-overview"><span class="ni-icon">◈</span>Dashboard</div>
+  <div class="ni" onclick="show('feed')" id="ni-feed"><span class="ni-icon">⬡</span>IP Feed</div>
+  <div class="sb-sec">Analyse</div>
+  <div class="ni" onclick="show('families')" id="ni-families"><span class="ni-icon">◉</span>Familien</div>
+  <div class="ni" onclick="show('clusters')" id="ni-clusters"><span class="ni-icon">⬢</span>SSL Cluster</div>
+  <div class="ni" onclick="show('asn')" id="ni-asn"><span class="ni-icon">⬡</span>ASN / BPH</div>
+  <div class="ni" onclick="show('changes')" id="ni-changes"><span class="ni-icon">△</span>Änderungen</div>
+  <div class="ni" onclick="show('queries')" id="ni-queries"><span class="ni-icon">◎</span>Queries</div>
+  <div class="sb-sec">Tools</div>
+  <div class="ni" onclick="show('iplists')" id="ni-iplists"><span class="ni-icon">⊡</span>IP-Listen</div>
+  <div class="ni" onclick="show('history')" id="ni-history"><span class="ni-icon">◷</span>Historie</div>
+  <div class="ni" onclick="show('guide')" id="ni-guide"><span class="ni-icon">?</span>Anleitung</div>
+  <div class="sb-foot">
+    <div style="display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted3)">
+      <span class="src-dot" id="src-dot"></span>
+      <span id="src-label">Keine Daten</span>
+    </div>
+    <button class="btn btn-g" style="width:100%;font-size:11px;padding:5px;margin-top:8px" onclick="openCfg()">⚙ Quelle</button>
+  </div>
+</nav>
+
+<!-- Main -->
+<div class="main">
+  <div class="topbar">
+    <span class="topbar-title" id="page-title">Dashboard</span>
+    <span class="topbar-meta" id="page-meta"></span>
+    <button class="btn btn-g" onclick="loadData()">↺</button>
+  </div>
+  <div class="content" id="content">
+    <div class="empty">
+      <div style="font-size:32px;margin-bottom:12px">◈</div>
+      <div style="margin-bottom:16px;color:var(--muted)">Datenquelle konfigurieren</div>
+      <button class="btn btn-p" onclick="openCfg()">GitHub URL einrichten</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State & Config ────────────────────────────────────────────────────────────
+let DATA = null, CFG = {url:'',interval:60}, activeTab = 'overview', timer = null;
+
+function loadCfg(){try{const s=localStorage.getItem('nsh_cfg');if(s)CFG={...CFG,...JSON.parse(s)}}catch(e){}}
+function saveCfg(){CFG.url=document.getElementById('cfg-url').value.trim();CFG.interval=parseInt(document.getElementById('cfg-interval').value)||0;localStorage.setItem('nsh_cfg',JSON.stringify(CFG));closeCfg();loadData()}
+function openCfg(){document.getElementById('cfg-url').value=CFG.url;document.getElementById('cfg-interval').value=CFG.interval;document.getElementById('cfg-modal').classList.add('open')}
+function closeCfg(){document.getElementById('cfg-modal').classList.remove('open')}
+
+// ── Load ─────────────────────────────────────────────────────────────────────
+async function loadData(){
+  if(!CFG.url){openCfg();return}
+  setContent('<div class="empty"><div class="spinner"></div>Lade…</div>');
+  setBadge('stale','Lädt…');
+  try{
+    const r=await fetch(CFG.url+'?_t='+Date.now());
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    DATA=await r.json();
+    setBadge('ok',DATA.overview?.exported_at?.substring(0,10)||'OK');
+    show(activeTab);
+    if(timer)clearInterval(timer);
+    if(CFG.interval>0)timer=setInterval(loadData,CFG.interval*60000);
+  }catch(e){
+    setBadge('err','Fehler');
+    setContent(`<div class="empty"><div style="color:var(--sva-red);font-size:28px;margin-bottom:12px">⚠</div>
+      <div style="color:var(--sva-red);margin-bottom:6px">Laden fehlgeschlagen</div>
+      <div style="font-size:12px;color:var(--muted3);margin-bottom:16px">${esc(e.message)}</div>
+      <button class="btn btn-g" onclick="openCfg()">URL ändern</button></div>`);
+  }
+}
+
+function setBadge(state,label){
+  const d=document.getElementById('src-dot');
+  d.className='src-dot'+(state==='stale'?' stale':state==='err'?' err':'');
+  document.getElementById('src-label').textContent=label;
+}
+
+// ── Nav ───────────────────────────────────────────────────────────────────────
+const TITLES={overview:'Dashboard',feed:'IP Feed',families:'Malware-Familien',
+  clusters:'SSL Cluster',asn:'ASN / BPH',changes:'Änderungen',queries:'Queries',
+  iplists:'IP-Listen',history:'Historie',guide:'Anleitung'};
+
+function show(tab){
+  activeTab=tab;
+  document.querySelectorAll('.ni').forEach(e=>e.classList.remove('on'));
+  const ni=document.getElementById('ni-'+tab);if(ni)ni.classList.add('on');
+  document.getElementById('page-title').textContent=TITLES[tab]||tab;
+  document.getElementById('page-meta').textContent='';
+  if(!DATA){loadData();return}
+  const fns={overview:rOverview,feed:rFeed,families:rFamilies,clusters:rClusters,
+    asn:rASN,changes:rChanges,queries:rQueries,iplists:rIPLists,history:rHistory,guide:rGuide};
+  const fn=fns[tab];if(fn)setContent(fn());
+}
+
+function setContent(html){document.getElementById('content').innerHTML=html}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+const esc=s=>String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function flag(cc){if(!cc||cc.length!==2)return'';return cc.toUpperCase().replace(/./g,c=>String.fromCodePoint(c.charCodeAt(0)+127397))}
+function rel(iso){if(!iso)return'–';const d=Math.floor((Date.now()-new Date(iso))/86400000);if(d===0)return'heute';if(d===1)return'gestern';return`vor ${d}d`}
+
+function copy(text,btn){
+  navigator.clipboard.writeText(text).then(()=>{
+    if(btn){btn.textContent='✓ Kopiert';btn.classList.add('done');
+      setTimeout(()=>{btn.textContent='Kopieren';btn.classList.remove('done')},2000)}
+  })
+}
+
+// ── Overview ─────────────────────────────────────────────────────────────────
+function rOverview(){
+  const ov=DATA.overview||{},tl=DATA.timeline||[];
+  document.getElementById('page-meta').textContent=ov.exported_at?'Export: '+ov.exported_at.substring(0,16).replace('T',' '):'';
+
+  let h=`<div class="stat-grid">
+    <div class="sc acc"><div class="sv">${ov.active||0}</div><div class="sl">Aktive C2 IPs</div></div>
+    <div class="sc dan"><div class="sv">${ov.suspicious||0}</div><div class="sl">BPH / Suspicious</div></div>
+    <div class="sc ok"><div class="sv">${ov.new_today||0}</div><div class="sl">Neu heute</div></div>
+    <div class="sc warn"><div class="sv">${ov.dead_today||0}</div><div class="sl">Tot heute</div></div>
+    <div class="sc"><div class="sv">${ov.dead_total||0}</div><div class="sl">Archiv (tot)</div></div>
+    <div class="sc"><div class="sv">${ov.asn_changes||0}</div><div class="sl">ASN-Wechsel</div></div>
+    <div class="sc"><div class="sv">${ov.cert_changes||0}</div><div class="sl">Cert-Wechsel</div></div>
+  </div>`;
+
+  // Timeline mini-chart
+  if(tl.length){
+    const max=Math.max(...tl.map(r=>r.total_found||0),1);
+    h+=`<div class="card" style="margin-bottom:16px">
+      <div class="ch"><div class="ct">Verlauf — ${tl.length} Tage</div></div>
+      <div class="cb"><div class="chart-wrap">`;
+    tl.slice(-60).forEach(r=>{
+      const ht=Math.max(3,Math.round(((r.total_found||0)/max)*72));
+      h+=`<div class="bar-col" title="${r.run_date}: ${r.total_found} aktiv, +${r.new_hosts||0} neu, -${r.dead_hosts||0} tot">
+        <div class="bar" style="height:${ht}px"></div></div>`;
+    });
+    h+=`</div></div></div>`;
+  }
+
+  // Familien
+  const fams=(DATA.families||[]).slice(0,8);
+  if(fams.length){
+    h+=`<div class="card"><div class="ch"><div class="ct">Familien</div>
+      <button class="btn btn-g" onclick="show('families')">Alle →</button></div>
+      <div class="tw"><table><thead><tr><th>Familie</th><th>IPs</th><th>BPH</th><th>Zuletzt</th></tr></thead><tbody>`;
+    fams.forEach(f=>{
+      h+=`<tr>
+        <td style="font-family:var(--mono);color:var(--text)">${esc(f.malware_family)}</td>
+        <td style="font-family:var(--mono);font-weight:600">${f.host_count}</td>
+        <td>${f.bph_count>0?`<span class="b b-bph">${f.bph_count}</span>`:'–'}</td>
+        <td style="font-size:11px;color:var(--muted3)">${rel(f.last_seen)}</td></tr>`;
+    });
+    h+=`</tbody></table></div></div>`;
+  }
+
+  // Neue Hosts heute
+  const nt=DATA.new_today||[];
+  if(nt.length){
+    h+=`<div class="card"><div class="ch"><div class="ct">Neu heute (${nt.length})</div></div>
+      <div class="tw"><table><thead><tr><th>IP</th><th>Familie</th><th>ASN</th><th>Land</th><th>Typ</th></tr></thead><tbody>`;
+    nt.forEach(x=>{
+      h+=`<tr>
+        <td style="font-family:var(--mono);color:var(--text)">${x.ip}</td>
+        <td style="font-family:var(--mono);font-size:11px;color:var(--sva-blue-l)">${esc(x.malware_family||'–')}</td>
+        <td style="font-size:11px;color:var(--muted)">${esc(x.asn_name||'–')}</td>
+        <td>${flag(x.country_code)} <span style="font-family:var(--mono);font-size:11px">${x.country_code||'–'}</span></td>
+        <td>${x.is_suspicious?'<span class="b b-susp">BPH</span>':'<span class="b b-new">NEU</span>'}</td></tr>`;
+    });
+    h+=`</tbody></table></div></div>`;
+  }
+  return h;
+}
+
+// ── IP Feed ───────────────────────────────────────────────────────────────────
+function rFeed(){
+  const hosts=DATA.active_hosts||[];
+  const fams=[...new Set(hosts.map(h=>h.malware_family).filter(Boolean))].sort();
+
+  window._fh=hosts;
+  let h=`<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;align-items:center">
+    <select id="ff-fam" onchange="filterFeed()"
+      style="background:var(--surface2);border:1px solid var(--border2);color:var(--text);
+             border-radius:6px;padding:7px 12px;font-size:13px;outline:none">
+      <option value="">Alle Familien</option>
+      ${fams.map(f=>`<option value="${esc(f)}">${esc(f)}</option>`).join('')}
+    </select>
+    <label style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer">
+      <input type="checkbox" id="ff-bph" onchange="filterFeed()" style="accent-color:var(--sva-orange)"> Nur BPH
+    </label>
+    <span id="ff-count" style="font-size:12px;color:var(--muted3);margin-left:auto">${hosts.length} IPs</span>
+  </div>
+  <div class="card" id="ff-table">${buildFeedTable(hosts)}</div>`;
+  return h;
+}
+
+function buildFeedTable(list){
+  if(!list.length)return`<div class="empty">Keine Ergebnisse</div>`;
+  let t=`<div class="tw"><table><thead><tr>
+    <th>IP</th><th>Familie</th><th>ASN</th><th>Land</th><th>SSL CN</th><th>Ports</th><th>Typ</th><th>Zuletzt</th>
+  </tr></thead><tbody>`;
+  list.forEach(h=>{
+    const ports=(h.open_ports||[]).map(p=>`<span style="font-family:var(--mono);font-size:10px;background:var(--surface2);padding:1px 5px;border-radius:3px;margin:1px">${p}</span>`).join('');
+    t+=`<tr>
+      <td style="font-family:var(--mono);color:var(--text)">${h.ip}</td>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--sva-blue-l)">${esc(h.malware_family||'–')}</td>
+      <td><div style="font-size:11px">${esc(h.asn_name||'–')}</div>
+          <div style="font-family:var(--mono);font-size:10px;color:var(--muted3)">AS${h.asn||''}</div></td>
+      <td>${flag(h.country_code)} <span style="font-family:var(--mono);font-size:11px;margin-left:3px">${h.country_code||'–'}</span></td>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--muted2);max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(h.ssl_cn||'–')}</td>
+      <td>${ports||'–'}</td>
+      <td>${h.is_suspicious?'<span class="b b-susp">BPH</span>':'<span class="b b-ok">C2</span>'}</td>
+      <td style="font-family:var(--mono);font-size:10px;color:var(--muted3)">${rel(h.last_seen)}</td>
+    </tr>`;
+  });
+  t+=`</tbody></table></div>`;
+  return t;
+}
+
+function filterFeed(){
+  const fam=document.getElementById('ff-fam')?.value||'';
+  const bph=document.getElementById('ff-bph')?.checked||false;
+  let list=window._fh||[];
+  if(fam)list=list.filter(h=>h.malware_family===fam);
+  if(bph)list=list.filter(h=>h.is_suspicious);
+  document.getElementById('ff-count').textContent=list.length+' IPs';
+  document.getElementById('ff-table').innerHTML=buildFeedTable(list);
+}
+
+// ── Familien ──────────────────────────────────────────────────────────────────
+function rFamilies(){
+  const fams=DATA.families||[];
+  if(!fams.length)return`<div class="empty">Keine Daten</div>`;
+  const max=fams[0]?.host_count||1;
+  let h=`<div class="card"><div class="tw"><table><thead><tr>
+    <th>Familie</th><th>Aktive IPs</th><th>BPH</th><th>Erstmals</th><th>Zuletzt</th><th></th>
+  </tr></thead><tbody>`;
+  fams.forEach(f=>{
+    const bar=Math.round((f.host_count/max)*120);
+    h+=`<tr>
+      <td style="font-family:var(--mono);font-size:13px;font-weight:500;color:var(--text)">${esc(f.malware_family)}</td>
+      <td><div style="display:flex;align-items:center;gap:8px">
+        <span style="font-family:var(--mono);font-weight:600">${f.host_count}</span>
+        <div style="height:4px;width:${bar}px;background:var(--sva-blue);border-radius:2px;opacity:.55"></div>
+      </div></td>
+      <td>${f.bph_count>0?`<span class="b b-bph">${f.bph_count}</span>`:'–'}</td>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--muted3)">${f.first_seen||'–'}</td>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--muted3)">${rel(f.last_seen)}</td>
+      <td><button class="btn btn-g" style="font-size:11px;padding:3px 8px"
+        onclick="filterToFamily('${esc(f.malware_family)}')">Filter →</button></td>
+    </tr>`;
+  });
+  h+=`</tbody></table></div></div>`;
+  return h;
+}
+
+function filterToFamily(f){show('feed');setTimeout(()=>{const s=document.getElementById('ff-fam');if(s){s.value=f;filterFeed()}},60)}
+
+// ── SSL Cluster ───────────────────────────────────────────────────────────────
+function rClusters(){
+  const cls=DATA.ssl_clusters||[];
+  if(!cls.length)return`<div class="empty">Keine SSL-Cluster<br><span style="font-size:12px;color:var(--muted3)">Tauchen auf wenn mehrere IPs das gleiche Zertifikat nutzen</span></div>`;
+  let h=`<div class="g-box" style="margin-bottom:20px">
+    SSL-Cluster zeigen IPs die <strong>dasselbe TLS-Zertifikat</strong> teilen — ein starkes Infrastruktur-Pivot-Signal.
+    Gleicher Fingerprint = gleicher Threat Actor oder gleiche Deployment-Vorlage.
+  </div>`;
+  cls.forEach((cl,i)=>{
+    const ips=(cl.ips||'').split(', ').filter(Boolean);
+    h+=`<div class="card">
+      <div class="ch">
+        <div><span class="b b-cl" style="margin-right:8px">${ips.length} IPs</span>
+          <span style="font-family:var(--mono);font-size:13px;color:var(--text)">${esc(cl.ssl_cn||'(kein CN)')}</span>
+          ${cl.ssl_is_selfsig?'<span class="b b-susp" style="margin-left:8px">Self-Signed</span>':''}
+        </div>
+        <span style="font-family:var(--mono);font-size:10px;color:var(--muted3)">${(cl.ssl_fingerprint||'').substring(0,20)}…</span>
+      </div>
+      <div class="cb">
+        <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px">
+          ${ips.map(ip=>`<span style="font-family:var(--mono);font-size:12px;background:var(--surface2);padding:3px 9px;border-radius:4px;border:1px solid var(--border2);color:var(--text)">${ip}</span>`).join('')}
+        </div>
+        <div class="copy-wrap" style="max-width:400px">
+          <div class="copy-block" id="cl-${i}">${ips.join('\n')}</div>
+          <button class="copy-btn" onclick="copy(document.getElementById('cl-${i}').textContent,this)">Kopieren</button>
+        </div>
+      </div>
+    </div>`;
+  });
+  return h;
+}
+
+// ── ASN ───────────────────────────────────────────────────────────────────────
+function rASN(){
+  const rows=DATA.asn_stats||[];
+  if(!rows.length)return`<div class="empty">Keine ASN-Daten</div>`;
+  const max=rows[0]?.host_count||1;
+  let h=`<div class="g-warn" style="margin-bottom:20px">
+    <strong>BPH = Bulletproof Hosting</strong> — Provider die bekannt sind, Abuse-Meldungen zu ignorieren.
+    Hohe BPH-Konzentration ist ein infrastrukturelles Pivot-Signal auf einen Threat Actor.
+  </div>
+  <div class="card"><div class="tw"><table><thead><tr>
+    <th>AS</th><th>Provider</th><th>Land</th><th>Hosts</th><th>Suspicious</th>
+  </tr></thead><tbody>`;
+  rows.forEach(r=>{
+    const bar=Math.round((r.host_count/max)*100);
+    h+=`<tr>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--muted3)">AS${r.asn||''}</td>
+      <td style="color:var(--text);max-width:200px">${esc(r.asn_name||'–')}</td>
+      <td>${flag(r.country_code)} <span style="font-family:var(--mono);font-size:11px;margin-left:3px">${r.country_code||'–'}</span></td>
+      <td><div style="display:flex;align-items:center;gap:8px">
+        <span style="font-family:var(--mono);font-weight:600">${r.host_count}</span>
+        <div style="height:3px;width:${bar}px;background:var(--sva-blue);border-radius:2px;opacity:.5"></div>
+      </div></td>
+      <td>${r.suspicious_count>0?`<span class="b b-susp">${r.suspicious_count}</span>`:'–'}</td>
+    </tr>`;
+  });
+  h+=`</tbody></table></div></div>`;
+  return h;
+}
+
+// ── Changes ───────────────────────────────────────────────────────────────────
+function rChanges(){
+  const ch=DATA.changes||[];
+  if(!ch.length)return`<div class="empty">Keine Änderungen</div>`;
+  const EVT={new:{l:'Neu',c:'var(--sva-blue-l)'},dead:{l:'Tot',c:'var(--muted3)'},
+    asn_changed:{l:'ASN-Wechsel',c:'var(--sva-orange)'},cert_changed:{l:'Cert-Wechsel',c:'var(--yellow)'},
+    reactivated:{l:'Reaktiviert',c:'var(--green)'}};
+  let h=`<div class="card"><div class="tw"><table><thead><tr>
+    <th>Datum</th><th>Ereignis</th><th>IP</th><th>Familie</th><th>Land</th><th>Detail</th>
+  </tr></thead><tbody>`;
+  ch.forEach(e=>{
+    const ev=EVT[e.event_type]||{l:e.event_type,c:'var(--muted)'};
+    const detail=e.old_value&&e.new_value?`${esc(e.old_value)} → ${esc(e.new_value)}`:(esc(e.detail)||'');
+    h+=`<tr>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--muted3)">${e.event_date}</td>
+      <td><span style="font-size:12px;font-weight:500;color:${ev.c}">${ev.l}</span></td>
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text)">${esc(e.ip)}</td>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--sva-blue-l)">${esc(e.malware_family||'–')}</td>
+      <td>${flag(e.country_code)} <span style="font-family:var(--mono);font-size:11px;margin-left:3px">${e.country_code||'–'}</span></td>
+      <td style="font-size:11px;color:var(--muted2);max-width:220px;overflow:hidden;text-overflow:ellipsis">${detail}</td>
+    </tr>`;
+  });
+  h+=`</tbody></table></div></div>`;
+  return h;
+}
+
+// ── Queries ───────────────────────────────────────────────────────────────────
+function rQueries(){
+  const qs=DATA.queries||[];
+  if(!qs.length)return`<div class="empty">Keine Query-Daten — nach erstem Run verfügbar</div>`;
+  const maxH=Math.max(...qs.map(q=>q.total_hits||0),1);
+  let h=`<div class="card"><div class="tw"><table><thead><tr>
+    <th>Query</th><th>Kategorie</th><th>Gesamt-Hits</th><th>Neue IPs</th><th>Tage</th><th>Zuletzt</th>
+  </tr></thead><tbody>`;
+  qs.forEach(q=>{
+    const bar=Math.round(((q.total_hits||0)/maxH)*120);
+    h+=`<tr>
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text)">${esc(q.query_name)}</td>
+      <td><span style="font-size:11px;background:var(--surface2);padding:2px 7px;border-radius:4px;color:var(--muted2)">${esc(q.category||'–')}</span></td>
+      <td><div style="display:flex;align-items:center;gap:8px">
+        <span style="font-family:var(--mono);font-weight:600">${q.total_hits||0}</span>
+        <div style="height:3px;width:${bar}px;background:var(--sva-orange);border-radius:2px;opacity:.55"></div>
+      </div></td>
+      <td style="font-family:var(--mono)">${q.total_new||0}</td>
+      <td style="font-family:var(--mono);color:var(--muted3)">${q.days_run||0}</td>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--muted3)">${q.last_active||'–'}</td>
+    </tr>`;
+  });
+  h+=`</tbody></table></div></div>`;
+  return h;
+}
+
+// ── IP Lists ─────────────────────────────────────────────────────────────────
+function rIPLists(){
+  const hosts=DATA.active_hosts||[];
+  const dead=DATA.dead_hosts||[];
+  const bph=hosts.filter(h=>h.is_suspicious);
+  const fams=[...new Set(hosts.map(h=>h.malware_family).filter(Boolean))].sort();
+
+  const activeIPs=hosts.map(h=>h.ip).join('\n');
+  const deadIPs=dead.map(h=>h.ip).join('\n');
+  const bphIPs=bph.map(h=>h.ip).join('\n');
+
+  let h=`<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">`;
+
+  // Aktive IPs
+  h+=`<div class="card"><div class="ch"><div class="ct">✅ Aktive C2 IPs (${hosts.length})</div></div>
+    <div class="cb">
+      <div class="copy-wrap"><div class="copy-block" id="cp-active">${esc(activeIPs)}</div>
+        <button class="copy-btn" onclick="copy(document.getElementById('cp-active').textContent.trim(),this)">Kopieren</button>
+      </div>
+    </div></div>`;
+
+  // Tote IPs
+  h+=`<div class="card"><div class="ch"><div class="ct">💀 Tote IPs Archiv (${dead.length})</div></div>
+    <div class="cb">
+      <div class="copy-wrap"><div class="copy-block" id="cp-dead">${esc(deadIPs)}</div>
+        <button class="copy-btn" onclick="copy(document.getElementById('cp-dead').textContent.trim(),this)">Kopieren</button>
+      </div>
+    </div></div>`;
+
+  h+=`</div>`;
+
+  // BPH IPs
+  if(bph.length){
+    h+=`<div class="card"><div class="ch"><div class="ct">⚠ BPH / Suspicious IPs (${bph.length})</div></div>
+      <div class="cb">
+        <div class="copy-wrap"><div class="copy-block" id="cp-bph">${esc(bphIPs)}</div>
+          <button class="copy-btn" onclick="copy(document.getElementById('cp-bph').textContent.trim(),this)">Kopieren</button>
+        </div>
+      </div></div>`;
+  }
+
+  // Pro Familie
+  h+=`<div class="card"><div class="ch"><div class="ct">IPs nach Familie</div></div><div class="cb">
+    <div class="tabs" style="margin-bottom:16px" id="fam-tabs">`;
+  fams.forEach((f,i)=>{
+    h+=`<div class="tab${i===0?' on':''}" onclick="switchFamTab('${esc(f)}',this)">${esc(f)}</div>`;
+  });
+  h+=`</div><div id="fam-content">`;
+  fams.forEach((f,i)=>{
+    const fIPs=hosts.filter(h=>h.malware_family===f).map(h=>h.ip).join('\n');
+    h+=`<div id="fam-${esc(f)}" style="display:${i===0?'block':'none'}">
+      <div class="copy-wrap"><div class="copy-block" id="cp-fam-${esc(f)}">${esc(fIPs)}</div>
+        <button class="copy-btn" onclick="copy(document.getElementById('cp-fam-${esc(f)}').textContent.trim(),this)">Kopieren</button>
+      </div></div>`;
+  });
+  h+=`</div></div></div>`;
+
+  // SIEM-Format
+  h+=`<div class="card"><div class="ch"><div class="ct">SIEM / Firewall Format</div></div>
+    <div class="cb">
+      <div class="tabs" style="margin-bottom:12px">
+        <div class="tab on" onclick="switchSiemTab('plain',this)">Plain</div>
+        <div class="tab" onclick="switchSiemTab('csv',this)">CSV</div>
+        <div class="tab" onclick="switchSiemTab('json',this)">JSON</div>
+      </div>
+      <div id="siem-plain"><div class="copy-wrap">
+        <div class="copy-block" id="cp-siem-plain">${esc(activeIPs)}</div>
+        <button class="copy-btn" onclick="copy(document.getElementById('cp-siem-plain').textContent.trim(),this)">Kopieren</button>
+      </div></div>
+      <div id="siem-csv" style="display:none"><div class="copy-wrap">
+        <div class="copy-block" id="cp-siem-csv">${esc('ip,family,asn,country,first_seen,last_seen,is_bph\n'+
+          hosts.map(h=>`${h.ip},${h.malware_family||''},${h.asn||''},${h.country_code||''},${h.first_seen},${h.last_seen},${h.is_suspicious?1:0}`).join('\n'))}</div>
+        <button class="copy-btn" onclick="copy(document.getElementById('cp-siem-csv').textContent.trim(),this)">Kopieren</button>
+      </div></div>
+      <div id="siem-json" style="display:none"><div class="copy-wrap">
+        <div class="copy-block" id="cp-siem-json">${esc(JSON.stringify(hosts.map(h=>({ip:h.ip,family:h.malware_family,asn:h.asn,country:h.country_code,bph:!!h.is_suspicious})),null,2))}</div>
+        <button class="copy-btn" onclick="copy(document.getElementById('cp-siem-json').textContent.trim(),this)">Kopieren</button>
+      </div></div>
+    </div></div>`;
+
+  return h;
+}
+
+function switchFamTab(fam,el){
+  document.querySelectorAll('#fam-tabs .tab').forEach(t=>t.classList.remove('on'));
+  el.classList.add('on');
+  document.querySelectorAll('#fam-content > div').forEach(d=>d.style.display='none');
+  const t=document.getElementById('fam-'+fam);if(t)t.style.display='block';
+}
+
+function switchSiemTab(fmt,el){
+  document.querySelectorAll('#siem-plain,#siem-csv,#siem-json').forEach(d=>d.style.display='none');
+  document.querySelectorAll('.cb .tabs .tab').forEach(t=>t.classList.remove('on'));
+  el.classList.add('on');
+  const d=document.getElementById('siem-'+fmt);if(d)d.style.display='block';
+}
+
+// ── History ───────────────────────────────────────────────────────────────────
+function rHistory(){
+  const baseUrl=CFG.url.replace('/latest.json','');
+  return`<div class="g-box" style="margin-bottom:20px">
+    Historische Tages-Snapshots werden unter <code style="font-family:var(--mono);font-size:12px">exports/history/YYYY-MM-DD.json</code>
+    auf GitHub gespeichert. Jeder Snapshot enthält Übersicht + aktive IPs des Tages.
+  </div>
+  <div class="card"><div class="ch"><div class="ct">Verlauf (Timeline)</div></div>
+  <div class="tw"><table><thead><tr>
+    <th>Datum</th><th>Aktive IPs</th><th>Neu</th><th>Tot</th><th>ASN-Δ</th><th>Cert-Δ</th>
+  </tr></thead><tbody>
+  ${(DATA.timeline||[]).slice().reverse().map(r=>`<tr>
+    <td style="font-family:var(--mono);font-size:12px">
+      <a href="${baseUrl}/history/${r.run_date}.json" target="_blank"
+         style="color:var(--sva-blue-l);text-decoration:none">${r.run_date}</a></td>
+    <td style="font-family:var(--mono);font-weight:600">${r.total_found||0}</td>
+    <td style="font-family:var(--mono);color:var(--green)">+${r.new_hosts||0}</td>
+    <td style="font-family:var(--mono);color:var(--sva-red)">-${r.dead_hosts||0}</td>
+    <td style="font-family:var(--mono);color:var(--sva-orange)">${r.asn_changes||0}</td>
+    <td style="font-family:var(--mono);color:var(--yellow)">${r.cert_changes||0}</td>
+  </tr>`).join('')}
+  </tbody></table></div></div>`;
+}
+
+// ── Guide ─────────────────────────────────────────────────────────────────────
+function rGuide(){
+  return`<div style="max-width:860px">
+  <div class="g-h1">Anleitung — ns-hunter C2 Intelligence Dashboard</div>
+
+  <div class="g-h2">◈ Was ist ns-hunter?</div>
+  <div class="g-p">ns-hunter ist ein automatisierter Tracker für C2-Infrastruktur (Command & Control Server) verschiedener Malware-Familien.
+  Er durchsucht täglich die Shodan-Datenbank nach charakteristischen Merkmalen bekannter C2-Frameworks und speichert alle gefundenen IPs mit Metadaten.
+  Das Dashboard liest die exportierten JSON-Dateien direkt von GitHub — die Datenbank bleibt im Homelab, nur die Exports werden veröffentlicht.</div>
+
+  <div class="g-box">
+    <strong>Workflow:</strong> Homelab → <code style="font-family:var(--mono);font-size:12px">ns_hunter.py</code> scannt täglich →
+    <code style="font-family:var(--mono);font-size:12px">export_json.py</code> schreibt JSON →
+    <code style="font-family:var(--mono);font-size:12px">git push</code> → dieses Dashboard lädt von GitHub Raw URL
+  </div>
+
+  <div class="g-h2">◉ Was sind Templates?</div>
+  <div class="g-p">Templates sind Shodan-Suchabfragen in <code style="font-family:var(--mono);font-size:12px">searches.yml</code>,
+  die spezifische Merkmale eines C2-Frameworks erkennen. Ein NetSupport RAT C2 hat zum Beispiel einen charakteristischen
+  HTTP-Server-Header und öffnet immer Port 443 mit einem bestimmten Banner.</div>
+  <div class="g-box">
+    <strong>Beispiel — NetSupport RAT Template:</strong><br>
+    <code style="font-family:var(--mono);font-size:11px;color:var(--sva-blue-l)">
+      http.html:"NetSupport" port:443 http.status:200
+    </code><br><br>
+    Jedes Template hat einen Namen, eine Kategorie und einen Shodan-Query-String.
+    Der Hunter führt alle aktivierten Templates täglich aus und dedupliziert die Ergebnisse.
+  </div>
+  <div class="g-p">Templates können für neue C2-Familien einfach in <code style="font-family:var(--mono);font-size:12px">searches.yml</code>
+  ergänzt werden ohne Code-Änderung. Unter <strong>Queries</strong> siehst du wie viele Treffer jedes Template täglich liefert.</div>
+
+  <div class="g-h2">⬡ Was sind BPHs?</div>
+  <div class="g-p"><strong>Bulletproof Hosting (BPH)</strong> bezeichnet Hosting-Provider, die bekannt sind,
+  Abuse-Meldungen zu ignorieren oder aktiv zu unterbinden. Cyberkriminelle bevorzugen BPH-Provider weil ihre
+  Infrastruktur dort länger aktiv bleibt ohne Takedown.</div>
+  <div class="g-warn">
+    <strong>Wichtig für die Analyse:</strong> Eine IP im BPH-ASN bedeutet nicht automatisch Malware — aber die
+    Kombination aus BPH-Hosting + C2-Fingerprint ist ein starkes Indiz für absichtlich gewählte Infrastruktur.
+    BPH-IPs haben oft eine längere Lebensdauer und werden von professionellen Threat Actors bevorzugt.
+  </div>
+
+  <div class="g-h2">⬢ Was sind SSL Cluster?</div>
+  <div class="g-p">Wenn mehrere C2-IPs <strong>dasselbe TLS-Zertifikat</strong> verwenden (gleicher SHA-256-Fingerprint),
+  deutet das auf gemeinsame Infrastruktur hin. Mögliche Erklärungen:</div>
+  <div class="g-grid">
+    <div class="g-box">
+      <strong>Gleicher Threat Actor</strong><br>
+      Ein Angreifer deployt mehrere C2-Server aus einem Template heraus — alle erhalten das gleiche Self-Signed-Zertifikat.
+    </div>
+    <div class="g-box">
+      <strong>Gleicher Provider/CDN</strong>
+      Manchmal teilen IPs eines Providers ein Wildcard-Zertifikat.
+      Hier hilft der Vergleich mit dem ASN.
+    </div>
+  </div>
+  <div class="g-p">SSL-Cluster sind ein wichtiges <strong>Pivot-Signal</strong>: Wenn du eine neue verdächtige IP siehst,
+  kannst du über ihren Zertifikat-Fingerprint weitere IPs derselben Kampagne finden.</div>
+
+  <div class="g-h2">◎ Was sind Familien?</div>
+  <div class="g-p">Jede erkannte IP wird einer <strong>Malware-Familie</strong> zugeordnet — dem C2-Framework
+  das auf dieser IP läuft. Aktuell getrackte Familien:</div>
+  <div style="display:flex;flex-wrap:wrap;gap:6px;margin:12px 0">
+    ${(DATA.families||[]).map(f=>`<span class="g-term">${esc(f.malware_family)}</span>`).join('')||
+      ['NetSupport RAT','Cobalt Strike','AsyncRAT','QuasarRAT','XWorm','DcRAT','Sliver','Havoc C2']
+      .map(f=>`<span class="g-term">${f}</span>`).join('')}
+  </div>
+  <div class="g-p">Neue Familien werden durch neue Templates in <code style="font-family:var(--mono);font-size:12px">searches.yml</code>
+  hinzugefügt. Die Familienzuordnung kommt direkt aus dem Template-Namen.</div>
+
+  <div class="g-h2">⊡ IP-Listen — Wie nutzen?</div>
+  <div class="g-p">Unter <strong>IP-Listen</strong> findest du alle aktiven und toten IPs in verschiedenen Formaten
+  direkt zum Kopieren:</div>
+  <div class="g-grid">
+    <div class="g-box">
+      <strong>Plain Text</strong> — eine IP pro Zeile<br>
+      Für Firewall-Blacklists, Threat-Intel-Plattformen (MISP, OpenCTI), manuelle Checks
+    </div>
+    <div class="g-box">
+      <strong>CSV</strong> — mit Metadaten<br>
+      Für Excel-Auswertungen, SIEM-Imports, Reporting-Tools
+    </div>
+    <div class="g-box">
+      <strong>JSON</strong> — strukturiert<br>
+      Für SOAR-Playbooks, API-Integrationen, XSOAR-Indicators
+    </div>
+    <div class="g-box">
+      <strong>Pro Familie</strong><br>
+      Nur NetSupport RAT IPs, nur Cobalt Strike IPs etc. — für gezielte Blocking-Rules
+    </div>
+  </div>
+  <div class="g-warn">
+    <strong>Tote IPs</strong> sind Hosts die zuletzt aktiv waren, aber beim letzten Scan nicht mehr gefunden wurden.
+    Sie bleiben im Archiv — nützlich für historische IOC-Checks und für "Hat dieser Host je C2 gehostet?"-Fragen.
+  </div>
+
+  <div class="g-h2">△ Change Events — Was bedeuten sie?</div>
+  <div class="g-grid">
+    <div class="g-box"><strong style="color:var(--sva-blue-l)">Neu</strong><br>
+      IP heute erstmals gefunden — frische C2-Infrastruktur</div>
+    <div class="g-box"><strong style="color:var(--muted2)">Tot</strong><br>
+      IP beim letzten Scan verschwunden — Takedown oder Umbau</div>
+    <div class="g-box"><strong style="color:var(--sva-orange)">ASN-Wechsel</strong><br>
+      Gleiche IP, anderer Provider — Indiz für IP-Migration oder CDN-Rotation</div>
+    <div class="g-box"><strong style="color:var(--yellow)">Cert-Wechsel</strong><br>
+      Neues TLS-Zertifikat auf gleicher IP — Redeployment oder Erneuerung</div>
+  </div>
+
+  <div class="g-h2">◷ Historische Daten</div>
+  <div class="g-p">Jeder tägliche Export wird als <code style="font-family:var(--mono);font-size:12px">exports/history/YYYY-MM-DD.json</code>
+  auf GitHub gespeichert. Unter <strong>Historie</strong> kannst du jeden Snapshot einzeln aufrufen.
+  Historische Snapshots sind kompakter (nur IPs + Familien + Übersicht) — für vollständige Metadaten
+  nutze <code style="font-family:var(--mono);font-size:12px">exports/latest.json</code>.</div>
+
+  <div class="g-h2">⚙ Setup</div>
+  <div class="g-box">
+    <strong>1. Homelab — täglicher Cron:</strong><br>
+    <code style="font-family:var(--mono);font-size:11px;color:var(--sva-blue-l)">
+    0 4 * * * cd /opt/ns_hunter && python ns_hunter.py && python export_json.py && git add exports/ && git commit -m "update" && git push
+    </code><br><br>
+    <strong>2. Dashboard URL einrichten:</strong><br>
+    ⚙ Quelle → GitHub Raw URL zu <code style="font-family:var(--mono);font-size:11px">exports/latest.json</code> eintragen<br><br>
+    <strong>Beispiel:</strong><br>
+    <code style="font-family:var(--mono);font-size:11px;color:var(--sva-blue-l)">
+    https://raw.githubusercontent.com/dein-user/ns-hunter/main/exports/latest.json
+    </code>
+  </div>
+  </div>`;
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+loadCfg();
+if(CFG.url)loadData();
+</script>
+</body>
+</html>

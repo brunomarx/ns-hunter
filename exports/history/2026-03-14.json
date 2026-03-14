@@ -1,22 +1,22 @@
 {
   "date": "2026-03-14",
   "overview": {
-    "active": 2006,
-    "dead_total": 613,
-    "new_today": 203,
+    "active": 2009,
+    "dead_total": 612,
+    "new_today": 205,
     "dead_today": 142,
-    "suspicious": 487,
+    "suspicious": 489,
     "asn_changes": 0,
-    "cert_changes": 14,
+    "cert_changes": 16,
     "last_run": {
       "run_date": "2026-03-14",
-      "total_found": 1908,
-      "new_hosts": 1,
+      "total_found": 1907,
+      "new_hosts": 2,
       "dead_hosts": 0,
-      "duration_sec": 22.946847677230835
+      "duration_sec": 24.674352884292603
     },
     "today": "2026-03-14",
-    "exported_at": "2026-03-14T22:11:58Z"
+    "exported_at": "2026-03-14T22:27:25Z"
   },
   "active_hosts": [
     {
@@ -4403,6 +4403,24 @@
       "first_seen": "2026-03-14"
     },
     {
+      "ip": "94.131.109.253",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "DE",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "23.230.14.126",
+      "malware_family": "rdp_stark_win_template",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "DE",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
       "ip": "194.87.141.97",
       "malware_family": "rdp_template_desktop2",
       "asn": 198071,
@@ -7657,6 +7675,15 @@
       "asn": 39900,
       "asn_name": "SIA GOOD",
       "country_code": "LV",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "141.98.6.196",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 213702,
+      "asn_name": "NL-Network",
+      "country_code": "NL",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -18077,8 +18104,8 @@
   "families": [
     {
       "malware_family": "rdp_template_desktop_tcrdu4c",
-      "host_count": 523,
-      "bph_count": 15,
+      "host_count": 524,
+      "bph_count": 16,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
@@ -18091,15 +18118,15 @@
     },
     {
       "malware_family": "rdp_template_desktop2",
-      "host_count": 496,
+      "host_count": 497,
       "bph_count": 29,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
     {
       "malware_family": "rdp_stark_win_template",
-      "host_count": 429,
-      "bph_count": 408,
+      "host_count": 430,
+      "bph_count": 409,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },

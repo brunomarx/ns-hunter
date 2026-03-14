@@ -1,21 +1,21 @@
 {
   "overview": {
-    "active": 2006,
-    "dead_total": 613,
-    "new_today": 203,
+    "active": 2009,
+    "dead_total": 612,
+    "new_today": 205,
     "dead_today": 142,
-    "suspicious": 487,
+    "suspicious": 489,
     "asn_changes": 0,
-    "cert_changes": 14,
+    "cert_changes": 16,
     "last_run": {
       "run_date": "2026-03-14",
-      "total_found": 1908,
-      "new_hosts": 1,
+      "total_found": 1907,
+      "new_hosts": 2,
       "dead_hosts": 0,
-      "duration_sec": 22.946847677230835
+      "duration_sec": 24.674352884292603
     },
     "today": "2026-03-14",
-    "exported_at": "2026-03-14T22:11:58Z"
+    "exported_at": "2026-03-14T22:27:25Z"
   },
   "active_hosts": [
     {
@@ -11707,6 +11707,54 @@
       "tags": []
     },
     {
+      "ip": "94.131.109.253",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "DE",
+      "country_name": "Germany",
+      "city": "Frankfurt am Main",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "72ecde4471a13c4b217794797b7a70603d778ac7c6f442195747e466abfa52e5",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "source_query": "\"DESKTOP-TCRDU4C\" port:3389",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "notes": null,
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "is_bph": 1,
+      "tags": []
+    },
+    {
+      "ip": "23.230.14.126",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "DE",
+      "country_name": "Germany",
+      "city": "Frankfurt am Main",
+      "ssl_cn": "WIN-7G03614S0T6",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "98dfe502916a6792453cd242a3a5ec8a79caf034366bd6deb505be54882d2fa2",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_stark_win_template",
+      "source_query": "ssl.cert.subject.cn:\"WIN-*\" port:3389 org:\"STARK INDUSTRIES\"",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "notes": null,
+      "malware_family": "rdp_stark_win_template",
+      "is_bph": 1,
+      "tags": []
+    },
+    {
       "ip": "194.87.141.97",
       "asn": 198071,
       "asn_name": "Berch Solutions Limited",
@@ -20395,6 +20443,30 @@
       "tags": []
     },
     {
+      "ip": "141.98.6.196",
+      "asn": 213702,
+      "asn_name": "NL-Network",
+      "country_code": "NL",
+      "country_name": "Netherlands",
+      "city": "Lelystad",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "7c4e8056554e147b62d3cc0f568afb74180ccd3a5353df0770059e77c4220074",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_desktop2",
+      "source_query": "\"DESKTOP-2NFCDE2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14",
+      "notes": null,
+      "malware_family": "rdp_template_desktop2",
+      "is_bph": 0,
+      "tags": []
+    },
+    {
       "ip": "193.5.65.136",
       "asn": 395839,
       "asn_name": "RapidSeedbox Ltd",
@@ -26211,7 +26283,7 @@
       "city": "Amsterdam",
       "ssl_cn": "WIN-J9D866ESIJ2",
       "ssl_is_selfsig": 1,
-      "ssl_fingerprint": "23268f55dd58a364bbeca4451c2a2f9c2bc2a12a4068cee0744aec09591b81ce",
+      "ssl_fingerprint": "f7e16a5f04f43483ca2b5a1e3053f87e55c164884a6a55a29ccca0f786cab64e",
       "http_server": "",
       "open_ports": [
         3389
@@ -28465,9 +28537,9 @@
       "country_code": "NL",
       "country_name": "Netherlands",
       "city": "Amsterdam",
-      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_cn": "VM-167e4d4f-a2ac-4290-b931-b288c04480b1",
       "ssl_is_selfsig": 1,
-      "ssl_fingerprint": "7aa1458134870ddd7dad09dee828cabe3357b702287d43fe8c105a2ce99f530d",
+      "ssl_fingerprint": "a33db8e797b2f7a2e72da87d8452dd23c3f3e5e695ec469dfbf3ae93c5080f11",
       "http_server": "",
       "open_ports": [
         3389
@@ -49821,18 +49893,6 @@
       "malware_family": "rdp_template_desktop2"
     },
     {
-      "ip": "141.98.6.196",
-      "asn": 213702,
-      "asn_name": "NL-Network",
-      "country_code": "NL",
-      "ssl_cn": "DESKTOP-2NFCDE2",
-      "is_suspicious": 0,
-      "first_seen": "2026-03-10",
-      "last_seen": "2026-03-12",
-      "source_name": "rdp_template_desktop2",
-      "malware_family": "rdp_template_desktop2"
-    },
-    {
       "ip": "178.130.46.158",
       "asn": 0,
       "asn_name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
@@ -54163,6 +54223,18 @@
       "last_seen": "2026-03-11",
       "source_name": "rdp_stark_win_template",
       "malware_family": "rdp_stark_win_template"
+    },
+    {
+      "ip": "45.15.162.164",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "CZ",
+      "ssl_cn": "WIN-BS656MOF35Q",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-11",
+      "source_name": "rdp_stark_win_template",
+      "malware_family": "rdp_stark_win_template"
     }
   ],
   "new_today": [
@@ -54385,6 +54457,28 @@
       "source_name": "rdp_template_win_j9d",
       "first_seen": "2026-03-14",
       "malware_family": "rdp_template_win_j9d"
+    },
+    {
+      "ip": "94.131.109.253",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "DE",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "is_suspicious": 1,
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "first_seen": "2026-03-14",
+      "malware_family": "rdp_template_desktop_tcrdu4c"
+    },
+    {
+      "ip": "23.230.14.126",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "DE",
+      "ssl_cn": "WIN-7G03614S0T6",
+      "is_suspicious": 1,
+      "source_name": "rdp_stark_win_template",
+      "first_seen": "2026-03-14",
+      "malware_family": "rdp_stark_win_template"
     },
     {
       "ip": "144.31.191.173",
@@ -56403,8 +56497,8 @@
   "families": [
     {
       "malware_family": "rdp_template_desktop_tcrdu4c",
-      "host_count": 523,
-      "bph_count": 15,
+      "host_count": 524,
+      "bph_count": 16,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
@@ -56417,15 +56511,15 @@
     },
     {
       "malware_family": "rdp_template_desktop2",
-      "host_count": 496,
+      "host_count": 497,
       "bph_count": 29,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
     {
       "malware_family": "rdp_stark_win_template",
-      "host_count": 429,
-      "bph_count": 408,
+      "host_count": 430,
+      "bph_count": 409,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
@@ -56442,8 +56536,8 @@
       "asn": 44477,
       "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
       "country_code": "US",
-      "host_count": 372,
-      "suspicious_count": 372,
+      "host_count": 374,
+      "suspicious_count": 374,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
@@ -56984,8 +57078,8 @@
       "query_name": "rdp_template_desktop2",
       "category": "rdp_template",
       "query_str": "\"DESKTOP-2NFCDE2\" port:3389",
-      "total_hits": 1939,
-      "total_new": 1939,
+      "total_hits": 1937,
+      "total_new": 1937,
       "days_run": 4,
       "peak_hits": 485,
       "last_active": "2026-03-14"
@@ -56994,18 +57088,18 @@
       "query_name": "rdp_template_desktop_tcrdu4c",
       "category": "rdp_template",
       "query_str": "\"DESKTOP-TCRDU4C\" port:3389",
-      "total_hits": 1913,
-      "total_new": 1913,
+      "total_hits": 1912,
+      "total_new": 1912,
       "days_run": 4,
-      "peak_hits": 486,
+      "peak_hits": 485,
       "last_active": "2026-03-14"
     },
     {
       "query_name": "rdp_stark_win_template",
       "category": "rdp_template",
       "query_str": "ssl.cert.subject.cn:\"WIN-*\" port:3389 org:\"STARK INDUSTRIES\"",
-      "total_hits": 1907,
-      "total_new": 1771,
+      "total_hits": 1909,
+      "total_new": 1772,
       "days_run": 4,
       "peak_hits": 483,
       "last_active": "2026-03-14"
@@ -57014,10 +57108,10 @@
       "query_name": "rdp_template_win_j9d",
       "category": "rdp_template",
       "query_str": "\"WIN-J9D866ESIJ2\" port:3389",
-      "total_hits": 1841,
-      "total_new": 1841,
+      "total_hits": 1842,
+      "total_new": 1842,
       "days_run": 4,
-      "peak_hits": 466,
+      "peak_hits": 467,
       "last_active": "2026-03-14"
     },
     {
@@ -57182,9 +57276,54 @@
       "asn_changes": 0,
       "cert_changes": 0,
       "duration_sec": 22.946847677230835
+    },
+    {
+      "run_date": "2026-03-14",
+      "total_found": 1907,
+      "new_hosts": 2,
+      "dead_hosts": 0,
+      "asn_changes": 0,
+      "cert_changes": 2,
+      "duration_sec": 24.674352884292603
     }
   ],
   "changes": [
+    {
+      "event_date": "2026-03-14",
+      "ip": "62.60.252.148",
+      "event_type": "cert_changed",
+      "old_value": "7aa1458134870ddd7dad09dee828cabe",
+      "new_value": "a33db8e797b2f7a2e72da87d8452dd23",
+      "detail": "Old CN: WIN-J9D866ESIJ2 → New CN: VM-167e4d4f-a2ac-4290-b931-b288c04480b1",
+      "asn_name": "Aeza International LTD",
+      "country_code": "NL",
+      "malware_family": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "event_date": "2026-03-14",
+      "ip": "194.124.250.39",
+      "event_type": "cert_changed",
+      "old_value": "23268f55dd58a364bbeca4451c2a2f9c",
+      "new_value": "f7e16a5f04f43483ca2b5a1e3053f87e",
+      "detail": "Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2",
+      "asn_name": "FAST GEO HOSTING S.R.L.",
+      "country_code": "NL",
+      "malware_family": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "event_date": "2026-03-14",
+      "ip": "141.98.6.196",
+      "event_type": "reactivated",
+      "old_value": null,
+      "new_value": null,
+      "detail": "Wieder aktiv auf AS213702 NL-Network",
+      "asn_name": "NL-Network",
+      "country_code": "NL",
+      "malware_family": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
     {
       "event_date": "2026-03-14",
       "ip": "31.56.240.24",
@@ -59547,42 +59686,6 @@
       "asn_name": "Ace Data Centers II, L.L.C.",
       "country_code": "US",
       "malware_family": "rdp_template_win_j9d",
-      "is_suspicious": 0
-    },
-    {
-      "event_date": "2026-03-13",
-      "ip": "64.188.64.42",
-      "event_type": "dead",
-      "old_value": null,
-      "new_value": null,
-      "detail": "Nicht mehr in Shodan-Ergebnissen gefunden",
-      "asn_name": "Ace Data Centers II, LLC",
-      "country_code": "PT",
-      "malware_family": "rdp_template_desktop_tcrdu4c",
-      "is_suspicious": 0
-    },
-    {
-      "event_date": "2026-03-13",
-      "ip": "185.217.131.246",
-      "event_type": "dead",
-      "old_value": null,
-      "new_value": null,
-      "detail": "Nicht mehr in Shodan-Ergebnissen gefunden",
-      "asn_name": "BEST INTERNET SOLUTION XK",
-      "country_code": "UZ",
-      "malware_family": "rdp_template_desktop_tcrdu4c",
-      "is_suspicious": 0
-    },
-    {
-      "event_date": "2026-03-13",
-      "ip": "77.91.66.153",
-      "event_type": "dead",
-      "old_value": null,
-      "new_value": null,
-      "detail": "Nicht mehr in Shodan-Ergebnissen gefunden",
-      "asn_name": "1Cent Host",
-      "country_code": "DE",
-      "malware_family": "rdp_template_desktop_tcrdu4c",
       "is_suspicious": 0
     }
   ]

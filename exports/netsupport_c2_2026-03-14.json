@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-14T22:11:58.269896",
+  "generated_at": "2026-03-14T22:27:25.786173",
   "date": "2026-03-14",
   "malware_family": "NetSupport RAT",
-  "total": 2006,
+  "total": 2009,
   "iocs": [
     {
       "ip": "194.87.141.97",
@@ -6149,6 +6149,22 @@
       "is_suspicious": 0
     },
     {
+      "ip": "141.98.6.196",
+      "asn": 213702,
+      "asn_name": "NL-Network",
+      "country_code": "NL",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_fingerprint": "7c4e8056554e147b62d3cc0f568afb74180ccd3a5353df0770059e77c4220074",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
+    {
       "ip": "193.5.65.136",
       "asn": 395839,
       "asn_name": "RapidSeedbox Ltd",
@@ -10090,7 +10106,7 @@
       "asn_name": "FAST GEO HOSTING S.R.L.",
       "country_code": "NL",
       "ssl_cn": "WIN-J9D866ESIJ2",
-      "ssl_fingerprint": "23268f55dd58a364bbeca4451c2a2f9c2bc2a12a4068cee0744aec09591b81ce",
+      "ssl_fingerprint": "f7e16a5f04f43483ca2b5a1e3053f87e55c164884a6a55a29ccca0f786cab64e",
       "http_server": "",
       "open_ports": [
         3389
@@ -11625,8 +11641,8 @@
       "asn": 0,
       "asn_name": "Aeza International LTD",
       "country_code": "NL",
-      "ssl_cn": "WIN-J9D866ESIJ2",
-      "ssl_fingerprint": "7aa1458134870ddd7dad09dee828cabe3357b702287d43fe8c105a2ce99f530d",
+      "ssl_cn": "VM-167e4d4f-a2ac-4290-b931-b288c04480b1",
+      "ssl_fingerprint": "a33db8e797b2f7a2e72da87d8452dd23c3f3e5e695ec469dfbf3ae93c5080f11",
       "http_server": "",
       "open_ports": [
         3389
@@ -32098,6 +32114,38 @@
       "first_seen": "2026-03-14",
       "last_seen": "2026-03-14",
       "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 1
+    },
+    {
+      "ip": "94.131.109.253",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "DE",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "ssl_fingerprint": "72ecde4471a13c4b217794797b7a70603d778ac7c6f442195747e466abfa52e5",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "is_suspicious": 1
+    },
+    {
+      "ip": "23.230.14.126",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "DE",
+      "ssl_cn": "WIN-7G03614S0T6",
+      "ssl_fingerprint": "98dfe502916a6792453cd242a3a5ec8a79caf034366bd6deb505be54882d2fa2",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_stark_win_template",
       "is_suspicious": 1
     }
   ]

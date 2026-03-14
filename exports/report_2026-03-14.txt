@@ -2,9 +2,9 @@
   NetSupport RAT Infrastructure Hunter — 2026-03-14
 ==============================================================
 
-📊 GESAMT AKTIVE HOSTS: 1994
+📊 GESAMT AKTIVE HOSTS: 2004
 
-🔴 NEU HEUTE (194)
+🔴 NEU HEUTE (202)
   ⚠️ 45.153.127.229     AS9009     EDIS Infrastructure in Romania RO  SSL:DESKTOP-TCRDU4C
   ⚠️ 77.91.100.177      AS44477    STARK INDUSTRIES SOLUTIONS LTD BG  SSL:DESKTOP-2NFCDE2
   ⚠️ 45.89.105.50       AS44477    STARK INDUSTRIES SOLUTIONS LTD IN  SSL:WIN-J9D866ESIJ2
@@ -27,6 +27,7 @@
      87.251.69.100      AS39238                                 RU  SSL:DESKTOP-2NFCDE2
      144.76.145.221     AS24940                                 DE  SSL:WIN-J9D866ESIJ2
      198.17.175.248     AS?                                     ??  SSL:DESKTOP-2NFCDE2
+     77.91.66.253       AS214417   1Cent Host                   DE  SSL:DESKTOP-TCRDU4C
      109.61.110.197     AS198178   365.partners INC             FR  SSL:DESKTOP-TCRDU4C
      109.61.110.15      AS198178   365.partners INC             FR  SSL:DESKTOP-TCRDU4C
      144.31.191.173     AS401152   Ace Data Centers II, L.L.C.  US  SSL:DESKTOP-2NFCDE2
@@ -43,6 +44,7 @@
      64.188.89.189      AS6939     Ace Data Centers II, LLC     NL  SSL:WIN-J9D866ESIJ2
      108.165.164.84     AS401152   Ace Data Centers, Inc.       US  SSL:DESKTOP-2NFCDE2
      150.241.70.28      AS210644   Aeza International LTD       FI  SSL:WIN-J9D866ESIJ2
+     185.231.244.72     AS202984   Argotel ltd.                 RU  SSL:DESKTOP-TCRDU4C
      5.253.188.253      AS214172   Artem Lomakin                DE  SSL:DESKTOP-2NFCDE2
      45.92.173.100      AS35682    BEST INTERNET SOLUTION XK    UZ  SSL:DESKTOP-TCRDU4C
      45.140.16.4        AS57271    BitWeb LLC                   RU  SSL:DESKTOP-TCRDU4C
@@ -60,6 +62,7 @@
      46.8.220.38        AS204490   Contel OOO                   RU  SSL:WIN-J9D866ESIJ2
      95.85.233.159      AS43708    DATAMAT CZ s.r.o.            CZ  SSL:WIN-J9D866ESIJ2
      91.194.11.57       AS53363    DGTL TECH UK LLP             CA  SSL:WIN-J9D866ESIJ2
+     91.194.11.208      AS53363    DGTL TECH UK LLP             CA  SSL:WIN-J9D866ESIJ2
      193.233.126.91     AS215540   DHOST                        NL  SSL:WIN-J9D866ESIJ2
      94.141.160.62      AS215590   DpkgSoft International Limited DE  SSL:DESKTOP-TCRDU4C
      147.45.67.20       AS215590   DpkgSoft International Limited RU  SSL:WIN-J9D866ESIJ2
@@ -86,6 +89,7 @@
      80.66.85.60        AS207957   Germany, Frankfurt           DE  SSL:WIN-J9D866ESIJ2
      45.129.97.96       AS201094   GmhostGrupp OU               UA  SSL:WIN-J9D866ESIJ2
      5.154.181.205      AS44066    GmhostGrupp OU               DE  SSL:WIN-J9D866ESIJ2
+     45.129.96.236      AS208440   GmhostGrupp OU               EE  SSL:WIN-J9D866ESIJ2
      185.91.126.231     AS211971   Goodhost.KZ                  KZ  SSL:WIN-J9D866ESIJ2
      195.123.210.122    AS50979    Green Floid LLC              LV  SSL:WIN-J9D866ESIJ2
      138.124.79.162     AS214238   HOST TELECOM LTD             FR  SSL:DESKTOP-TCRDU4C
@@ -94,6 +98,7 @@
      95.81.121.222      AS39308    Hamara System Tabriz Engineering Company IR  SSL:WIN-J9D866ESIJ2
      95.81.121.98       AS39308    Hamara System Tabriz Engineering Company IR  SSL:WIN-J9D866ESIJ2
      157.90.39.2        AS24940    Hetzner Online GmbH          DE  SSL:DESKTOP-TCRDU4C
+     103.101.85.66      AS214408   Hosted by Internalhost       NL  SSL:DESKTOP-TCRDU4C
      178.236.243.22     AS213893   IT-GARAGE Hosting            DE  SSL:DESKTOP-2NFCDE2
      185.82.218.108     AS59729    ITLDC EU2.SOF Datacenter Network BG  SSL:WIN-J9D866ESIJ2
      95.182.121.232     AS202984   Ildar Gilmutdinov PE         RU  SSL:DESKTOP-TCRDU4C
@@ -186,11 +191,13 @@
      81.90.29.161       AS48407    TigrisNet                    IQ  SSL:DESKTOP-2NFCDE2
      178.17.53.49       AS4766     TigrisNet                    KR  SSL:DESKTOP-TCRDU4C
      2.56.178.216       AS33993    UFO Hosting LLC              RU  SSL:DESKTOP-TCRDU4C
+     185.235.242.86     AS33993    UFO Hosting LLC              RU  SSL:WIN-J9D866ESIJ2
      45.150.34.7        AS215826   VPSPay                       NL  SSL:WIN-J9D866ESIJ2
      94.141.123.73      AS213887   WAIcore Ltd                  DE  SSL:DESKTOP-TCRDU4C
      193.233.134.80     AS213887   WAIcore Ltd                  DE  SSL:WIN-J9D866ESIJ2
      185.179.190.210    AS44094    Webhost LLC                  RU  SSL:DESKTOP-TCRDU4C
      89.44.86.83        AS?        XT GLOBAL NETWORKS LTD.      RO  SSL:WIN-J9D866ESIJ2
+     95.181.164.226     AS208626   coopertino.ru                RU  SSL:DESKTOP-TCRDU4C
      87.251.86.83       AS216127   nuxt.cloud hosting provider  DE  SSL:DESKTOP-2NFCDE2
      93.185.159.160     AS216127   nuxt.cloud hosting provider  RU  SSL:DESKTOP-TCRDU4C
      94.156.170.136     AS215439   play2go.cloud - Cheap and reliable hosting DE  SSL:DESKTOP-TCRDU4C
@@ -198,6 +205,7 @@
      93.123.84.206      AS215439   play2go.cloud - Cheap and reliable hosting DE  SSL:WIN-J9D866ESIJ2
      194.31.223.116     AS215439   play2go.cloud - Cheap and reliable hosting DE  SSL:DESKTOP-TCRDU4C
      83.143.112.213     AS215439   play2go.cloud - Cheap and reliable hosting FI  SSL:DESKTOP-TCRDU4C
+     194.31.223.220     AS215439   play2go.cloud - Cheap and reliable hosting DE  SSL:WIN-J9D866ESIJ2
      77.239.104.184     AS213877   u1host ltd                   DE  SSL:DESKTOP-TCRDU4C
 
 💀 VERSCHWUNDEN (142)
@@ -344,7 +352,7 @@
    83.143.112.77      AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-03-10)
    212.23.196.146     AS63023    xTom GmbH                    (seit 2026-03-10)
 
-🔑 ZERTIFIKAT-WECHSEL (13)
+🔑 ZERTIFIKAT-WECHSEL (14)
    83.217.209.159 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
    45.12.130.21 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
    77.91.66.153 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
@@ -358,16 +366,17 @@
    62.60.252.148 | Old CN: VM-167e4d4f-a2ac-4290-b931-b288c04480b1 → New CN: WIN-J9D866ESIJ2
    62.60.252.148 | Old CN: WIN-J9D866ESIJ2 → New CN: VM-167e4d4f-a2ac-4290-b931-b288c04480b1
    45.12.133.42 | Old CN: WIN-LIVFRVQFMKO → New CN: WIN-LIVFRVQFMKO
+   62.60.252.148 | Old CN: VM-167e4d4f-a2ac-4290-b931-b288c04480b1 → New CN: WIN-J9D866ESIJ2
 
 📡 TOP ASNs (aktive Hosts)
-   AS44477    STARK INDUSTRIES SOLUTIONS LTD 370 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD 371 Hosts  ██████████████████████████████ ⚠️ BPH
    AS215826   Partner Hosting LTD          252 Hosts  ██████████████████████████████
    AS44477    STARK INDUSTRIES SOLUTIONS LTD. 110 Hosts  ██████████████████████████████ ⚠️ BPH
    AS401152   Ace Data Centers II, L.L.C.   61 Hosts  ██████████████████████████████
    AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  59 Hosts  ██████████████████████████████
    AS398019   Dynu Systems Incorporated     43 Hosts  ██████████████████████████████
    AS204601   Celeritas International LLC   38 Hosts  ██████████████████████████████
-   AS215439   play2go.cloud - Cheap and reliable hosting  34 Hosts  ██████████████████████████████
+   AS215439   play2go.cloud - Cheap and reliable hosting  35 Hosts  ██████████████████████████████
    AS63023    xTom GmbH                     31 Hosts  ██████████████████████████████
    AS205090   FIRST SERVER LIMITED          30 Hosts  ██████████████████████████████
 

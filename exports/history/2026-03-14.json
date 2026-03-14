@@ -1,22 +1,22 @@
 {
   "date": "2026-03-14",
   "overview": {
-    "active": 1994,
-    "dead_total": 616,
-    "new_today": 194,
+    "active": 2004,
+    "dead_total": 614,
+    "new_today": 202,
     "dead_today": 142,
-    "suspicious": 485,
+    "suspicious": 486,
     "asn_changes": 0,
-    "cert_changes": 13,
+    "cert_changes": 14,
     "last_run": {
       "run_date": "2026-03-14",
-      "total_found": 1906,
-      "new_hosts": 15,
+      "total_found": 1908,
+      "new_hosts": 8,
       "dead_hosts": 0,
-      "duration_sec": 28.63683032989502
+      "duration_sec": 26.193195819854736
     },
     "today": "2026-03-14",
-    "exported_at": "2026-03-14T20:52:29Z"
+    "exported_at": "2026-03-14T22:07:20Z"
   },
   "active_hosts": [
     {
@@ -240,6 +240,15 @@
       "malware_family": "rdp_template_desktop_tcrdu4c",
       "asn": 44477,
       "asn_name": "STARK INDUSTRIES SOLUTIONS LTD.",
+      "country_code": "NL",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "91.242.229.52",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
       "country_code": "NL",
       "is_suspicious": 1,
       "first_seen": "2026-03-10"
@@ -11450,6 +11459,15 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "77.105.161.8",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 215428,
+      "asn_name": "MEROX-Hosting",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "194.87.29.192",
       "malware_family": "rdp_template_win_j9d",
       "asn": 0,
@@ -17964,19 +17982,91 @@
       "country_code": "DE",
       "is_suspicious": 0,
       "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "95.181.164.226",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 208626,
+      "asn_name": "coopertino.ru",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "77.91.66.253",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 214417,
+      "asn_name": "1Cent Host",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "185.231.244.72",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 202984,
+      "asn_name": "Argotel ltd.",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "103.101.85.66",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 214408,
+      "asn_name": "Hosted by Internalhost",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "194.31.223.220",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 215439,
+      "asn_name": "play2go.cloud - Cheap and reliable hosting",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "91.194.11.208",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 53363,
+      "asn_name": "DGTL TECH UK LLP",
+      "country_code": "CA",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "45.129.96.236",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 208440,
+      "asn_name": "GmhostGrupp OU",
+      "country_code": "EE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "185.235.242.86",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 33993,
+      "asn_name": "UFO Hosting LLC",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
     }
   ],
   "families": [
     {
       "malware_family": "rdp_template_desktop_tcrdu4c",
-      "host_count": 518,
-      "bph_count": 14,
+      "host_count": 523,
+      "bph_count": 15,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
     {
       "malware_family": "rdp_template_win_j9d",
-      "host_count": 515,
+      "host_count": 520,
       "bph_count": 34,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"

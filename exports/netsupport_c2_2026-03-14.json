@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-14T20:52:29.820797",
+  "generated_at": "2026-03-14T22:07:20.598040",
   "date": "2026-03-14",
   "malware_family": "NetSupport RAT",
-  "total": 1994,
+  "total": 2004,
   "iocs": [
     {
       "ip": "194.87.141.97",
@@ -8885,6 +8885,22 @@
       "is_suspicious": 0
     },
     {
+      "ip": "91.242.229.52",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "NL",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "ssl_fingerprint": "f80c608900d5dea50b4aef923b872788b23f6913684510e7508cb1f1553a42df",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "is_suspicious": 1
+    },
+    {
       "ip": "80.253.249.31",
       "asn": 16276,
       "asn_name": "FR RAPIDSEEDBOX",
@@ -11593,8 +11609,8 @@
       "asn": 0,
       "asn_name": "Aeza International LTD",
       "country_code": "NL",
-      "ssl_cn": "VM-167e4d4f-a2ac-4290-b931-b288c04480b1",
-      "ssl_fingerprint": "a33db8e797b2f7a2e72da87d8452dd23c3f3e5e695ec469dfbf3ae93c5080f11",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "7aa1458134870ddd7dad09dee828cabe3357b702287d43fe8c105a2ce99f530d",
       "http_server": "",
       "open_ports": [
         3389
@@ -13147,6 +13163,22 @@
       "country_code": "DE",
       "ssl_cn": "WIN-J9D866ESIJ2",
       "ssl_fingerprint": "8ae4b9b09378d300d214c6106280f523db0d766c87af0c62b7680d139add57cb",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "77.105.161.8",
+      "asn": 215428,
+      "asn_name": "MEROX-Hosting",
+      "country_code": "NL",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "e985be981a2945eb6551d6501b2a81a5d9c3e5918f5fccf5eb607facac8670aa",
       "http_server": "",
       "open_ports": [
         3389
@@ -31907,6 +31939,134 @@
       "last_seen": "2026-03-14",
       "source_name": "rdp_stark_win_template",
       "is_suspicious": 1
+    },
+    {
+      "ip": "95.181.164.226",
+      "asn": 208626,
+      "asn_name": "coopertino.ru",
+      "country_code": "RU",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "ssl_fingerprint": "87f2f5d22c5a01470f2bfede42183609c9f71a82357478420a5e4a3d130efb50",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "77.91.66.253",
+      "asn": 214417,
+      "asn_name": "1Cent Host",
+      "country_code": "DE",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "ssl_fingerprint": "1b1025aaecb346266c8a5e64cd114fb5f96421b151c3c28dd0df258d3de52f0f",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "185.231.244.72",
+      "asn": 202984,
+      "asn_name": "Argotel ltd.",
+      "country_code": "RU",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "ssl_fingerprint": "85f182c9251b652400576908509868a7abd8b90470c0e75841aaec729f0f455c",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "103.101.85.66",
+      "asn": 214408,
+      "asn_name": "Hosted by Internalhost",
+      "country_code": "NL",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "ssl_fingerprint": "0df3c94c17f226ae3f199bbbb113b3d5feab8a9799f1d4bd69430648d1f7b19e",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "194.31.223.220",
+      "asn": 215439,
+      "asn_name": "play2go.cloud - Cheap and reliable hosting",
+      "country_code": "DE",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "fef2430c84a49a10be749e27fe6a29bee62ff876480f9b4bde26bce3a688a629",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "91.194.11.208",
+      "asn": 53363,
+      "asn_name": "DGTL TECH UK LLP",
+      "country_code": "CA",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "0a5a74f1b15472416fde8de767a0d88632d591d7205207f66d65739ee7bc88d7",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "45.129.96.236",
+      "asn": 208440,
+      "asn_name": "GmhostGrupp OU",
+      "country_code": "EE",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "8a8582760d40fc105de8a15d2226822d5a3533ee4dc0e75a21b84f16794be419",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "185.235.242.86",
+      "asn": 33993,
+      "asn_name": "UFO Hosting LLC",
+      "country_code": "RU",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "7471c7d0d76a6b7c7a0a0b5ef6d946cc6214926af25c51995647907549e0f1e5",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
     }
   ]
 }

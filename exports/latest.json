@@ -1,21 +1,21 @@
 {
   "overview": {
-    "active": 2004,
-    "dead_total": 614,
-    "new_today": 202,
+    "active": 2006,
+    "dead_total": 613,
+    "new_today": 203,
     "dead_today": 142,
-    "suspicious": 486,
+    "suspicious": 487,
     "asn_changes": 0,
     "cert_changes": 14,
     "last_run": {
       "run_date": "2026-03-14",
       "total_found": 1908,
-      "new_hosts": 8,
+      "new_hosts": 1,
       "dead_hosts": 0,
-      "duration_sec": 26.193195819854736
+      "duration_sec": 22.946847677230835
     },
     "today": "2026-03-14",
-    "exported_at": "2026-03-14T22:07:20Z"
+    "exported_at": "2026-03-14T22:11:58Z"
   },
   "active_hosts": [
     {
@@ -11683,6 +11683,30 @@
       "tags": []
     },
     {
+      "ip": "74.119.194.6",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "US",
+      "country_name": "United States",
+      "city": "Secaucus",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "7bac539e39d78a8473eb654317202fc9659f08782b410a37d1261d1206c04877",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_win_j9d",
+      "source_query": "\"WIN-J9D866ESIJ2\" port:3389",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "notes": null,
+      "malware_family": "rdp_template_win_j9d",
+      "is_bph": 1,
+      "tags": []
+    },
+    {
       "ip": "194.87.141.97",
       "asn": 198071,
       "asn_name": "Berch Solutions Limited",
@@ -14476,6 +14500,30 @@
       "ssl_cn": "DESKTOP-2NFCDE2",
       "ssl_is_selfsig": 1,
       "ssl_fingerprint": "68731c88853784d1a6a9f32c6376895abfe8f4b360e7fb425ae0cfe3e9b0ca5f",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_desktop2",
+      "source_query": "\"DESKTOP-2NFCDE2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14",
+      "notes": null,
+      "malware_family": "rdp_template_desktop2",
+      "is_bph": 0,
+      "tags": []
+    },
+    {
+      "ip": "31.56.240.24",
+      "asn": 208450,
+      "asn_name": "Megahost Kazakhstan TOO",
+      "country_code": "KZ",
+      "country_name": "Kazakhstan",
+      "city": "Astana",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "f0a39826a8f9f381edda6b2eb661ee383883a428f62b9d9892a49e66bca5daca",
       "http_server": "",
       "open_ports": [
         3389
@@ -54328,6 +54376,17 @@
       "malware_family": "rdp_stark_win_template"
     },
     {
+      "ip": "74.119.194.6",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "US",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "is_suspicious": 1,
+      "source_name": "rdp_template_win_j9d",
+      "first_seen": "2026-03-14",
+      "malware_family": "rdp_template_win_j9d"
+    },
+    {
       "ip": "144.31.191.173",
       "asn": 401152,
       "asn_name": "Ace Data Centers II, L.L.C.",
@@ -56351,14 +56410,14 @@
     },
     {
       "malware_family": "rdp_template_win_j9d",
-      "host_count": 520,
-      "bph_count": 34,
+      "host_count": 521,
+      "bph_count": 35,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
     {
       "malware_family": "rdp_template_desktop2",
-      "host_count": 495,
+      "host_count": 496,
       "bph_count": 29,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
@@ -56383,8 +56442,8 @@
       "asn": 44477,
       "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
       "country_code": "US",
-      "host_count": 371,
-      "suspicious_count": 371,
+      "host_count": 372,
+      "suspicious_count": 372,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
@@ -56533,6 +56592,15 @@
       "last_seen": "2026-03-14"
     },
     {
+      "asn": 208450,
+      "asn_name": "Megahost Kazakhstan TOO",
+      "country_code": "KZ",
+      "host_count": 16,
+      "suspicious_count": 0,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14"
+    },
+    {
       "asn": 34665,
       "asn_name": "Petersburg Internet Network ltd.",
       "country_code": "RU",
@@ -56554,15 +56622,6 @@
       "asn": 63023,
       "asn_name": "ISP IPOCEAN LLC",
       "country_code": "GB",
-      "host_count": 15,
-      "suspicious_count": 0,
-      "first_seen": "2026-03-10",
-      "last_seen": "2026-03-14"
-    },
-    {
-      "asn": 208450,
-      "asn_name": "Megahost Kazakhstan TOO",
-      "country_code": "KZ",
       "host_count": 15,
       "suspicious_count": 0,
       "first_seen": "2026-03-10",
@@ -56925,8 +56984,8 @@
       "query_name": "rdp_template_desktop2",
       "category": "rdp_template",
       "query_str": "\"DESKTOP-2NFCDE2\" port:3389",
-      "total_hits": 1938,
-      "total_new": 1938,
+      "total_hits": 1939,
+      "total_new": 1939,
       "days_run": 4,
       "peak_hits": 485,
       "last_active": "2026-03-14"
@@ -56955,10 +57014,10 @@
       "query_name": "rdp_template_win_j9d",
       "category": "rdp_template",
       "query_str": "\"WIN-J9D866ESIJ2\" port:3389",
-      "total_hits": 1842,
-      "total_new": 1842,
+      "total_hits": 1841,
+      "total_new": 1841,
       "days_run": 4,
-      "peak_hits": 467,
+      "peak_hits": 466,
       "last_active": "2026-03-14"
     },
     {
@@ -57114,9 +57173,30 @@
       "asn_changes": 0,
       "cert_changes": 1,
       "duration_sec": 26.193195819854736
+    },
+    {
+      "run_date": "2026-03-14",
+      "total_found": 1908,
+      "new_hosts": 1,
+      "dead_hosts": 0,
+      "asn_changes": 0,
+      "cert_changes": 0,
+      "duration_sec": 22.946847677230835
     }
   ],
   "changes": [
+    {
+      "event_date": "2026-03-14",
+      "ip": "31.56.240.24",
+      "event_type": "reactivated",
+      "old_value": null,
+      "new_value": null,
+      "detail": "Wieder aktiv auf AS208450 Megahost Kazakhstan TOO",
+      "asn_name": "Megahost Kazakhstan TOO",
+      "country_code": "KZ",
+      "malware_family": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
     {
       "event_date": "2026-03-14",
       "ip": "62.60.252.148",
@@ -59502,18 +59582,6 @@
       "detail": "Nicht mehr in Shodan-Ergebnissen gefunden",
       "asn_name": "1Cent Host",
       "country_code": "DE",
-      "malware_family": "rdp_template_desktop_tcrdu4c",
-      "is_suspicious": 0
-    },
-    {
-      "event_date": "2026-03-13",
-      "ip": "5.8.19.70",
-      "event_type": "dead",
-      "old_value": null,
-      "new_value": null,
-      "detail": "Nicht mehr in Shodan-Ergebnissen gefunden",
-      "asn_name": "Petersburg Internet Network ltd.",
-      "country_code": "IL",
       "malware_family": "rdp_template_desktop_tcrdu4c",
       "is_suspicious": 0
     }

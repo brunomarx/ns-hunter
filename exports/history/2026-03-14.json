@@ -1,22 +1,22 @@
 {
   "date": "2026-03-14",
   "overview": {
-    "active": 2004,
-    "dead_total": 614,
-    "new_today": 202,
+    "active": 2006,
+    "dead_total": 613,
+    "new_today": 203,
     "dead_today": 142,
-    "suspicious": 486,
+    "suspicious": 487,
     "asn_changes": 0,
     "cert_changes": 14,
     "last_run": {
       "run_date": "2026-03-14",
       "total_found": 1908,
-      "new_hosts": 8,
+      "new_hosts": 1,
       "dead_hosts": 0,
-      "duration_sec": 26.193195819854736
+      "duration_sec": 22.946847677230835
     },
     "today": "2026-03-14",
-    "exported_at": "2026-03-14T22:07:20Z"
+    "exported_at": "2026-03-14T22:11:58Z"
   },
   "active_hosts": [
     {
@@ -4394,6 +4394,15 @@
       "first_seen": "2026-03-14"
     },
     {
+      "ip": "74.119.194.6",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "US",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
       "ip": "194.87.141.97",
       "malware_family": "rdp_template_desktop2",
       "asn": 198071,
@@ -5443,6 +5452,15 @@
       "asn": 401152,
       "asn_name": "Ace Data Centers II, L.L.C.",
       "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "31.56.240.24",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 208450,
+      "asn_name": "Megahost Kazakhstan TOO",
+      "country_code": "KZ",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -18066,14 +18084,14 @@
     },
     {
       "malware_family": "rdp_template_win_j9d",
-      "host_count": 520,
-      "bph_count": 34,
+      "host_count": 521,
+      "bph_count": 35,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
     {
       "malware_family": "rdp_template_desktop2",
-      "host_count": 495,
+      "host_count": 496,
       "bph_count": 29,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"

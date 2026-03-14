@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-14T22:07:20.598040",
+  "generated_at": "2026-03-14T22:11:58.269896",
   "date": "2026-03-14",
   "malware_family": "NetSupport RAT",
-  "total": 2004,
+  "total": 2006,
   "iocs": [
     {
       "ip": "194.87.141.97",
@@ -1899,6 +1899,22 @@
       "country_code": "US",
       "ssl_cn": "DESKTOP-2NFCDE2",
       "ssl_fingerprint": "68731c88853784d1a6a9f32c6376895abfe8f4b360e7fb425ae0cfe3e9b0ca5f",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "31.56.240.24",
+      "asn": 208450,
+      "asn_name": "Megahost Kazakhstan TOO",
+      "country_code": "KZ",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_fingerprint": "f0a39826a8f9f381edda6b2eb661ee383883a428f62b9d9892a49e66bca5daca",
       "http_server": "",
       "open_ports": [
         3389
@@ -32067,6 +32083,22 @@
       "last_seen": "2026-03-14",
       "source_name": "rdp_template_win_j9d",
       "is_suspicious": 0
+    },
+    {
+      "ip": "74.119.194.6",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "US",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "7bac539e39d78a8473eb654317202fc9659f08782b410a37d1261d1206c04877",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 1
     }
   ]
 }

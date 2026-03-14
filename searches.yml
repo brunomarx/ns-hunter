@@ -1,0 +1,63 @@
+shodan:
+  # --- VM-Template Fingerprints (NTLM/RDP NetBIOS Names) ---
+  - name: "rdp_template_desktop2"
+    query: '"DESKTOP-2NFCDE2" port:3389'
+    category: "rdp_template"
+
+  - name: "rdp_template_desktop_tcrdu4c"
+    query: '"DESKTOP-TCRDU4C" port:3389'
+    category: "rdp_template"
+
+  - name: "rdp_template_win_j9d"
+    query: '"WIN-J9D866ESIJ2" port:3389'
+    category: "rdp_template"
+
+  - name: "rdp_stark_win_template"
+    query: 'ssl.cert.subject.cn:"WIN-*" port:3389 org:"STARK INDUSTRIES"'
+    category: "rdp_template"
+
+  - name: "rdp_mivocloud_win_template"
+    query: 'ssl.cert.subject.cn:"WIN-*" port:3389 org:"MivoCloud"'
+    category: "rdp_template"
+
+  # --- NetSupport Gateway HTTP Banner ---
+  - name: "netsupport_gateway_17"
+    query: '"NetSupport Gateway/1.7" port:443'
+    category: "netsupport_banner"
+
+  - name: "netsupport_gateway_16"
+    query: '"NetSupport Gateway/1.6" port:443'
+    category: "netsupport_banner"
+
+  - name: "netsupport_gateway_generic"
+    query: '"NetSupport Gateway" port:443'
+    category: "netsupport_banner"
+
+  - name: "netsupport_gateway_port80"
+    query: '"NetSupport Gateway" port:80'
+    category: "netsupport_banner"
+
+  # --- ISPManager C2-Management Indikator ---
+  - name: "ispmanager_port1500"
+    query: 'port:1500 product:"ISPManager" org:"MivoCloud"'
+    category: "c2_management"
+
+  - name: "ispmanager_stark"
+    query: 'port:1500 product:"ISPManager" org:"STARK INDUSTRIES"'
+    category: "c2_management"
+
+  # --- SmartApeSG / FakeUpdate Infrastructure ---
+  - name: "smartapesg_rdp_cluster"
+    query: 'port:3389 port:1500 org:"MivoCloud"'
+    category: "smartapesg"
+
+# Suspicious ASNs — werden für Highlighting verwendet
+suspicious_asns:
+  44477: "Stark Industries Solutions Ltd."
+  59642: "MivoCloud SRL"
+  9009:  "M247 Europe SRL"
+  211252: "Delis LLC"
+  206485: "SERVERIUS-AS"
+  49981: "WorldStream B.V."
+  203953: "Combahton GmbH"
+  62005: "BlueVPS OU"

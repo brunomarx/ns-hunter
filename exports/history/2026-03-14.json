@@ -1,22 +1,22 @@
 {
   "date": "2026-03-14",
   "overview": {
-    "active": 1902,
-    "dead_total": 635,
-    "new_today": 121,
+    "active": 1994,
+    "dead_total": 616,
+    "new_today": 194,
     "dead_today": 142,
-    "suspicious": 475,
+    "suspicious": 485,
     "asn_changes": 0,
-    "cert_changes": 6,
+    "cert_changes": 13,
     "last_run": {
       "run_date": "2026-03-14",
-      "total_found": 1902,
-      "new_hosts": 121,
-      "dead_hosts": 142,
-      "duration_sec": 25.93766975402832
+      "total_found": 1906,
+      "new_hosts": 15,
+      "dead_hosts": 0,
+      "duration_sec": 28.63683032989502
     },
     "today": "2026-03-14",
-    "exported_at": "2026-03-14T15:21:12Z"
+    "exported_at": "2026-03-14T20:52:29Z"
   },
   "active_hosts": [
     {
@@ -3854,6 +3854,15 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "45.144.29.182",
+      "malware_family": "rdp_stark_win_template",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "NL",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "94.131.111.134",
       "malware_family": "rdp_template_desktop2",
       "asn": 44477,
@@ -4291,6 +4300,87 @@
       "asn": 44477,
       "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
       "country_code": "ES",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "94.131.9.20",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD.",
+      "country_code": "FR",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "95.164.18.24",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD.",
+      "country_code": "GB",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "185.231.205.239",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "FR",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "45.83.143.246",
+      "malware_family": "rdp_stark_win_template",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD.",
+      "country_code": "AM",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "104.164.137.178",
+      "malware_family": "rdp_stark_win_template",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "KZ",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "45.39.210.4",
+      "malware_family": "rdp_stark_win_template",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "NL",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "195.42.232.21",
+      "malware_family": "rdp_stark_win_template",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD.",
+      "country_code": "GB",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "23.230.14.236",
+      "malware_family": "rdp_stark_win_template",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "country_code": "DE",
+      "is_suspicious": 1,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "103.106.1.32",
+      "malware_family": "rdp_stark_win_template",
+      "asn": 44477,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD.",
+      "country_code": "NL",
       "is_suspicious": 1,
       "first_seen": "2026-03-14"
     },
@@ -5695,6 +5785,15 @@
       "asn": 214379,
       "asn_name": "South Park Networks LLC",
       "country_code": "UA",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "80.71.232.64",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 198037,
+      "asn_name": "SpaceCore.pro Hosting",
+      "country_code": "NL",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -7463,6 +7562,15 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "81.19.131.11",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 63023,
+      "asn_name": "ISP IPOCEAN LLC",
+      "country_code": "GB",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "83.217.209.159",
       "malware_family": "rdp_template_desktop2",
       "asn": 215826,
@@ -7486,6 +7594,15 @@
       "asn": 215590,
       "asn_name": "DpkgSoft International Limited",
       "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "212.23.196.146",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 63023,
+      "asn_name": "xTom GmbH",
+      "country_code": "US",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -7585,6 +7702,15 @@
       "asn": 207957,
       "asn_name": "SERV.HOST GROUP LTD",
       "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "140.235.16.89",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 398019,
+      "asn_name": "Wired Blade Incorporated",
+      "country_code": "US",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -8903,6 +9029,24 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "185.100.157.222",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "SE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "193.233.112.220",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "FI",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "193.221.200.209",
       "malware_family": "rdp_template_desktop_tcrdu4c",
       "asn": 197757,
@@ -9029,11 +9173,29 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "185.100.157.144",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "SE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "193.221.201.250",
       "malware_family": "rdp_template_desktop_tcrdu4c",
       "asn": 197757,
       "asn_name": "ONER INVESTMENTS LIMITED",
       "country_code": "PL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "185.17.123.100",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 28753,
+      "asn_name": "TK Rustelekom LLC",
+      "country_code": "DE",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -9178,6 +9340,15 @@
       "asn": 197757,
       "asn_name": "ONER INVESTMENTS Ltd",
       "country_code": "PL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "150.241.123.210",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215590,
+      "asn_name": "DpkgSoft International Limited",
+      "country_code": "DE",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -9331,6 +9502,15 @@
       "asn": 215590,
       "asn_name": "Ace Data Centers II, LLC",
       "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "193.233.113.251",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "FI",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -9857,6 +10037,15 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "31.202.132.86",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 34700,
+      "asn_name": "Maxnet LLC, Kharkiv",
+      "country_code": "UA",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "85.209.88.25",
       "malware_family": "rdp_template_win_j9d",
       "asn": 204601,
@@ -9965,6 +10154,15 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "188.130.208.19",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 51248,
+      "asn_name": "Mastersoft S.R.L.",
+      "country_code": "CZ",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "185.241.52.189",
       "malware_family": "rdp_template_win_j9d",
       "asn": 204601,
@@ -10033,6 +10231,15 @@
       "asn": 215590,
       "asn_name": "DpkgSoft International Limited",
       "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "213.176.78.21",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 142578,
+      "asn_name": "Iranian Research Organization for Science & Technology",
+      "country_code": "IR",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -10163,6 +10370,15 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "104.128.135.2",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 0,
+      "asn_name": "U.S. Marshals Service in accordance with the Final Order of Forfeiture",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "85.208.108.147",
       "malware_family": "rdp_template_win_j9d",
       "asn": 53363,
@@ -10249,6 +10465,15 @@
       "asn": 266500,
       "asn_name": "RapidSeedbox Ltd",
       "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "45.154.117.46",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 56485,
+      "asn_name": "TheHost LLC",
+      "country_code": "UA",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -11279,6 +11504,15 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "185.203.242.178",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 204601,
+      "asn_name": "Celeritas International LLC",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "138.226.236.161",
       "malware_family": "rdp_template_win_j9d",
       "asn": 0,
@@ -11450,6 +11684,15 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "144.31.2.130",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 401152,
+      "asn_name": "Ace Data Centers II, L.L.C.",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "193.42.108.31",
       "malware_family": "rdp_template_win_j9d",
       "asn": 60144,
@@ -11509,6 +11752,15 @@
       "asn": 266500,
       "asn_name": "RapidSeedbox Ltd",
       "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
+      "ip": "95.85.252.78",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 43708,
+      "asn_name": "DATAMAT CZ s.r.o.",
+      "country_code": "CZ",
       "is_suspicious": 0,
       "first_seen": "2026-03-10"
     },
@@ -17136,34 +17388,610 @@
       "country_code": "MD",
       "is_suspicious": 0,
       "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "81.90.29.161",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 48407,
+      "asn_name": "TigrisNet",
+      "country_code": "IQ",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "147.45.45.147",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "198.17.175.248",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 0,
+      "asn_name": null,
+      "country_code": null,
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "77.239.109.188",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 215590,
+      "asn_name": "Ace Data Centers II, LLC",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "142.202.188.253",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 398019,
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "185.247.143.32",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 57043,
+      "asn_name": "Kontel LLC",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "150.241.116.44",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215590,
+      "asn_name": "Cloud Hosting Solutions, Limited.",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "94.141.122.13",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "FI",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "87.120.107.150",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215428,
+      "asn_name": "Shinomiya-Hosting",
+      "country_code": "FI",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "193.221.200.69",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 197757,
+      "asn_name": "ONER INVESTMENTS Ltd",
+      "country_code": "PL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "45.135.132.141",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 57271,
+      "asn_name": "BitWeb LLC",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "195.10.205.249",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "178.236.252.198",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "193.233.113.245",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "FI",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "93.185.159.160",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 216127,
+      "asn_name": "nuxt.cloud hosting provider",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "157.90.39.2",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 24940,
+      "asn_name": "Hetzner Online GmbH",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "45.95.233.177",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215540,
+      "asn_name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country_code": "FR",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "144.31.65.231",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 401152,
+      "asn_name": "Ace Data Centers II, L.L.C.",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "77.239.104.184",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 213877,
+      "asn_name": "u1host ltd",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "178.17.53.49",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 4766,
+      "asn_name": "TigrisNet",
+      "country_code": "KR",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "95.182.121.232",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 202984,
+      "asn_name": "Ildar Gilmutdinov PE",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "109.61.110.15",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 198178,
+      "asn_name": "365.partners INC",
+      "country_code": "FR",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "193.162.143.194",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 205090,
+      "asn_name": "FIRST SERVER LIMITED",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "178.89.186.222",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 9198,
+      "asn_name": "JSC Kazakhtelecom",
+      "country_code": "KZ",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "5.101.84.143",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 34665,
+      "asn_name": "Petersburg Internet Network ltd.",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "95.85.233.159",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 43708,
+      "asn_name": "DATAMAT CZ s.r.o.",
+      "country_code": "CZ",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "45.148.102.132",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 60781,
+      "asn_name": "RapidSeedbox Ltd",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "193.168.227.88",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 205090,
+      "asn_name": "FIRST SERVER LIMITED",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "45.9.73.146",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 205090,
+      "asn_name": "FIRST SERVER LIMITED",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "185.164.57.33",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 266500,
+      "asn_name": "RapidSeedbox Ltd",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "89.105.201.34",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 24875,
+      "asn_name": "NovoServe B.V.",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "109.107.168.218",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "GB",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "80.66.85.60",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 207957,
+      "asn_name": "Germany, Frankfurt",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "88.218.188.23",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 56485,
+      "asn_name": "TheHost LLC",
+      "country_code": "UA",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "45.91.203.212",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 204601,
+      "asn_name": "ON-LINE DATA LTD.",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "193.233.134.80",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 213887,
+      "asn_name": "WAIcore Ltd",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "5.154.181.205",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 44066,
+      "asn_name": "GmhostGrupp OU",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "176.114.12.144",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 56485,
+      "asn_name": "TheHost LLC",
+      "country_code": "UA",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "85.17.7.58",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 60781,
+      "asn_name": "LeaseWeb Netherlands B.V.",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "95.81.121.222",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 39308,
+      "asn_name": "Hamara System Tabriz Engineering Company",
+      "country_code": "IR",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "64.188.89.189",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 6939,
+      "asn_name": "Ace Data Centers II, LLC",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "193.233.126.91",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 215540,
+      "asn_name": "DHOST",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "92.118.10.223",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 204154,
+      "asn_name": "FIRST SERVER LIMITED",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "91.194.11.57",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 53363,
+      "asn_name": "DGTL TECH UK LLP",
+      "country_code": "CA",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "142.202.189.46",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 398019,
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "138.249.138.85",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 0,
+      "asn_name": "Kone Corporation",
+      "country_code": "FI",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "109.248.201.176",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 204490,
+      "asn_name": "Contel OOO",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "147.45.67.20",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 215590,
+      "asn_name": "DpkgSoft International Limited",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "150.241.116.138",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 215590,
+      "asn_name": "Cloud Hosting Solutions, Limited.",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "95.81.121.98",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 39308,
+      "asn_name": "Hamara System Tabriz Engineering Company",
+      "country_code": "IR",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "87.120.216.228",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 214238,
+      "asn_name": "STARK INDUSTRIES SOLUTIONS LTD.",
+      "country_code": "FR",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "162.216.243.22",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 398019,
+      "asn_name": "Dynu Systems Incorporated",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "87.120.219.251",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 214238,
+      "asn_name": "Neterra Ltd.",
+      "country_code": "FR",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "194.31.223.116",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215439,
+      "asn_name": "play2go.cloud - Cheap and reliable hosting",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "193.233.112.204",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "FI",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "31.56.240.235",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 208450,
+      "asn_name": "Megahost Kazakhstan TOO",
+      "country_code": "KZ",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "5.59.233.81",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 59684,
+      "asn_name": "HOSTERKG-NET",
+      "country_code": "KG",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "87.120.107.147",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215428,
+      "asn_name": "Shinomiya-Hosting",
+      "country_code": "FI",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "185.177.239.192",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "SE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "193.23.221.102",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 214417,
+      "asn_name": "International Network YC",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "83.143.112.213",
+      "malware_family": "rdp_template_desktop_tcrdu4c",
+      "asn": 215439,
+      "asn_name": "play2go.cloud - Cheap and reliable hosting",
+      "country_code": "FI",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "46.8.220.38",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 204490,
+      "asn_name": "Contel OOO",
+      "country_code": "RU",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "185.91.126.231",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 211971,
+      "asn_name": "Goodhost.KZ",
+      "country_code": "KZ",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
+    },
+    {
+      "ip": "194.87.25.135",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 198037,
+      "asn_name": "SpaceCore.pro Hosting",
+      "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-14"
     }
   ],
   "families": [
     {
       "malware_family": "rdp_template_desktop_tcrdu4c",
-      "host_count": 486,
-      "bph_count": 13,
-      "first_seen": "2026-03-10",
-      "last_seen": "2026-03-14"
-    },
-    {
-      "malware_family": "rdp_template_desktop2",
-      "host_count": 484,
-      "bph_count": 29,
+      "host_count": 518,
+      "bph_count": 14,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
     {
       "malware_family": "rdp_template_win_j9d",
-      "host_count": 473,
-      "bph_count": 32,
+      "host_count": 515,
+      "bph_count": 34,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-14"
+    },
+    {
+      "malware_family": "rdp_template_desktop2",
+      "host_count": 495,
+      "bph_count": 29,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },
     {
       "malware_family": "rdp_stark_win_template",
-      "host_count": 422,
-      "bph_count": 401,
+      "host_count": 429,
+      "bph_count": 408,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-14"
     },

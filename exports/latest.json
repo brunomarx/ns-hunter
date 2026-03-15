@@ -1,8 +1,8 @@
 {
   "overview": {
-    "active": 1911,
-    "dead_total": 716,
-    "new_today": 6,
+    "active": 1917,
+    "dead_total": 714,
+    "new_today": 10,
     "dead_today": 108,
     "suspicious": 483,
     "asn_changes": 0,
@@ -10,12 +10,12 @@
     "last_run": {
       "run_date": "2026-03-15",
       "total_found": 1911,
-      "new_hosts": 6,
-      "dead_hosts": 108,
-      "duration_sec": 28.028048276901245
+      "new_hosts": 4,
+      "dead_hosts": 0,
+      "duration_sec": 25.599186658859253
     },
     "today": "2026-03-15",
-    "exported_at": "2026-03-14T23:19:29Z"
+    "exported_at": "2026-03-15T00:10:26Z"
   },
   "active_hosts": [
     {
@@ -20227,6 +20227,30 @@
       "tags": []
     },
     {
+      "ip": "194.124.250.44",
+      "asn": 41111,
+      "asn_name": "FAST GEO HOSTING S.R.L.",
+      "country_code": "NL",
+      "country_name": "Netherlands",
+      "city": "Amsterdam",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "94deb9d244363200b57d2c703f6064e3949b28f5ab9e666e5ccf874b56c5261c",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_desktop2",
+      "source_query": "\"DESKTOP-2NFCDE2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-15",
+      "notes": null,
+      "malware_family": "rdp_template_desktop2",
+      "is_bph": 0,
+      "tags": []
+    },
+    {
       "ip": "213.176.72.68",
       "asn": 207957,
       "asn_name": "SERV.HOST GROUP LTD",
@@ -32836,6 +32860,30 @@
       "ssl_cn": "WIN-J9D866ESIJ2",
       "ssl_is_selfsig": 1,
       "ssl_fingerprint": "d36a2e7b7b0e9c8fe629a63249527327abf8ea96b887585c8efd65b93e52f06c",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_win_j9d",
+      "source_query": "\"WIN-J9D866ESIJ2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-15",
+      "notes": null,
+      "malware_family": "rdp_template_win_j9d",
+      "is_bph": 0,
+      "tags": []
+    },
+    {
+      "ip": "185.39.207.122",
+      "asn": 215540,
+      "asn_name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country_code": "GR",
+      "country_name": "Greece",
+      "city": "Thessaloníki",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "3827c41b394d19829004ee15bbc562ddedc67e6e4a81f97ef7a433d2981a970f",
       "http_server": "",
       "open_ports": [
         3389
@@ -45881,6 +45929,102 @@
       "malware_family": "rdp_template_win_j9d",
       "is_bph": 0,
       "tags": []
+    },
+    {
+      "ip": "80.85.141.201",
+      "asn": 204601,
+      "asn_name": "Peetinvest B.V.",
+      "country_code": "NL",
+      "country_name": "Netherlands",
+      "city": "Amsterdam",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "df28a00d3b4dbbbba405f53705f1e809b6fb7de84bb97526adee0fd4160bfccc",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_win_j9d",
+      "source_query": "\"WIN-J9D866ESIJ2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "notes": null,
+      "malware_family": "rdp_template_win_j9d",
+      "is_bph": 0,
+      "tags": []
+    },
+    {
+      "ip": "77.105.161.184",
+      "asn": 215428,
+      "asn_name": "MEROX-Hosting",
+      "country_code": "NL",
+      "country_name": "Netherlands",
+      "city": "Lelystad",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "f397dade971151219c40aeddd2b2a8dce0364c96aafa0bd0a4091b219539ba55",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_win_j9d",
+      "source_query": "\"WIN-J9D866ESIJ2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "notes": null,
+      "malware_family": "rdp_template_win_j9d",
+      "is_bph": 0,
+      "tags": []
+    },
+    {
+      "ip": "45.81.226.180",
+      "asn": 204601,
+      "asn_name": "ON-LINE DATA LTD.",
+      "country_code": "NL",
+      "country_name": "Netherlands",
+      "city": "Lelystad",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "a0d4f5fb2b5abdb232e444aca4b1416e8462e2d8318912bcf83d737b4eee9628",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_win_j9d",
+      "source_query": "\"WIN-J9D866ESIJ2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "notes": null,
+      "malware_family": "rdp_template_win_j9d",
+      "is_bph": 0,
+      "tags": []
+    },
+    {
+      "ip": "185.164.57.10",
+      "asn": 266500,
+      "asn_name": "RapidSeedbox Ltd",
+      "country_code": "US",
+      "country_name": "United States",
+      "city": "Tri-Cities",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_is_selfsig": 1,
+      "ssl_fingerprint": "2cf40822844f2c24d20d858954140501526f9477c0958ab6828ea9e8a602cf7f",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "source_name": "rdp_template_win_j9d",
+      "source_query": "\"WIN-J9D866ESIJ2\" port:3389",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "notes": null,
+      "malware_family": "rdp_template_win_j9d",
+      "is_bph": 0,
+      "tags": []
     }
   ],
   "dead_hosts": [
@@ -47143,18 +47287,6 @@
       "last_seen": "2026-03-14",
       "source_name": "rdp_template_desktop_tcrdu4c",
       "malware_family": "rdp_template_desktop_tcrdu4c"
-    },
-    {
-      "ip": "185.39.207.122",
-      "asn": 215540,
-      "asn_name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
-      "country_code": "GR",
-      "ssl_cn": "WIN-J9D866ESIJ2",
-      "is_suspicious": 0,
-      "first_seen": "2026-03-11",
-      "last_seen": "2026-03-14",
-      "source_name": "rdp_template_win_j9d",
-      "malware_family": "rdp_template_win_j9d"
     },
     {
       "ip": "185.104.251.202",
@@ -51657,18 +51789,6 @@
       "malware_family": "rdp_template_desktop2"
     },
     {
-      "ip": "194.124.250.44",
-      "asn": 41111,
-      "asn_name": "FAST GEO HOSTING S.R.L.",
-      "country_code": "NL",
-      "ssl_cn": "DESKTOP-2NFCDE2",
-      "is_suspicious": 0,
-      "first_seen": "2026-03-10",
-      "last_seen": "2026-03-11",
-      "source_name": "rdp_template_desktop2",
-      "malware_family": "rdp_template_desktop2"
-    },
-    {
       "ip": "195.137.244.119",
       "asn": 214379,
       "asn_name": "South Park Networks LLC",
@@ -51883,6 +52003,30 @@
       "last_seen": "2026-03-11",
       "source_name": "rdp_template_desktop_tcrdu4c",
       "malware_family": "rdp_template_desktop_tcrdu4c"
+    },
+    {
+      "ip": "83.217.209.187",
+      "asn": 215826,
+      "asn_name": "Partner Hosting LTD",
+      "country_code": "DE",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-11",
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "malware_family": "rdp_template_desktop_tcrdu4c"
+    },
+    {
+      "ip": "64.188.66.90",
+      "asn": 24768,
+      "asn_name": "Ace Data Centers II, LLC",
+      "country_code": "PT",
+      "ssl_cn": "DESKTOP-TCRDU4C",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-11",
+      "source_name": "rdp_template_desktop_tcrdu4c",
+      "malware_family": "rdp_template_desktop_tcrdu4c"
     }
   ],
   "new_today": [
@@ -51951,6 +52095,50 @@
       "source_name": "rdp_template_win_j9d",
       "first_seen": "2026-03-15",
       "malware_family": "rdp_template_win_j9d"
+    },
+    {
+      "ip": "80.85.141.201",
+      "asn": 204601,
+      "asn_name": "Peetinvest B.V.",
+      "country_code": "NL",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "is_suspicious": 0,
+      "source_name": "rdp_template_win_j9d",
+      "first_seen": "2026-03-15",
+      "malware_family": "rdp_template_win_j9d"
+    },
+    {
+      "ip": "77.105.161.184",
+      "asn": 215428,
+      "asn_name": "MEROX-Hosting",
+      "country_code": "NL",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "is_suspicious": 0,
+      "source_name": "rdp_template_win_j9d",
+      "first_seen": "2026-03-15",
+      "malware_family": "rdp_template_win_j9d"
+    },
+    {
+      "ip": "45.81.226.180",
+      "asn": 204601,
+      "asn_name": "ON-LINE DATA LTD.",
+      "country_code": "NL",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "is_suspicious": 0,
+      "source_name": "rdp_template_win_j9d",
+      "first_seen": "2026-03-15",
+      "malware_family": "rdp_template_win_j9d"
+    },
+    {
+      "ip": "185.164.57.10",
+      "asn": 266500,
+      "asn_name": "RapidSeedbox Ltd",
+      "country_code": "US",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "is_suspicious": 0,
+      "source_name": "rdp_template_win_j9d",
+      "first_seen": "2026-03-15",
+      "malware_family": "rdp_template_win_j9d"
     }
   ],
   "families": [
@@ -51963,14 +52151,14 @@
     },
     {
       "malware_family": "rdp_template_desktop2",
-      "host_count": 484,
+      "host_count": 485,
       "bph_count": 28,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-15"
     },
     {
       "malware_family": "rdp_template_win_j9d",
-      "host_count": 479,
+      "host_count": 484,
       "bph_count": 35,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-15"
@@ -52031,7 +52219,7 @@
       "asn": 215540,
       "asn_name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
       "country_code": "ES",
-      "host_count": 56,
+      "host_count": 57,
       "suspicious_count": 0,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-15"
@@ -52109,18 +52297,18 @@
       "last_seen": "2026-03-15"
     },
     {
-      "asn": 204490,
-      "asn_name": "Contel OOO",
-      "country_code": "RU",
-      "host_count": 19,
+      "asn": 266500,
+      "asn_name": "RapidSeedbox Ltd",
+      "country_code": "US",
+      "host_count": 20,
       "suspicious_count": 0,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-15"
     },
     {
-      "asn": 266500,
-      "asn_name": "RapidSeedbox Ltd",
-      "country_code": "US",
+      "asn": 204490,
+      "asn_name": "Contel OOO",
+      "country_code": "RU",
       "host_count": 19,
       "suspicious_count": 0,
       "first_seen": "2026-03-10",
@@ -52172,6 +52360,15 @@
       "last_seen": "2026-03-15"
     },
     {
+      "asn": 204601,
+      "asn_name": "ON-LINE DATA LTD.",
+      "country_code": "NL",
+      "host_count": 14,
+      "suspicious_count": 0,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-15"
+    },
+    {
       "asn": 208450,
       "asn_name": "Megahost Kazakhstan TOO",
       "country_code": "KZ",
@@ -52192,15 +52389,6 @@
     {
       "asn": 60781,
       "asn_name": "RapidSeedbox Ltd",
-      "country_code": "NL",
-      "host_count": 13,
-      "suspicious_count": 0,
-      "first_seen": "2026-03-10",
-      "last_seen": "2026-03-15"
-    },
-    {
-      "asn": 204601,
-      "asn_name": "ON-LINE DATA LTD.",
       "country_code": "NL",
       "host_count": 13,
       "suspicious_count": 0,
@@ -52280,6 +52468,15 @@
       "last_seen": "2026-03-15"
     },
     {
+      "asn": 215428,
+      "asn_name": "MEROX-Hosting",
+      "country_code": "NL",
+      "host_count": 10,
+      "suspicious_count": 0,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-15"
+    },
+    {
       "asn": 215730,
       "asn_name": "H2.NEXUS Helsinki Network",
       "country_code": "FI",
@@ -52325,18 +52522,18 @@
       "last_seen": "2026-03-15"
     },
     {
-      "asn": 215428,
-      "asn_name": "MEROX-Hosting",
-      "country_code": "NL",
-      "host_count": 9,
+      "asn": 0,
+      "asn_name": "Linkservice LLC",
+      "country_code": "MD",
+      "host_count": 8,
       "suspicious_count": 0,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-15"
     },
     {
-      "asn": 0,
-      "asn_name": "Linkservice LLC",
-      "country_code": "MD",
+      "asn": 41111,
+      "asn_name": "FAST GEO HOSTING S.R.L.",
+      "country_code": "NL",
       "host_count": 8,
       "suspicious_count": 0,
       "first_seen": "2026-03-10",
@@ -52391,15 +52588,6 @@
       "asn": 33993,
       "asn_name": "UFO Hosting LLC",
       "country_code": "RU",
-      "host_count": 7,
-      "suspicious_count": 0,
-      "first_seen": "2026-03-10",
-      "last_seen": "2026-03-15"
-    },
-    {
-      "asn": 41111,
-      "asn_name": "FAST GEO HOSTING S.R.L.",
-      "country_code": "NL",
       "host_count": 7,
       "suspicious_count": 0,
       "first_seen": "2026-03-10",
@@ -52531,10 +52719,10 @@
       "query_name": "rdp_template_desktop_tcrdu4c",
       "category": "rdp_template",
       "query_str": "\"DESKTOP-TCRDU4C\" port:3389",
-      "total_hits": 2400,
-      "total_new": 2400,
+      "total_hits": 2399,
+      "total_new": 2399,
       "days_run": 5,
-      "peak_hits": 487,
+      "peak_hits": 486,
       "last_active": "2026-03-15"
     },
     {
@@ -52542,7 +52730,7 @@
       "category": "rdp_template",
       "query_str": "ssl.cert.subject.cn:\"WIN-*\" port:3389 org:\"STARK INDUSTRIES\"",
       "total_hits": 2379,
-      "total_new": 2210,
+      "total_new": 2211,
       "days_run": 5,
       "peak_hits": 483,
       "last_active": "2026-03-15"
@@ -52746,9 +52934,42 @@
       "asn_changes": 0,
       "cert_changes": 0,
       "duration_sec": 28.028048276901245
+    },
+    {
+      "run_date": "2026-03-15",
+      "total_found": 1911,
+      "new_hosts": 4,
+      "dead_hosts": 0,
+      "asn_changes": 0,
+      "cert_changes": 0,
+      "duration_sec": 25.599186658859253
     }
   ],
   "changes": [
+    {
+      "event_date": "2026-03-15",
+      "ip": "185.39.207.122",
+      "event_type": "reactivated",
+      "old_value": null,
+      "new_value": null,
+      "detail": "Wieder aktiv auf AS215540 GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "asn_name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country_code": "GR",
+      "malware_family": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "event_date": "2026-03-15",
+      "ip": "194.124.250.44",
+      "event_type": "reactivated",
+      "old_value": null,
+      "new_value": null,
+      "detail": "Wieder aktiv auf AS41111 FAST GEO HOSTING S.R.L.",
+      "asn_name": "FAST GEO HOSTING S.R.L.",
+      "country_code": "NL",
+      "malware_family": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
     {
       "event_date": "2026-03-15",
       "ip": "172.81.63.28",
@@ -55122,30 +55343,6 @@
       "detail": "Nicht mehr in Shodan-Ergebnissen gefunden",
       "asn_name": "FIRST SERVER LIMITED",
       "country_code": "RU",
-      "malware_family": "rdp_template_win_j9d",
-      "is_suspicious": 0
-    },
-    {
-      "event_date": "2026-03-14",
-      "ip": "77.105.161.8",
-      "event_type": "dead",
-      "old_value": null,
-      "new_value": null,
-      "detail": "Nicht mehr in Shodan-Ergebnissen gefunden",
-      "asn_name": "MEROX-Hosting",
-      "country_code": "NL",
-      "malware_family": "rdp_template_win_j9d",
-      "is_suspicious": 0
-    },
-    {
-      "event_date": "2026-03-14",
-      "ip": "150.241.89.88",
-      "event_type": "dead",
-      "old_value": null,
-      "new_value": null,
-      "detail": "Nicht mehr in Shodan-Ergebnissen gefunden",
-      "asn_name": "Aeza International LTD",
-      "country_code": "DE",
       "malware_family": "rdp_template_win_j9d",
       "is_suspicious": 0
     }

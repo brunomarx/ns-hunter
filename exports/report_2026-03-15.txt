@@ -2,15 +2,19 @@
   NetSupport RAT Infrastructure Hunter — 2026-03-15
 ==============================================================
 
-📊 GESAMT AKTIVE HOSTS: 1911
+📊 GESAMT AKTIVE HOSTS: 1917
 
-🔴 NEU HEUTE (6)
+🔴 NEU HEUTE (10)
      195.226.192.193    AS201094                                UA  SSL:WIN-J9D866ESIJ2
      38.244.152.112     AS200088   3NT SOLUTIONS LLP            PL  SSL:WIN-J9D866ESIJ2
      185.105.88.158     AS205090   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
      109.122.198.23     AS49872    Jahan Ruye Khat PJSC         IR  SSL:WIN-J9D866ESIJ2
+     77.105.161.184     AS215428   MEROX-Hosting                NL  SSL:WIN-J9D866ESIJ2
      45.14.12.83        AS204601   ON-LINE DATA LTD.            NL  SSL:WIN-J9D866ESIJ2
+     45.81.226.180      AS204601   ON-LINE DATA LTD.            NL  SSL:WIN-J9D866ESIJ2
      185.77.219.6       AS51765    Oy Crea Nova Hosting Solution Ltd FI  SSL:DESKTOP-TCRDU4C
+     80.85.141.201      AS204601   Peetinvest B.V.              NL  SSL:WIN-J9D866ESIJ2
+     185.164.57.10      AS266500   RapidSeedbox Ltd             US  SSL:WIN-J9D866ESIJ2
 
 💀 VERSCHWUNDEN (108)
    91.238.104.127     AS50321                                 (seit 2026-03-10)
@@ -127,7 +131,7 @@
    AS215826   Partner Hosting LTD          238 Hosts  ██████████████████████████████
    AS44477    STARK INDUSTRIES SOLUTIONS LTD. 107 Hosts  ██████████████████████████████ ⚠️ BPH
    AS401152   Ace Data Centers II, L.L.C.   59 Hosts  ██████████████████████████████
-   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  56 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  57 Hosts  ██████████████████████████████
    AS398019   Dynu Systems Incorporated     43 Hosts  ██████████████████████████████
    AS204601   Celeritas International LLC   34 Hosts  ██████████████████████████████
    AS215439   play2go.cloud - Cheap and reliable hosting  33 Hosts  ██████████████████████████████

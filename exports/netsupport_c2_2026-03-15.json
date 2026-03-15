@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-14T23:19:29.887640",
+  "generated_at": "2026-03-15T00:10:26.811673",
   "date": "2026-03-15",
   "malware_family": "NetSupport RAT",
-  "total": 1911,
+  "total": 1917,
   "iocs": [
     {
       "ip": "194.87.141.97",
@@ -6059,6 +6059,22 @@
       "country_code": "DE",
       "ssl_cn": "DESKTOP-2NFCDE2",
       "ssl_fingerprint": "56e2988fd723709e802a628d175ba1521e2e9ae37c06a1787d3fad958720f764",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-03-15",
+      "source_name": "rdp_template_desktop2",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "194.124.250.44",
+      "asn": 41111,
+      "asn_name": "FAST GEO HOSTING S.R.L.",
+      "country_code": "NL",
+      "ssl_cn": "DESKTOP-2NFCDE2",
+      "ssl_fingerprint": "94deb9d244363200b57d2c703f6064e3949b28f5ab9e666e5ccf874b56c5261c",
       "http_server": "",
       "open_ports": [
         3389
@@ -20997,6 +21013,22 @@
       "is_suspicious": 0
     },
     {
+      "ip": "185.39.207.122",
+      "asn": 215540,
+      "asn_name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country_code": "GR",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "3827c41b394d19829004ee15bbc562ddedc67e6e4a81f97ef7a433d2981a970f",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-15",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
       "ip": "146.19.106.36",
       "asn": 53363,
       "asn_name": "STARK INDUSTRIES SOLUTIONS LTD.",
@@ -30571,6 +30603,70 @@
       "country_code": "PL",
       "ssl_cn": "WIN-J9D866ESIJ2",
       "ssl_fingerprint": "8f2f1c33a21da65efcec3c9907c439a9d32fb5bd9767afa5f4975742fdc01449",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "80.85.141.201",
+      "asn": 204601,
+      "asn_name": "Peetinvest B.V.",
+      "country_code": "NL",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "df28a00d3b4dbbbba405f53705f1e809b6fb7de84bb97526adee0fd4160bfccc",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "77.105.161.184",
+      "asn": 215428,
+      "asn_name": "MEROX-Hosting",
+      "country_code": "NL",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "f397dade971151219c40aeddd2b2a8dce0364c96aafa0bd0a4091b219539ba55",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "45.81.226.180",
+      "asn": 204601,
+      "asn_name": "ON-LINE DATA LTD.",
+      "country_code": "NL",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "a0d4f5fb2b5abdb232e444aca4b1416e8462e2d8318912bcf83d737b4eee9628",
+      "http_server": "",
+      "open_ports": [
+        3389
+      ],
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "source_name": "rdp_template_win_j9d",
+      "is_suspicious": 0
+    },
+    {
+      "ip": "185.164.57.10",
+      "asn": 266500,
+      "asn_name": "RapidSeedbox Ltd",
+      "country_code": "US",
+      "ssl_cn": "WIN-J9D866ESIJ2",
+      "ssl_fingerprint": "2cf40822844f2c24d20d858954140501526f9477c0958ab6828ea9e8a602cf7f",
       "http_server": "",
       "open_ports": [
         3389

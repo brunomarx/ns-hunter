@@ -1,9 +1,9 @@
 {
   "date": "2026-03-15",
   "overview": {
-    "active": 1911,
-    "dead_total": 716,
-    "new_today": 6,
+    "active": 1917,
+    "dead_total": 714,
+    "new_today": 10,
     "dead_today": 108,
     "suspicious": 483,
     "asn_changes": 0,
@@ -11,12 +11,12 @@
     "last_run": {
       "run_date": "2026-03-15",
       "total_found": 1911,
-      "new_hosts": 6,
-      "dead_hosts": 108,
-      "duration_sec": 28.028048276901245
+      "new_hosts": 4,
+      "dead_hosts": 0,
+      "duration_sec": 25.599186658859253
     },
     "today": "2026-03-15",
-    "exported_at": "2026-03-14T23:19:29Z"
+    "exported_at": "2026-03-15T00:10:26Z"
   },
   "active_hosts": [
     {
@@ -7598,6 +7598,15 @@
       "first_seen": "2026-03-10"
     },
     {
+      "ip": "194.124.250.44",
+      "malware_family": "rdp_template_desktop2",
+      "asn": 41111,
+      "asn_name": "FAST GEO HOSTING S.R.L.",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-10"
+    },
+    {
       "ip": "213.176.72.68",
       "malware_family": "rdp_template_desktop2",
       "asn": 207957,
@@ -12328,6 +12337,15 @@
       "asn": 215590,
       "asn_name": "Cloud Hosting Solutions, Limited.",
       "country_code": "DE",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-11"
+    },
+    {
+      "ip": "185.39.207.122",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 215540,
+      "asn_name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country_code": "GR",
       "is_suspicious": 0,
       "first_seen": "2026-03-11"
     },
@@ -17217,6 +17235,42 @@
       "country_code": "PL",
       "is_suspicious": 0,
       "first_seen": "2026-03-15"
+    },
+    {
+      "ip": "80.85.141.201",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 204601,
+      "asn_name": "Peetinvest B.V.",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-15"
+    },
+    {
+      "ip": "77.105.161.184",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 215428,
+      "asn_name": "MEROX-Hosting",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-15"
+    },
+    {
+      "ip": "45.81.226.180",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 204601,
+      "asn_name": "ON-LINE DATA LTD.",
+      "country_code": "NL",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-15"
+    },
+    {
+      "ip": "185.164.57.10",
+      "malware_family": "rdp_template_win_j9d",
+      "asn": 266500,
+      "asn_name": "RapidSeedbox Ltd",
+      "country_code": "US",
+      "is_suspicious": 0,
+      "first_seen": "2026-03-15"
     }
   ],
   "families": [
@@ -17229,14 +17283,14 @@
     },
     {
       "malware_family": "rdp_template_desktop2",
-      "host_count": 484,
+      "host_count": 485,
       "bph_count": 28,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-15"
     },
     {
       "malware_family": "rdp_template_win_j9d",
-      "host_count": 479,
+      "host_count": 484,
       "bph_count": 35,
       "first_seen": "2026-03-10",
       "last_seen": "2026-03-15"

@@ -1,0 +1,249 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-03-31
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1972
+
+🔴 NEU HEUTE (85)
+  ⚠️ 45.128.75.182      AS44477    PROLINE IT LTD               NL  SSL:WIN-J9D866ESIJ2
+  ⚠️ 91.242.229.51      AS44477    STARK INDUSTRIES SOLUTIONS LTD NL  SSL:DESKTOP-TCRDU4C
+  ⚠️ 45.150.65.239      AS44477    STARK INDUSTRIES SOLUTIONS LTD US  SSL:WIN-LIVFRVQFMKO
+  ⚠️ 50.114.179.145     AS44477    STARK INDUSTRIES SOLUTIONS LTD ES  SSL:WIN-LPN83RS9EE5
+  ⚠️ 176.120.75.161     AS44477    WEISS HOSTING GROUP S.R.L.   US  SSL:DESKTOP-2NFCDE2
+     198.17.175.21      AS?                                     ??  SSL:DESKTOP-2NFCDE2
+     193.39.68.39       AS?                                     PL  SSL:DESKTOP-TCRDU4C
+     138.226.236.75     AS?        ABB Asea Brown Boveri Ltd    CH  SSL:WIN-J9D866ESIJ2
+     144.31.232.248     AS401152   Ace Data Centers II, L.L.C.  US  SSL:DESKTOP-2NFCDE2
+     144.31.221.22      AS401152   Ace Data Centers II, L.L.C.  US  SSL:DESKTOP-TCRDU4C
+     144.31.221.9       AS401152   Ace Data Centers II, L.L.C.  US  SSL:DESKTOP-TCRDU4C
+     144.31.186.25      AS401152   Ace Data Centers II, L.L.C.  US  SSL:WIN-J9D866ESIJ2
+     144.31.0.17        AS401152   Ace Data Centers II, L.L.C.  US  SSL:WIN-J9D866ESIJ2
+     144.31.191.137     AS401152   Ace Data Centers II, L.L.C.  US  SSL:WIN-J9D866ESIJ2
+     150.241.124.110    AS15440    Ace Data Centers II, LLC     LT  SSL:WIN-J9D866ESIJ2
+     193.23.210.81      AS401152   Ace Data Centers II, LLC     US  SSL:WIN-J9D866ESIJ2
+     64.188.119.163     AS6939     Ace Data Centers II, LLC     NL  SSL:WIN-J9D866ESIJ2
+     150.241.90.177     AS210644   Aeza International LTD       DE  SSL:DESKTOP-2NFCDE2
+     45.87.245.44       AS57494    Alex Group LLC               RU  SSL:DESKTOP-TCRDU4C
+     5.253.188.168      AS214172   Artem Lomakin                DE  SSL:DESKTOP-TCRDU4C
+     85.202.87.42       AS57271    BitWeb LLC                   RU  SSL:DESKTOP-TCRDU4C
+     217.114.43.146     AS199785   Cloud Hosting Solutions, Limited. RU  SSL:WIN-J9D866ESIJ2
+     45.134.217.8       AS?        Contel OOO                   DE  SSL:DESKTOP-TCRDU4C
+     109.248.11.254     AS204490   Contel OOO                   RU  SSL:WIN-J9D866ESIJ2
+     46.8.221.61        AS204490   Contel OOO                   RU  SSL:WIN-J9D866ESIJ2
+     192.162.246.191    AS16262    Datacheap LLC                RU  SSL:WIN-J9D866ESIJ2
+     185.23.16.10       AS61272    Dominant Plius UAB           LT  SSL:WIN-J9D866ESIJ2
+     142.202.190.253    AS398019   Dynu Systems Incorporated    US  SSL:DESKTOP-2NFCDE2
+     207.174.0.37       AS398019   Dynu Systems Incorporated    US  SSL:DESKTOP-2NFCDE2
+     162.216.240.3      AS398019   Dynu Systems Incorporated    US  SSL:WIN-J9D866ESIJ2
+     92.38.49.154       AS42447    EQU Technologies LLP         KZ  SSL:WIN-J9D866ESIJ2
+     176.125.254.213    AS214417   FI-Network                   FI  SSL:DESKTOP-2NFCDE2
+     185.112.101.72     AS205090   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     185.221.162.23     AS205090   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     193.239.160.139    AS200740   FIRST SERVER LIMITED         BG  SSL:WIN-J9D866ESIJ2
+     84.252.74.244      AS205090   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     185.188.183.219    AS204997   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     147.78.64.237      AS204997   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     185.105.88.178     AS205090   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     185.39.207.128     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP GR  SSL:DESKTOP-2NFCDE2
+     147.45.60.129      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP EE  SSL:WIN-J9D866ESIJ2
+     82.117.255.204     AS204957   GREEN FLOID LLC              RO  SSL:WIN-J9D866ESIJ2
+     45.129.97.57       AS201094   GmhostGrupp OU               UA  SSL:WIN-J9D866ESIJ2
+     88.151.117.192     AS50284    Goroshko Evgeniy Andreevich  RU  SSL:DESKTOP-2NFCDE2
+     45.140.19.201      AS212913   IPX - FZCO                   RU  SSL:DESKTOP-TCRDU4C
+     45.140.19.78       AS212913   IPX - FZCO                   RU  SSL:WIN-J9D866ESIJ2
+     45.138.159.224     AS34665    IT Hostline Ltd              RU  SSL:DESKTOP-TCRDU4C
+     195.242.111.8      AS200313   IT WEB LTD                   NL  SSL:DESKTOP-TCRDU4C
+     212.113.112.130    AS215590   LIMITED LIABILITY COMPANY RELCOM-SPB DE  SSL:WIN-J9D866ESIJ2
+     91.227.18.165      AS207027   LLC Eximius                  RU  SSL:WIN-J9D866ESIJ2
+     45.136.56.187      AS208450   Megahost Kazakhstan TOO      KZ  SSL:DESKTOP-TCRDU4C
+     87.121.221.5       AS214417   NL-Network                   NL  SSL:WIN-J9D866ESIJ2
+     185.92.149.177     AS204601   ON-LINE DATA LTD.            NL  SSL:WIN-J9D866ESIJ2
+     2.27.28.163        AS12576    Orange WBC Broadband         GB  SSL:WIN-J9D866ESIJ2
+     45.89.67.80        AS209641   PSERVERS Enterprise Network  RU  SSL:DESKTOP-2NFCDE2
+     193.233.112.148    AS215826   Partner Hosting LTD          FI  SSL:DESKTOP-2NFCDE2
+     185.107.74.180     AS215826   Partner Hosting LTD          SE  SSL:DESKTOP-2NFCDE2
+     83.217.209.172     AS215826   Partner Hosting LTD          DE  SSL:DESKTOP-2NFCDE2
+     185.100.157.125    AS215826   Partner Hosting LTD          SE  SSL:DESKTOP-2NFCDE2
+     185.177.239.147    AS215826   Partner Hosting LTD          SE  SSL:DESKTOP-2NFCDE2
+     195.10.205.248     AS215826   Partner Hosting LTD          NL  SSL:DESKTOP-TCRDU4C
+     185.100.157.120    AS215826   Partner Hosting LTD          SE  SSL:DESKTOP-TCRDU4C
+     185.102.115.10     AS215826   Partner Hosting LTD          DE  SSL:WIN-J9D866ESIJ2
+     185.102.115.183    AS215826   Partner Hosting LTD          DE  SSL:WIN-J9D866ESIJ2
+     193.233.112.162    AS215826   Partner Hosting LTD          FI  SSL:WIN-J9D866ESIJ2
+     138.124.107.94     AS198178   Plant Holding GmbH           TR  SSL:DESKTOP-TCRDU4C
+     95.85.234.108      AS43708    Plouznice fiber optics       CZ  SSL:WIN-J9D866ESIJ2
+     95.164.53.107      AS213702   QWINS LTD                    DE  SSL:DESKTOP-TCRDU4C
+     45.87.249.40       AS60781    RapidSeedbox Ltd             MX  SSL:WIN-J9D866ESIJ2
+     193.5.65.93        AS395839   RapidSeedbox Ltd             US  SSL:WIN-J9D866ESIJ2
+     193.23.218.191     AS213520   Senko Digital Ltd            DE  SSL:DESKTOP-TCRDU4C
+     87.120.107.18      AS215428   Shinomiya-Hosting            FI  SSL:WIN-J9D866ESIJ2
+     45.87.104.41       AS212872   Skystark LLC                 RU  SSL:DESKTOP-TCRDU4C
+     45.87.104.233      AS212872   Skystark LLC                 RU  SSL:DESKTOP-TCRDU4C
+     217.119.129.108    AS207957   Standart AG, LLC             DE  SSL:DESKTOP-TCRDU4C
+     81.90.29.208       AS48407    TigrisNet                    IQ  SSL:WIN-J9D866ESIJ2
+     193.42.110.150     AS60144    UA-Hosting SIA               NL  SSL:WIN-J9D866ESIJ2
+     45.144.30.178      AS33993    UFO Hosting LLC              RU  SSL:WIN-J9D866ESIJ2
+     103.113.68.95      AS33993    UFO Hosting LLC              RU  SSL:WIN-J9D866ESIJ2
+     77.239.107.21      AS213673   WAISE EUROPE LTD             SE  SSL:DESKTOP-TCRDU4C
+     140.235.17.39      AS398019   Wired Blade Incorporated     US  SSL:DESKTOP-2NFCDE2
+     89.44.87.211       AS?        XT GLOBAL NETWORKS LTD.      RO  SSL:WIN-J9D866ESIJ2
+     87.120.165.45      AS215439   play2go.cloud - Cheap and reliable hosting DE  SSL:DESKTOP-TCRDU4C
+     178.215.236.154    AS215439   play2go.cloud - Cheap and reliable hosting DE  SSL:WIN-J9D866ESIJ2
+     185.184.123.33     AS213877   u1host Amsterdam             NL  SSL:DESKTOP-TCRDU4C
+
+💀 VERSCHWUNDEN (121)
+   144.31.12.105      AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-10)
+   144.31.221.207     AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-13)
+   144.31.169.117     AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-13)
+   144.31.72.212      AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-16)
+   144.31.106.153     AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-23)
+   144.31.169.22      AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-24)
+   144.31.107.17      AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-25)
+   144.31.126.51      AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-25)
+   144.31.221.40      AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-25)
+   77.239.108.20      AS215590   Ace Data Centers II, LLC     (seit 2026-03-10)
+   77.239.109.188     AS215590   Ace Data Centers II, LLC     (seit 2026-03-14)
+   108.165.164.145    AS401152   Ace Data Centers, Inc.       (seit 2026-03-25)
+   77.239.120.145     AS210644   Aeza International LTD       (seit 2026-03-10)
+   89.185.85.229      AS210644   Aeza International LTD       (seit 2026-03-25)
+   150.241.66.38      AS210644   Aeza International LTD       (seit 2026-03-25)
+   45.130.148.177     AS35682    BEST INTERNET SOLUTION XK    (seit 2026-03-11)
+   146.19.207.2       AS199785   Cloud Hosting Solutions, Limited. (seit 2026-03-13)
+   176.126.103.208    AS199785   Cloud Hosting Solutions, Limited. (seit 2026-03-25)
+   46.8.221.96        AS204490   Contel OOO                   (seit 2026-03-25)
+   45.134.218.68      AS?        Contel OOO                   (seit 2026-03-25)
+   93.185.157.100     AS215590   DpkgSoft International Limited (seit 2026-03-10)
+   185.246.222.164    AS215590   DpkgSoft International Limited (seit 2026-03-10)
+   193.233.75.31      AS215590   DpkgSoft International Limited (seit 2026-03-10)
+   94.141.161.213     AS215590   DpkgSoft International Limited (seit 2026-03-19)
+   94.141.161.179     AS215590   DpkgSoft International Limited (seit 2026-03-20)
+   207.174.1.79       AS398019   Dynu Systems Incorporated    (seit 2026-03-10)
+   172.81.62.198      AS398019   Dynu Systems Incorporated    (seit 2026-03-10)
+   172.81.62.187      AS398019   Dynu Systems Incorporated    (seit 2026-03-18)
+   142.202.189.217    AS398019   Dynu Systems Incorporated    (seit 2026-03-19)
+   212.113.99.78      AS215443   Eduard Ilin                  (seit 2026-03-25)
+   194.124.250.44     AS41111    FAST GEO HOSTING S.R.L.      (seit 2026-03-10)
+   141.98.188.18      AS?        FAST GEO HOSTING S.R.L.      (seit 2026-03-25)
+   159.255.38.153     AS200740   FIRST SERVER LIMITED         (seit 2026-03-25)
+   89.23.103.115      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-10)
+   45.95.233.177      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-14)
+   89.23.103.147      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-25)
+   109.120.137.163    AS215730   H2.NEXUS Frankfurt Network   (seit 2026-03-10)
+   185.125.50.108     AS215730   H2.NEXUS Frankfurt Network   (seit 2026-03-19)
+   192.124.178.66     AS215730   H2.NEXUS Frankfurt Network   (seit 2026-03-19)
+   5.253.59.40        AS215540   HOST TELECOM LTD             (seit 2026-03-20)
+   159.69.72.83       AS24940    Hetzner Online GmbH          (seit 2026-03-10)
+   135.181.243.117    AS24940    Hetzner Online GmbH          (seit 2026-03-19)
+   81.19.131.76       AS63023    ISP IPOCEAN LLC              (seit 2026-03-10)
+   81.19.131.8        AS63023    ISP IPOCEAN LLC              (seit 2026-03-10)
+   45.136.56.71       AS208450   Megahost Kazakhstan TOO      (seit 2026-03-10)
+   45.136.57.30       AS208450   Megahost Kazakhstan TOO      (seit 2026-03-10)
+   95.85.241.80       AS43708    Mimon fiber optics           (seit 2026-03-26)
+   147.45.210.167     AS?        New information technologies Ltd (seit 2026-03-10)
+   193.221.201.25     AS197757   ONER INVESTMENTS LIMITED     (seit 2026-03-25)
+   193.221.200.115    AS197757   ONER INVESTMENTS Ltd         (seit 2026-03-14)
+   85.137.252.108     AS6739     ONO_HFC                      (seit 2026-03-12)
+   51.38.107.255      AS16276    OVH GmbH                     (seit 2026-03-26)
+   185.77.219.6       AS51765    Oy Crea Nova Hosting Solution Ltd (seit 2026-03-15)
+   193.233.113.143    AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   185.107.74.234     AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   185.177.239.41     AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   185.100.157.206    AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   185.100.157.182    AS215826   Partner Hosting LTD          (seit 2026-03-12)
+   193.233.113.53     AS215826   Partner Hosting LTD          (seit 2026-03-12)
+   178.236.252.30     AS215826   Partner Hosting LTD          (seit 2026-03-12)
+   5.252.153.51       AS215826   Partner Hosting LTD          (seit 2026-03-13)
+   193.233.112.200    AS215826   Partner Hosting LTD          (seit 2026-03-13)
+   178.236.252.46     AS215826   Partner Hosting LTD          (seit 2026-03-14)
+   83.217.209.115     AS215826   Partner Hosting LTD          (seit 2026-03-14)
+   193.233.112.50     AS215826   Partner Hosting LTD          (seit 2026-03-14)
+   178.236.252.164    AS215826   Partner Hosting LTD          (seit 2026-03-16)
+   45.150.34.242      AS215826   Partner Hosting LTD          (seit 2026-03-18)
+   185.100.157.96     AS215826   Partner Hosting LTD          (seit 2026-03-19)
+   94.141.122.172     AS215826   Partner Hosting LTD          (seit 2026-03-23)
+   45.150.34.54       AS215826   Partner Hosting LTD          (seit 2026-03-25)
+   185.107.74.246     AS215826   Partner Hosting LTD          (seit 2026-03-25)
+   83.217.209.67      AS215826   Partner Hosting LTD          (seit 2026-03-25)
+   185.100.157.6      AS215826   Partner Hosting LTD          (seit 2026-03-25)
+   91.214.78.59       AS215826   Partner Hosting LTD          (seit 2026-03-26)
+   91.214.78.221      AS215826   Partner Hosting LTD          (seit 2026-03-26)
+   185.100.157.29     AS215826   Partner Hosting LTD          (seit 2026-03-26)
+   5.252.153.56       AS215826   Partner Hosting LTD          (seit 2026-03-26)
+   5.101.83.28        AS34665    Petersburg Internet Network ltd. (seit 2026-03-10)
+   62.76.142.55       AS202984   QWARTA LLC                   (seit 2026-03-20)
+   95.164.53.119      AS213702   QWINS LTD                    (seit 2026-03-10)
+   188.119.112.127    AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   138.124.184.242    AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   45.15.140.242      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   45.86.70.241       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.62      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.23      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.92      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   45.39.69.85        AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.88      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.142     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   45.144.29.10       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-25)
+   45.142.215.121     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-25)
+   77.91.102.49       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-26)
+   45.83.140.143      AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-03-10)
+   5.180.24.65        AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-03-10)
+   95.164.19.146      AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-03-10)
+   195.42.232.7       AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-03-10)
+   87.120.107.56      AS215428   Shinomiya-Hosting            (seit 2026-03-13)
+   87.120.107.1       AS215428   Shinomiya-Hosting            (seit 2026-03-19)
+   195.137.245.113    AS214379   South Park Networks LLC      (seit 2026-03-10)
+   91.231.182.168     AS214379   South Park Networks LLC      (seit 2026-03-13)
+   194.58.41.203      AS198037   SpaceCore.pro Hosting        (seit 2026-03-19)
+   80.71.227.235      AS198037   SpaceCore.pro Hosting        (seit 2026-03-20)
+   146.19.128.182     AS207957   Standart AG, LLC             (seit 2026-03-25)
+   146.19.128.76      AS207957   Standart AG, LLC             (seit 2026-03-26)
+   45.151.183.28      AS51248    THUNDER NETWORK LIMITED      (seit 2026-03-10)
+   178.17.59.111      AS4766     TigrisNet                    (seit 2026-03-10)
+   81.90.29.140       AS48407    TigrisNet                    (seit 2026-03-25)
+   91.207.183.64      AS33993    UFO Hosting LLC              (seit 2026-03-20)
+   185.244.40.58      AS57043    Union Group LLC              (seit 2026-03-10)
+   193.233.134.140    AS213887   WAIcore Ltd                  (seit 2026-03-10)
+   94.141.123.15      AS213887   WAIcore Ltd                  (seit 2026-03-25)
+   195.149.87.8       AS44477    WEISS HOSTING GROUP S.R.L.   (seit 2026-03-10)
+   185.179.190.60     AS44094    Webhost LLC                  (seit 2026-03-20)
+   185.179.191.192    AS44094    Webhost LLC                  (seit 2026-03-22)
+   147.45.197.238     AS216127   nuxt.cloud hosting provider  (seit 2026-03-10)
+   147.45.197.88      AS216127   nuxt.cloud hosting provider  (seit 2026-03-25)
+   83.143.112.77      AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-03-10)
+   94.156.114.44      AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-03-10)
+   87.120.166.32      AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-03-25)
+   212.23.196.112     AS63023    xTom GmbH                    (seit 2026-03-10)
+
+🔑 ZERTIFIKAT-WECHSEL (18)
+   194.28.226.9 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   94.141.123.157 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   176.120.75.171 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   96.126.129.67 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   185.214.74.18 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   193.233.113.198 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   83.217.209.164 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   94.156.237.237 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   144.31.80.75 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   94.131.101.184 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   194.33.61.2 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   185.122.171.120 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   45.129.97.143 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   64.188.91.62 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   193.23.199.36 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   50.114.179.16 | Old CN: WIN-RPCR6DPCJ7J → New CN: WIN-M1UNVN5ICR8
+   104.164.137.47 | Old CN: WIN-H84GB2JHJIR → New CN: WIN-H84GB2JHJIR
+   45.67.231.11 | Old CN: WIN-BS656MOF35Q → New CN: WIN-BS656MOF35Q
+
+📡 TOP ASNs (aktive Hosts)
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD 382 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS215826   Partner Hosting LTD          232 Hosts  ██████████████████████████████
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD. 112 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS401152   Ace Data Centers II, L.L.C.   58 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  53 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     41 Hosts  ██████████████████████████████
+   AS215439   play2go.cloud - Cheap and reliable hosting  35 Hosts  ██████████████████████████████
+   AS63023    xTom GmbH                     31 Hosts  ██████████████████████████████
+   AS204601   Celeritas International LLC   29 Hosts  █████████████████████████████
+   AS215590   DpkgSoft International Limited  28 Hosts  ████████████████████████████
+
+==============================================================

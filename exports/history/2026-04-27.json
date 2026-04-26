@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-27",
+  "overview": {
+    "active": 0,
+    "dead_total": 5028,
+    "new_today": 0,
+    "dead_today": 0,
+    "suspicious": 0,
+    "asn_changes": 0,
+    "cert_changes": 0,
+    "last_run": {
+      "run_date": "2026-04-27",
+      "total_found": 0,
+      "new_hosts": 0,
+      "dead_hosts": 0,
+      "duration_sec": 144.93230080604553
+    },
+    "today": "2026-04-27",
+    "exported_at": "2026-04-26T22:12:26Z"
+  },
+  "active_hosts": [],
+  "families": []
+}

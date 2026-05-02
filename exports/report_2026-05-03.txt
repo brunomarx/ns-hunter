@@ -1,0 +1,15 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-05-03
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 0
+
+🔴 NEU HEUTE (0)
+   (keine neuen Hosts)
+
+💀 VERSCHWUNDEN (0)
+   (keine Abgänge)
+
+📡 TOP ASNs (aktive Hosts)
+
+==============================================================

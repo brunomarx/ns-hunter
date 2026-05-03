@@ -8,14 +8,14 @@
     "asn_changes": 0,
     "cert_changes": 0,
     "last_run": {
-      "run_date": "2026-05-03",
+      "run_date": "2026-05-04",
       "total_found": 0,
       "new_hosts": 0,
       "dead_hosts": 0,
-      "duration_sec": 0.08540129661560059
+      "duration_sec": 0.06406188011169434
     },
-    "today": "2026-05-03",
-    "exported_at": "2026-05-02T22:10:01Z"
+    "today": "2026-05-04",
+    "exported_at": "2026-05-03T22:10:01Z"
   },
   "active_hosts": [],
   "dead_hosts": [
@@ -6031,9 +6031,9 @@
       "query_str": "\"DESKTOP-TCRDU4C\" port:3389",
       "total_hits": 22397,
       "total_new": 22397,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 500,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "rdp_template_desktop2",
@@ -6041,9 +6041,9 @@
       "query_str": "\"DESKTOP-2NFCDE2\" port:3389",
       "total_hits": 22343,
       "total_new": 22343,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 500,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "rdp_stark_win_template",
@@ -6051,9 +6051,9 @@
       "query_str": "ssl.cert.subject.cn:\"WIN-*\" port:3389 org:\"STARK INDUSTRIES\"",
       "total_hits": 21324,
       "total_new": 19970,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 500,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "rdp_template_win_j9d",
@@ -6061,9 +6061,9 @@
       "query_str": "\"WIN-J9D866ESIJ2\" port:3389",
       "total_hits": 17279,
       "total_new": 17279,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 500,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "rdp_mivocloud_win_template",
@@ -6071,9 +6071,9 @@
       "query_str": "ssl.cert.subject.cn:\"WIN-*\" port:3389 org:\"MivoCloud\"",
       "total_hits": 1605,
       "total_new": 1605,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 39,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "smartapesg_rdp_cluster",
@@ -6081,9 +6081,9 @@
       "query_str": "port:3389 port:1500 org:\"MivoCloud\"",
       "total_hits": 0,
       "total_new": 0,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 0,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "netsupport_gateway_port80",
@@ -6091,9 +6091,9 @@
       "query_str": "\"NetSupport Gateway\" port:80",
       "total_hits": 0,
       "total_new": 0,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 0,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "netsupport_gateway_generic",
@@ -6101,9 +6101,9 @@
       "query_str": "\"NetSupport Gateway\" port:443",
       "total_hits": 0,
       "total_new": 0,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 0,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "netsupport_gateway_17",
@@ -6111,9 +6111,9 @@
       "query_str": "\"NetSupport Gateway/1.7\" port:443",
       "total_hits": 0,
       "total_new": 0,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 0,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "netsupport_gateway_16",
@@ -6121,9 +6121,9 @@
       "query_str": "\"NetSupport Gateway/1.6\" port:443",
       "total_hits": 0,
       "total_new": 0,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 0,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "ispmanager_stark",
@@ -6131,9 +6131,9 @@
       "query_str": "port:1500 product:\"ISPManager\" org:\"STARK INDUSTRIES\"",
       "total_hits": 0,
       "total_new": 0,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 0,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     },
     {
       "query_name": "ispmanager_port1500",
@@ -6141,9 +6141,9 @@
       "query_str": "port:1500 product:\"ISPManager\" org:\"MivoCloud\"",
       "total_hits": 0,
       "total_new": 0,
-      "days_run": 54,
+      "days_run": 55,
       "peak_hits": 0,
-      "last_active": "2026-05-03"
+      "last_active": "2026-05-04"
     }
   ],
   "timeline": [
@@ -6704,6 +6704,15 @@
       "asn_changes": 0,
       "cert_changes": 0,
       "duration_sec": 0.08540129661560059
+    },
+    {
+      "run_date": "2026-05-04",
+      "total_found": 0,
+      "new_hosts": 0,
+      "dead_hosts": 0,
+      "asn_changes": 0,
+      "cert_changes": 0,
+      "duration_sec": 0.06406188011169434
     }
   ],
   "changes": [

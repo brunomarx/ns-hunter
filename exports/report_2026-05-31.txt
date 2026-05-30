@@ -1,0 +1,85 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-05-31
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1866
+
+🔴 NEU HEUTE (24)
+  ⚠️ 193.57.138.192     AS44477    STARK INDUSTRIES SOLUTIONS LTD IE  SSL:WIN-J9D866ESIJ2
+  ⚠️ 45.39.210.212      AS44477    STARK INDUSTRIES SOLUTIONS LTD NL  SSL:WIN-OTQAFTA7DTC
+  ⚠️ 104.164.137.246    AS44477    STARK INDUSTRIES SOLUTIONS LTD KZ  SSL:WIN-H84GB2JHJIR
+  ⚠️ 45.67.34.238       AS44477    STARK INDUSTRIES SOLUTIONS LTD. RO  SSL:WIN-J9D866ESIJ2
+     150.241.124.138    AS15440    Ace Data Centers II, LLC     LT  SSL:WIN-J9D866ESIJ2
+     45.90.46.62        AS57271    BitWeb LLC                   RU  SSL:DESKTOP-TCRDU4C
+     213.21.253.17      AS215590   Cloud Hosting Solutions, Limited. DE  SSL:WIN-J9D866ESIJ2
+     142.202.188.62     AS398019   Dynu Systems Incorporated    US  SSL:DESKTOP-2NFCDE2
+     185.233.200.39     AS205090   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     185.112.101.140    AS205090   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     185.255.135.230    AS204997   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     193.168.227.53     AS205090   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     109.69.62.108      AS205090   FIRST SERVER LIMITED         RU  SSL:WIN-J9D866ESIJ2
+     185.39.207.105     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP GR  SSL:WIN-J9D866ESIJ2
+     94.103.183.223     AS212913   IPX - FZCO                   RU  SSL:WIN-J9D866ESIJ2
+     188.130.238.82     AS215670   LLP Internet company First Page KZ  SSL:WIN-J9D866ESIJ2
+     2.26.109.131       AS12576    Orange WBC Broadband         GB  SSL:WIN-J9D866ESIJ2
+     83.217.208.11      AS215826   Partner Hosting LTD          DE  SSL:WIN-J9D866ESIJ2
+     83.217.208.167     AS215826   Partner Hosting LTD          DE  SSL:WIN-J9D866ESIJ2
+     45.12.62.174       AS131642   RapidSeedbox Ltd             TW  SSL:WIN-J9D866ESIJ2
+     23.230.139.27      AS18779    STARK INDUSTRIES SOLUTIONS LTD DE  SSL:WIN-H84GB2JHJIR
+     87.120.107.224     AS215428   Shinomiya-Hosting            FI  SSL:WIN-J9D866ESIJ2
+     45.87.104.116      AS212872   Skystark LLC                 RU  SSL:DESKTOP-2NFCDE2
+     185.244.41.254     AS204490   Union Group LLC              RU  SSL:WIN-J9D866ESIJ2
+
+💀 VERSCHWUNDEN (21)
+   187.156.127.232    AS8151                                  (seit 2026-05-08)
+   193.39.68.139      AS?                                     (seit 2026-05-16)
+   81.29.156.40       AS?        BZSOLUTIONS SRL              (seit 2026-03-17)
+   212.192.31.53      AS199785   Cloud Hosting Solutions, Limited. (seit 2026-04-03)
+   142.202.191.136    AS398019   Dynu Systems Incorporated    (seit 2026-03-10)
+   152.230.104.65     AS14259    Gtd Internet S.A.            (seit 2026-03-16)
+   138.124.79.38      AS214238   HOST TELECOM LTD             (seit 2026-03-17)
+   84.240.206.175     AS9198     LLC ?Internet Company First Page? (seit 2026-03-18)
+   45.136.57.178      AS208450   Megahost Kazakhstan TOO      (seit 2026-03-17)
+   185.225.16.23      AS39798    MivoCloud                    (seit 2026-03-17)
+   193.221.201.145    AS197757   ONER INVESTMENTS LIMITED     (seit 2026-03-16)
+   193.221.200.203    AS197757   ONER INVESTMENTS Ltd         (seit 2026-04-14)
+   51.68.75.237       AS16276    OVH SAS                      (seit 2026-03-19)
+   83.217.209.38      AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   5.252.153.165      AS215826   Partner Hosting LTD          (seit 2026-03-13)
+   185.107.74.225     AS215826   Partner Hosting LTD          (seit 2026-04-01)
+   94.141.122.30      AS215826   Partner Hosting LTD          (seit 2026-04-03)
+   45.155.68.78       AS60781    RapidSeedbox Ltd             (seit 2026-05-09)
+   5.236.37.121       AS58224    Telecommunication Company of Mazandaran (seit 2026-05-30)
+   103.113.68.43      AS33993    UFO Hosting LLC              (seit 2026-05-17)
+   185.179.190.178    AS44094    Webhost LLC                  (seit 2026-04-13)
+
+🔑 ZERTIFIKAT-WECHSEL (15)
+   103.113.68.113 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   193.233.113.72 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   94.130.255.137 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.184.122.90 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   37.72.129.19 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   77.83.172.181 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   95.164.119.5 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   77.83.173.127 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   185.39.207.122 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   83.217.208.59 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   45.136.56.105 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   88.218.188.194 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   185.139.70.249 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   176.125.243.107 | Old CN: WIN-TLEU26FTB20 → New CN: WIN-TLEU26FTB20
+   50.114.179.219 | Old CN: WIN-EASKTL6G58B → New CN: WIN-BNB02V3UE59
+
+📡 TOP ASNs (aktive Hosts)
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD 296 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS215826   Partner Hosting LTD          218 Hosts  ██████████████████████████████
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD. 109 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS401152   Ace Data Centers II, L.L.C.   55 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     51 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  50 Hosts  ██████████████████████████████
+   AS205090   FIRST SERVER LIMITED          44 Hosts  ██████████████████████████████
+   AS204601   Celeritas International LLC   35 Hosts  ██████████████████████████████
+   AS63023    xTom GmbH                     30 Hosts  ██████████████████████████████
+   AS60781    RapidSeedbox Ltd              25 Hosts  █████████████████████████
+
+==============================================================

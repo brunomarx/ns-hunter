@@ -1,0 +1,67 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-06-07
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1848
+
+🔴 NEU HEUTE (15)
+  ⚠️ 45.15.171.13       AS44477    STARK INDUSTRIES SOLUTIONS LTD AL  SSL:WIN-J9D866ESIJ2
+  ⚠️ 50.114.172.254     AS44477    STARK INDUSTRIES SOLUTIONS LTD SE  SSL:WIN-JPK2E7P7577
+  ⚠️ 23.230.14.151      AS44477    STARK INDUSTRIES SOLUTIONS LTD DE  SSL:WIN-H84GB2JHJIR
+  ⚠️ 23.230.14.43       AS44477    STARK INDUSTRIES SOLUTIONS LTD DE  SSL:WIN-H84GB2JHJIR
+     193.233.75.55      AS215590   DpkgSoft International Limited DE  SSL:WIN-J9D866ESIJ2
+     77.91.65.62        AS215590   DpkgSoft International Limited DE  SSL:WIN-J9D866ESIJ2
+     31.76.41.17        AS?        EE Limited                   GB  SSL:WIN-J9D866ESIJ2
+     5.34.176.168       AS204957   Green Floid LLC              SG  SSL:WIN-J9D866ESIJ2
+     192.124.182.3      AS214238   HOST TELECOM LTD             FR  SSL:WIN-J9D866ESIJ2
+     213.165.55.201     AS16589    Mohammed Jassim bin Jassim Al-Abd Rab Al-Nabi trading as Visual Systems for Information and Technology US  SSL:WIN-J9D866ESIJ2
+     2.26.92.113        AS12576    Orange WBC Broadband         GB  SSL:WIN-J9D866ESIJ2
+     83.217.209.102     AS215826   Partner Hosting LTD          DE  SSL:WIN-J9D866ESIJ2
+     185.107.74.120     AS215826   Partner Hosting LTD          SE  SSL:WIN-J9D866ESIJ2
+     194.150.220.179    AS7018     Poltoratskyi M.V.            US  SSL:DESKTOP-2NFCDE2
+     193.222.99.149     AS215439   play2go.cloud - Cheap and reliable hosting DE  SSL:WIN-J9D866ESIJ2
+
+💀 VERSCHWUNDEN (16)
+   198.17.175.244     AS?                                     (seit 2026-03-10)
+   193.39.68.23       AS?                                     (seit 2026-03-10)
+   77.239.109.20      AS215590   Ace Data Centers II, LLC     (seit 2026-03-10)
+   193.23.199.249     AS210457   Ace Data Centers II, LLC     (seit 2026-05-09)
+   64.188.79.172      AS6939     Ace Data Centers II, LLC     (seit 2026-05-20)
+   213.21.236.191     AS215590   Cloud Hosting Solutions, Limited. (seit 2026-03-12)
+   46.8.221.108       AS204490   Contel OOO                   (seit 2026-03-10)
+   171.22.16.43       AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-04-03)
+   80.66.79.14        AS60602    HyperHosting                 (seit 2026-03-10)
+   185.236.20.57      AS39238    Internet technologies LLC    (seit 2026-03-12)
+   95.164.55.59       AS213702   QWINS LTD                    (seit 2026-03-11)
+   45.87.104.238      AS212872   Skystark LLC                 (seit 2026-04-18)
+   195.133.84.24      AS198037   SpaceCore.pro Hosting        (seit 2026-04-21)
+   146.19.128.76      AS207957   Standart AG, LLC             (seit 2026-03-26)
+   81.90.28.129       AS48407    TigrisNet                    (seit 2026-03-10)
+   87.120.84.20       AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-03-14)
+
+🔑 ZERTIFIKAT-WECHSEL (11)
+   162.216.241.246 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   212.23.196.105 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   141.98.188.25 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   193.23.199.130 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   5.101.83.28 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   193.221.201.240 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   212.23.196.149 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   80.66.87.160 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   146.255.188.249 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   178.159.38.46 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   178.236.252.37 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD 286 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS215826   Partner Hosting LTD          230 Hosts  ██████████████████████████████
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD.  96 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS398019   Dynu Systems Incorporated     52 Hosts  ██████████████████████████████
+   AS401152   Ace Data Centers II, L.L.C.   45 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  42 Hosts  ██████████████████████████████
+   AS205090   FIRST SERVER LIMITED          40 Hosts  ██████████████████████████████
+   AS204601   Celeritas International LLC   39 Hosts  ██████████████████████████████
+   AS63023    xTom GmbH                     31 Hosts  ██████████████████████████████
+   AS215439   play2go.cloud - Cheap and reliable hosting  24 Hosts  ████████████████████████
+
+==============================================================

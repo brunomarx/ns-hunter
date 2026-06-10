@@ -1,0 +1,63 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-06-11
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1373
+
+🔴 NEU HEUTE (3)
+  ⚠️ 45.39.210.5        AS44477    STARK INDUSTRIES SOLUTIONS LTD NL  SSL:WIN-8H75PATV0PG
+     89.185.82.96       AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP MK  SSL:DESKTOP-TCRDU4C
+     23.230.139.70      AS18779    STARK INDUSTRIES SOLUTIONS LTD DE  SSL:WIN-H84GB2JHJIR
+
+💀 VERSCHWUNDEN (30)
+   144.31.169.4       AS401152   Ace Data Centers II, L.L.C.  (seit 2026-03-13)
+   168.222.254.15     AS?        Air Products & Chemicals, Inc. (seit 2026-04-03)
+   45.138.158.243     AS35682    BEST INTERNET SOLUTION XK    (seit 2026-03-10)
+   45.138.158.250     AS35682    BEST INTERNET SOLUTION XK    (seit 2026-03-18)
+   185.217.131.128    AS35682    BEST INTERNET SOLUTION XK    (seit 2026-03-25)
+   176.126.103.126    AS199785   Cloud Hosting Solutions, Limited. (seit 2026-04-15)
+   45.134.217.179     AS?        Contel OOO                   (seit 2026-03-13)
+   150.241.106.102    AS215590   DpkgSoft International Limited (seit 2026-03-10)
+   142.202.191.118    AS398019   Dynu Systems Incorporated    (seit 2026-05-08)
+   77.246.145.120     AS29182    E-PLANET Hosting Provider    (seit 2026-03-10)
+   31.129.22.197      AS215540   GLOBAL INTERNET SOLUTIONS LLC (seit 2026-04-14)
+   89.23.113.161      AS207713   GLOBAL INTERNET SOLUTIONS LLC (seit 2026-05-22)
+   185.170.154.88     AS207957   Germany, Frankfurt           (seit 2026-04-16)
+   95.217.146.247     AS24940    Hetzner Online GmbH          (seit 2026-03-10)
+   178.63.197.82      AS24940    Hetzner Online GmbH          (seit 2026-03-10)
+   147.45.198.217     AS212701   Hostinux Limited             (seit 2026-03-20)
+   193.233.19.152     AS63023    ISP IPOCEAN LLC              (seit 2026-03-11)
+   45.12.5.209        AS212872   Internet Hosting LLC         (seit 2026-04-20)
+   193.233.112.227    AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   91.214.78.155      AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   195.10.205.231     AS215826   Partner Hosting LTD          (seit 2026-03-21)
+   94.156.181.15      AS207957   SERV.HOST GROUP LTD          (seit 2026-03-12)
+   94.156.154.219     AS207957   SERV.HOST GROUP LTD          (seit 2026-03-26)
+   80.92.205.92       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.232     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   185.252.215.76     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-04-15)
+   193.38.55.157      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-05-12)
+   95.164.6.203       AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-03-10)
+   91.132.135.39      AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-03-10)
+   91.231.182.29      AS214379   South Park Networks LLC      (seit 2026-03-11)
+
+🔑 ZERTIFIKAT-WECHSEL (5)
+   212.23.196.88 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   91.215.85.140 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-TCRDU4C
+   185.244.41.4 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.177.239.86 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   23.230.139.60 | Old CN: WIN-H84GB2JHJIR → New CN: WIN-H84GB2JHJIR
+
+📡 TOP ASNs (aktive Hosts)
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD 277 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS215826   Partner Hosting LTD          196 Hosts  ██████████████████████████████
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD.  84 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS398019   Dynu Systems Incorporated     49 Hosts  ██████████████████████████████
+   AS63023    xTom GmbH                     34 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  34 Hosts  ██████████████████████████████
+   AS401152   Ace Data Centers II, L.L.C.   30 Hosts  ██████████████████████████████
+   AS212872   Skystark LLC                  21 Hosts  █████████████████████
+   AS39798    MivoCloud                     18 Hosts  ██████████████████
+   AS215439   play2go.cloud - Cheap and reliable hosting  18 Hosts  ██████████████████
+
+==============================================================

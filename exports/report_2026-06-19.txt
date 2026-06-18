@@ -1,0 +1,74 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-06-19
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1265
+
+🔴 NEU HEUTE (3)
+  ⚠️ 104.164.137.2      AS44477    STARK INDUSTRIES SOLUTIONS LTD KZ  SSL:WIN-7G03614S0T6
+     185.207.15.206     AS214238   HOST TELECOM LTD             FR  SSL:DESKTOP-TCRDU4C
+     109.172.93.70      AS51247    Serverio technologijos MB    NL  SSL:DESKTOP-TCRDU4C
+
+💀 VERSCHWUNDEN (39)
+   45.90.46.235       AS57271    BitWeb LLC                   (seit 2026-04-15)
+   45.134.218.81      AS?        Contel OOO                   (seit 2026-03-10)
+   93.185.157.100     AS215590   DpkgSoft International Limited (seit 2026-03-10)
+   172.81.63.158      AS398019   Dynu Systems Incorporated    (seit 2026-03-10)
+   194.41.112.73      AS?        Elisteka UAB                 (seit 2026-03-23)
+   45.144.52.205      AS215730   H2.NEXUS Helsinki Network    (seit 2026-03-10)
+   31.56.240.161      AS208450   Megahost Kazakhstan TOO      (seit 2026-04-17)
+   185.163.46.12      AS39798    MivoCloud                    (seit 2026-03-10)
+   193.221.200.69     AS197757   ONER INVESTMENTS Ltd         (seit 2026-03-14)
+   193.221.200.130    AS197757   ONER INVESTMENTS Ltd         (seit 2026-03-22)
+   85.137.253.205     AS6739     ONO_HFC                      (seit 2026-05-26)
+   91.214.78.66       AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   147.45.45.144      AS215826   Partner Hosting LTD          (seit 2026-04-16)
+   86.54.25.11        AS39900    SIA GOOD                     (seit 2026-03-27)
+   2.56.117.13        AS?        STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.112     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   45.82.245.69       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.143     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.218     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   80.92.205.83       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   94.131.101.5       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   104.164.137.207    AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-17)
+   213.226.100.154    AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-04-02)
+   50.114.179.79      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-04-18)
+   50.114.167.141     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-05-20)
+   195.42.232.5       AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-03-10)
+   185.153.183.3      AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-04-14)
+   5.182.39.134       AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-05-14)
+   94.131.120.7       AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-05-20)
+   87.120.107.176     AS215428   Shinomiya-Hosting            (seit 2026-03-19)
+   195.137.244.61     AS214379   South Park Networks LLC      (seit 2026-03-20)
+   195.149.87.8       AS44477    WEISS HOSTING GROUP S.R.L.   (seit 2026-03-10)
+   176.120.75.155     AS44477    WEISS HOSTING GROUP S.R.L.   (seit 2026-03-30)
+   185.179.189.105    AS44094    Webhost LLC                  (seit 2026-03-12)
+   194.28.226.9       AS216127   nuxt.cloud hosting provider  (seit 2026-03-10)
+   89.34.219.245      AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-03-16)
+   94.156.237.238     AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-03-28)
+   87.120.166.120     AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-04-19)
+   212.23.196.7       AS63023    xTom GmbH                    (seit 2026-03-17)
+
+🔑 ZERTIFIKAT-WECHSEL (7)
+   147.45.45.4 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   141.98.6.48 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   141.98.188.200 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   5.101.85.40 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   147.45.45.190 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   77.91.102.123 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.163.47.66 | Old CN: WIN-S99C9L4SCB4 → New CN: WIN-OPQMGO04OAA
+
+📡 TOP ASNs (aktive Hosts)
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD 254 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS215826   Partner Hosting LTD          188 Hosts  ██████████████████████████████
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD.  53 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS398019   Dynu Systems Incorporated     36 Hosts  ██████████████████████████████
+   AS401152   Ace Data Centers II, L.L.C.   33 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  31 Hosts  ██████████████████████████████
+   AS63023    xTom GmbH                     30 Hosts  ██████████████████████████████
+   AS24940    Hetzner Online GmbH           20 Hosts  ████████████████████
+   AS39798    MivoCloud                     19 Hosts  ███████████████████
+   AS212872   Skystark LLC                  18 Hosts  ██████████████████
+
+==============================================================

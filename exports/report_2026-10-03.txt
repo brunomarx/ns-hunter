@@ -1,0 +1,99 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-10-03
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1517
+
+🔴 NEU HEUTE (9)
+     85.137.253.182     AS215428   Mykyta Skorobohatko          ES  SSL:WIN-J9D866ESIJ2
+     45.142.30.93       AS215428   Mykyta Skorobohatko          NL  SSL:WIN-J9D866ESIJ2
+     185.249.153.101    AS213877   NETSHIELD LTD                CY  SSL:WIN-J9D866ESIJ2
+     31.76.4.203        AS207957   SERV.HOST GROUP LTD          GB  SSL:WIN-J9D866ESIJ2
+     45.145.12.75       AS212171   UOWH LLC                     NL  SSL:DESKTOP-2NFCDE2
+     77.91.102.232      AS212171   UOWH LLC                     PL  SSL:DESKTOP-TCRDU4C
+     31.76.94.38        AS201988   VPSPay Networks LTD          GB  SSL:DESKTOP-TCRDU4C
+     109.122.196.31     AS213887   WAIcore Ltd                  IR  SSL:WIN-J9D866ESIJ2
+     92.118.232.1       AS212171   WorkTitans B.V.              GB  SSL:DESKTOP-2NFCDE2
+
+💀 VERSCHWUNDEN (35)
+   185.199.196.118    AS2914                                  (seit 2026-06-26)
+   185.199.196.102    AS2914                                  (seit 2026-07-03)
+   185.69.123.100     AS2914                                  (seit 2026-08-17)
+   95.46.96.175       AS210390   Arsenal D Ltd.               (seit 2026-05-08)
+   85.209.88.220      AS204601   Celeritas International LLC  (seit 2026-03-11)
+   77.220.214.27      AS204601   Celeritas International LLC  (seit 2026-03-18)
+   185.154.14.17      AS204601   Celeritas International LLC  (seit 2026-03-29)
+   45.88.79.17        AS204601   Celeritas International LLC  (seit 2026-04-02)
+   46.8.255.23        AS204490   Contel OOO                   (seit 2026-03-28)
+   94.141.160.255     AS215590   DpkgSoft International Limited (seit 2026-08-12)
+   185.232.170.108    AS200740   FIRST SERVER LIMITED         (seit 2026-03-24)
+   185.39.207.193     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-05-22)
+   195.123.241.152    AS204957   Green Floid LLC              (seit 2026-09-16)
+   193.148.56.3       AS214238   HOST TELECOM LTD             (seit 2026-08-29)
+   193.148.56.25      AS214238   HOST TELECOM LTD             (seit 2026-09-01)
+   103.101.85.54      AS214408   Hosted by Internalhost       (seit 2026-03-20)
+   109.238.95.157     AS?        LLC Smart Ape                (seit 2026-07-19)
+   45.82.70.200       AS204601   ON-LINE DATA LTD.            (seit 2026-05-10)
+   85.137.253.122     AS6739     ONO_HFC                      (seit 2026-07-05)
+   85.137.253.1       AS6739     ONO_HFC                      (seit 2026-09-16)
+   2.27.43.26         AS12576    Orange WBC Broadband         (seit 2026-04-19)
+   2.26.64.40         AS12576    Orange WBC Broadband         (seit 2026-07-27)
+   2.26.252.121       AS12576    Orange WBC Broadband         (seit 2026-09-17)
+   185.100.157.143    AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   50.114.179.139     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.245     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.246     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.41      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.21      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   104.164.137.102    AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   45.39.210.14       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   50.114.179.145     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-31)
+   45.39.79.209       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-05-23)
+   171.22.114.214     AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-09-22)
+   45.150.239.135     AS16262    Sun Network Company Limited  (seit 2026-03-25)
+
+🔀 ASN-MIGRATIONEN (17)
+   45.92.170.26 | AS60781 RapidSeedbox Ltd → AS212171 UOWH LLC
+   45.92.170.2 | AS60781 RapidSeedbox Ltd → AS212171 UOWH LLC
+   5.253.57.59 | AS214238 HOST TELECOM LTD → AS212171 Neterra Ltd.
+   45.155.52.190 | AS44477 STARK INDUSTRIES SOLUTIONS LTD → AS44094 Webhost LLC
+   45.86.61.10 | AS44477 STARK INDUSTRIES SOLUTIONS LTD → AS212171 UOWH LLC
+   213.176.17.5 | AS142578 Iranian Research Organization for Science & Technology → AS215540 Iranian Research Organization for Science & Technology
+   45.8.93.202 | AS11385 Luna Networks → AS215439 PLAY2GO INTERNATIONAL LIMITED
+   2.26.87.131 | AS12576 Orange WBC Broadband → AS215439 play2go.cloud - Cheap and reliable hosting
+   2.26.2.30 | AS12576 Orange WBC Broadband → AS215439 play2go.cloud - Cheap and reliable hosting
+   2.27.4.101 | AS12576 Orange WBC Broadband → AS210457 Kyonix Networks Limited
+   2.26.90.135 | AS12576 Orange WBC Broadband → AS207957 SERV.HOST GROUP LTD
+   2.26.90.122 | AS12576 Orange WBC Broadband → AS207957 SERV.HOST GROUP LTD
+   193.23.216.103 | AS214417 1Cent Host → AS209693 Ace Data Centers II, LLC
+   87.120.216.48 | AS214238 STARK INDUSTRIES SOLUTIONS LTD. → AS213887 WAIcore Ltd
+   78.153.155.79 | AS8342 Assigned to Internet Tehnologii → AS215540 GLOBAL CONNECTIVITY SOLUTIONS LLP
+   146.255.188.249 | AS52000 ALEKSEI FEDOROV PR KRUSEVAC → AS216024 ALEKSEI FEDOROV PR KRUSEVAC
+   144.31.25.25 | AS401152 Ace Data Centers II, L.L.C. → AS210457 Kyonix Hosting Network
+
+🔑 ZERTIFIKAT-WECHSEL (11)
+   94.103.0.201 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   5.253.57.59 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   45.136.57.84 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   141.98.188.18 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   45.130.148.177 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.176.220.76 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   91.215.85.218 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   87.120.216.48 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   45.87.2.209 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   193.239.160.139 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   31.13.208.175 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD 214 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS60781    RapidSeedbox Ltd              57 Hosts  ██████████████████████████████
+   AS214238   HOST TELECOM LTD              46 Hosts  ██████████████████████████████
+   AS212171   UOWH LLC                      43 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 39 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  34 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     34 Hosts  ██████████████████████████████
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD.  33 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS204490   Contel OOO                    31 Hosts  ██████████████████████████████
+   AS401152   Ace Data Centers II, L.L.C.   29 Hosts  █████████████████████████████
+
+==============================================================

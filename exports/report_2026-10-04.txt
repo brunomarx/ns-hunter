@@ -1,0 +1,89 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-10-04
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1506
+
+🔴 NEU HEUTE (2)
+     86.54.25.9         AS210006   ORG-SMA119-RIPE              LV  SSL:WIN-J9D866ESIJ2
+     77.91.102.19       AS212171   UOWH LLC                     PL  SSL:DESKTOP-2NFCDE2
+
+💀 VERSCHWUNDEN (34)
+   198.17.175.210     AS?                                     (seit 2026-03-27)
+   185.69.120.197     AS2914                                  (seit 2026-06-29)
+   185.69.123.189     AS2914                                  (seit 2026-09-04)
+   144.31.118.240     AS401152   Ace Data Centers II, L.L.C.  (seit 2026-05-16)
+   77.239.100.60      AS210644   Aeza International LTD       (seit 2026-04-04)
+   46.8.221.39        AS204490   Contel OOO                   (seit 2026-03-10)
+   46.8.220.142       AS204490   Contel OOO                   (seit 2026-04-02)
+   31.76.44.216       AS?        EE Limited                   (seit 2026-09-04)
+   93.123.39.185      AS213702   EE-NETWORK                   (seit 2026-03-29)
+   141.98.188.210     AS?        FAST GEO HOSTING S.R.L.      (seit 2026-03-13)
+   2.59.162.76        AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-09-17)
+   185.247.184.113    AS215540   GLOBAL INTERNET SOLUTIONS LLC (seit 2026-04-02)
+   185.234.114.84     AS211971   Goodhost.KZ                  (seit 2026-03-20)
+   87.120.92.59       AS214238   HOST TELECOM LTD             (seit 2026-07-13)
+   194.1.239.195      AS212872   Internet Hosting LLC         (seit 2026-03-28)
+   185.177.239.243    AS215826   Partner Hosting LTD          (seit 2026-03-10)
+   185.177.239.239    AS215826   Partner Hosting LTD          (seit 2026-04-02)
+   5.252.155.59       AS215826   Partner Hosting LTD          (seit 2026-09-17)
+   80.85.139.21       AS204601   Peetinvest B.V.              (seit 2026-05-10)
+   95.85.234.85       AS43708    Plouznice fiber optics       (seit 2026-06-09)
+   94.156.181.220     AS207957   SERV.HOST GROUP LTD          (seit 2026-05-16)
+   45.39.79.224       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   45.39.210.210      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-10)
+   104.164.137.207    AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-03-17)
+   23.230.14.79       AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-06-24)
+   23.230.14.171      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-07-25)
+   104.164.137.236    AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-09-01)
+   50.114.167.201     AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-09-04)
+   50.114.167.20      AS44477    STARK INDUSTRIES SOLUTIONS LTD (seit 2026-09-14)
+   185.203.4.121      AS44477    STARK INDUSTRIES SOLUTIONS LTD. (seit 2026-09-21)
+   195.137.244.199    AS214379   South Park Networks LLC      (seit 2026-03-10)
+   80.71.227.99       AS198037   SpaceCore.pro Hosting        (seit 2026-03-11)
+   87.120.186.106     AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-03-10)
+   87.120.84.246      AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-08-01)
+
+🔀 ASN-MIGRATIONEN (16)
+   94.26.38.78 | AS48452 Traffic Broadband Communications Ltd. → AS202412 RetryHost
+   185.207.14.122 | AS214238 HOST TELECOM LTD → AS212171 UOWH LLC
+   185.166.154.159 | AS44477 STARK INDUSTRIES SOLUTIONS LTD. → AS212171 UOWH LLC
+   185.99.97.54 | AS60781 RapidSeedbox Ltd → AS212171 UOWH LLC
+   87.120.93.237 | AS214295 Neterra Ltd. → AS215730 H2NEXUS LTD
+   213.176.16.139 | AS142578 Iranian Research Organization for Science & Technology → AS215540 Iranian Research Organization for Science & Technology
+   185.207.15.193 | AS214238 HOST TELECOM LTD → AS212171 UOWH LLC
+   185.207.15.230 | AS214238 HOST TELECOM LTD → AS212171 UOWH LLC
+   185.99.97.19 | AS60781 RapidSeedbox Ltd → AS212171 UOWH LLC
+   144.31.30.25 | AS401152 Ace Data Centers II, L.L.C. → AS215439 PLAY2GO INTERNATIONAL LIMITED
+   109.248.247.237 | AS51084 Idea Ltd → AS215670 LLP Internet Company First Page
+   45.86.66.104 | AS41111 FAST GEO HOSTING S.R.L. → AS51765 BEAFORT LIMITED
+   193.148.56.127 | AS214238 HOST TELECOM LTD → AS218688 Partner Hosting LTD
+   80.89.239.36 | AS204601 ON-LINE DATA LTD. → AS24875 NovoServe B.V.
+   144.31.140.83 | AS401152 Ace Data Centers II, L.L.C. → AS215590 Xorek.Cloud Frankfurt
+   77.91.101.253 | AS44477 STARK INDUSTRIES SOLUTIONS LTD → AS212171 UOWH LLC
+
+🔑 ZERTIFIKAT-WECHSEL (10)
+   94.26.38.78 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   150.241.115.23 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   185.244.163.44 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   185.207.15.193 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   147.45.198.36 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   5.59.233.101 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   152.230.104.47 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.250.204.85 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   170.168.61.168 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   94.158.246.244 | Old CN: WIN-5H8ABEILBD7 → New CN: WIN-53RD86G6AL5
+
+📡 TOP ASNs (aktive Hosts)
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD 205 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS60781    RapidSeedbox Ltd              55 Hosts  ██████████████████████████████
+   AS212171   UOWH LLC                      51 Hosts  ██████████████████████████████
+   AS214238   HOST TELECOM LTD              42 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 39 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  35 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     34 Hosts  ██████████████████████████████
+   AS44477    STARK INDUSTRIES SOLUTIONS LTD.  31 Hosts  ██████████████████████████████ ⚠️ BPH
+   AS204490   Contel OOO                    29 Hosts  █████████████████████████████
+   AS204601   Podaon SIA                    28 Hosts  ████████████████████████████
+
+==============================================================

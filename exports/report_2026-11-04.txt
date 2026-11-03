@@ -1,0 +1,76 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-04
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1233
+
+🔴 NEU HEUTE (4)
+     108.165.32.157     AS213529   Ace Data Centers, Inc.       ID  SSL:DESKTOP-TCRDU4C
+     23.27.197.13       AS63023    InterLIR LLC                 US  SSL:WIN-J9D866ESIJ2
+     144.31.142.46      AS215590   Xorek.Cloud Frankfurt        US  SSL:WIN-J9D866ESIJ2
+     150.241.96.150     AS215590   Xorek.Cloud Frankfurt        FI  SSL:WIN-J9D866ESIJ2
+
+💀 VERSCHWUNDEN (31)
+   193.23.199.243     AS210457   Ace Data Centers II, LLC     (seit 2026-09-15)
+   85.209.129.89      AS218731   Andris Jakovlevs             (seit 2026-04-01)
+   31.77.170.88       AS218731   Andris Jakovlevs             (seit 2026-09-22)
+   31.77.170.209      AS218731   Andris Jakovlevs             (seit 2026-10-18)
+   198.17.175.147     AS63023    CleanVDS.com LLC             (seit 2026-08-16)
+   46.8.19.49         AS204490   Contel OOO                   (seit 2026-09-21)
+   89.44.86.253       AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-04-23)
+   62.133.60.162      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-04-06)
+   185.234.114.192    AS211971   Goodhost.KZ LLP              (seit 2026-03-10)
+   147.45.198.217     AS212701   Hostinux Limited             (seit 2026-03-20)
+   157.228.169.133    AS210546   IP MARKET - FZCO             (seit 2026-10-18)
+   46.8.41.54         AS57043    Izitell Cloud - FZCO         (seit 2026-10-18)
+   85.137.253.151     AS215428   Mykyta Skorobohatko          (seit 2026-03-28)
+   94.159.114.100     AS216300   New Hosting Technologies LLC (seit 2026-06-03)
+   86.54.25.21        AS210006   ORG-SMA119-RIPE              (seit 2026-08-25)
+   95.81.115.123      AS209641   PSERVERS Enterprise Network  (seit 2026-04-06)
+   77.220.215.26      AS204601   Podaon SIA                   (seit 2026-03-10)
+   91.228.56.249      AS204601   Podaon SIA                   (seit 2026-03-20)
+   144.31.17.203      AS213520   Senko Digital LLC            (seit 2026-04-01)
+   146.19.128.182     AS207957   Standart AG, LLC             (seit 2026-03-25)
+   194.146.43.100     AS202958   TOO "Kompaniya Hoster.KZ"    (seit 2026-03-28)
+   185.207.15.182     AS212171   UOWH LLC                     (seit 2026-07-23)
+   45.86.62.62        AS212171   UOWH LLC                     (seit 2026-09-11)
+   45.86.62.6         AS212171   UOWH LLC                     (seit 2026-09-21)
+   185.99.97.50       AS212171   UOWH LLC                     (seit 2026-09-25)
+   77.91.102.16       AS212171   UOWH LLC                     (seit 2026-09-30)
+   144.31.221.143     AS210457   VPSPay Networks LTD          (seit 2026-03-10)
+   193.233.134.43     AS213887   WAIcore Ltd                  (seit 2026-03-19)
+   45.155.52.75       AS44094    Webhost LLC                  (seit 2026-08-11)
+   87.121.218.81      AS215590   Xorek.Cloud Frankfurt        (seit 2026-10-17)
+   193.232.179.193    AS208626   coopertino.ru                (seit 2026-10-05)
+
+🔀 ASN-MIGRATIONEN (6)
+   185.207.14.204 | AS214238 HOST TELECOM LTD → AS212171 UOWH LLC
+   85.137.253.38 | AS6739 ONO_HFC → AS215428 Mykyta Skorobohatko
+   45.145.12.22 | AS60781 RapidSeedbox Ltd → AS212171 UOWH LLC
+   185.207.15.226 | AS214238 HOST TELECOM LTD → AS212171 UOWH LLC
+   85.137.251.16 | AS6739 ONO_HFC → AS57043 Izitell Cloud - FZCO
+   95.85.233.145 | AS43708 DATAMAT CZ s.r.o. → AS213887 WAIcore Ltd
+
+🔑 ZERTIFIKAT-WECHSEL (8)
+   185.207.14.204 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   85.137.253.38 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   45.145.12.22 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   193.163.203.67 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   80.66.87.222 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   89.44.86.184 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   193.238.152.209 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   95.85.233.145 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     155 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    52 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  50 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 46 Hosts  ██████████████████████████████
+   AS204490   Contel OOO                    36 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 35 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           34 Hosts  ██████████████████████████████
+   AS63023    CleanVDS.com LLC              30 Hosts  ██████████████████████████████
+   AS215730   H2NEXUS LTD                   29 Hosts  █████████████████████████████
+   AS398019   Dynu Systems Incorporated     29 Hosts  █████████████████████████████
+
+==============================================================

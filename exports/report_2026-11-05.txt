@@ -1,0 +1,87 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-05
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1227
+
+🔴 NEU HEUTE (12)
+     46.28.70.184       AS204957   * As an ISP, we provide hosting, virtual, and dedicated servers. UA  SSL:WIN-J9D866ESIJ2
+     193.23.199.54      AS210457   Ace Data Centers II, LLC     US  SSL:WIN-J9D866ESIJ2
+     144.31.187.155     AS215590   Ace Data Centers II, LLC     US  SSL:WIN-J9D866ESIJ2
+     5.34.177.6         AS204957   Green Floid LLC              SG  SSL:WIN-J9D866ESIJ2
+     161.104.90.126     AS204490   Kontel LLC                   FR  SSL:WIN-J9D866ESIJ2
+     45.153.219.209     AS200823   MHost LLC                    NL  SSL:WIN-J9D866ESIJ2
+     94.142.139.5       AS209641   PSERVERS Enterprise Network  RU  SSL:WIN-J9D866ESIJ2
+     195.211.98.103     AS204957   ROUTE 95 LLC                 US  SSL:WIN-J9D866ESIJ2
+     179.253.86.57      AS401152   Vodafone Libertel B.V.       BR  SSL:WIN-J9D866ESIJ2
+     194.87.77.54       AS213887   WAIcore Ltd                  SE  SSL:WIN-J9D866ESIJ2
+     84.252.66.89       AS200823   WS Telecom Inc               BG  SSL:WIN-J9D866ESIJ2
+     95.85.238.81       AS218688   WULDI LLC                    CZ  SSL:WIN-J9D866ESIJ2
+
+💀 VERSCHWUNDEN (40)
+   77.91.66.39        AS209693   1Cent Host                   (seit 2026-03-13)
+   144.31.187.164     AS215590   Ace Data Centers II, LLC     (seit 2026-09-08)
+   108.165.33.12      AS213529   Ace Data Centers, Inc.       (seit 2026-09-21)
+   31.76.110.20       AS216039   Aurorix Networks, Amsterdam. (seit 2026-06-28)
+   45.66.163.42       AS51765    BEAFORT LIMITED              (seit 2026-10-18)
+   198.17.175.144     AS63023    CleanVDS.com LLC             (seit 2026-08-12)
+   198.17.175.194     AS63023    CleanVDS.com LLC             (seit 2026-08-13)
+   5.59.233.101       AS59684    CoProSys a.s.                (seit 2026-04-20)
+   138.226.237.188    AS219200   Cryphora Limited             (seit 2026-10-01)
+   159.200.241.199    AS62212    EE SmartApe OU               (seit 2026-10-19)
+   80.76.32.92        AS200740   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-03-10)
+   185.103.109.51     AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-03-10)
+   45.9.73.146        AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-03-14)
+   185.217.199.85     AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-05-10)
+   178.130.46.126     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-22)
+   185.39.207.146     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-04-17)
+   2.59.163.142       AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-07-11)
+   62.133.61.239      AS215540   GLOBAL INTERNET SOLUTIONS LLC (seit 2026-09-27)
+   152.230.104.70     AS14259    Gtd Internet S.A.            (seit 2026-03-12)
+   95.182.120.188     AS208427   Ildar Gilmutdinov PE         (seit 2026-03-28)
+   185.244.40.58      AS57043    Izitell Cloud - FZCO         (seit 2026-03-10)
+   193.38.235.190     AS216024   LLC Vpsville                 (seit 2026-04-01)
+   185.91.126.99      AS211971   LLP Triest                   (seit 2026-04-11)
+   77.73.129.124      AS201814   MEVSPACE sp. z o.o.          (seit 2026-03-26)
+   5.181.158.5        AS39798    MivoCloud SRL                (seit 2026-06-08)
+   185.86.78.82       AS201094   Mulgin Alexander Sergeevich  (seit 2026-10-19)
+   5.253.57.20        AS212171   Neterra Ltd.                 (seit 2026-10-18)
+   45.82.68.207       AS204601   Podaon SIA                   (seit 2026-03-10)
+   185.107.237.161    AS204601   Podaon SIA                   (seit 2026-03-12)
+   185.213.211.44     AS204601   Podaon SIA                   (seit 2026-03-20)
+   185.107.237.234    AS204601   Podaon SIA                   (seit 2026-03-24)
+   178.159.38.46      AS204601   Podaon SIA                   (seit 2026-03-26)
+   185.207.14.79      AS212171   UOWH LLC                     (seit 2026-07-02)
+   45.86.61.230       AS212171   UOWH LLC                     (seit 2026-09-19)
+   144.31.221.22      AS210457   VPSPay Networks LTD          (seit 2026-03-31)
+   45.155.52.135      AS44094    Webhost LLC                  (seit 2026-08-01)
+   194.190.70.214     AS208626   coopertino.ru                (seit 2026-09-01)
+   95.181.164.222     AS208626   coopertino.ru                (seit 2026-10-01)
+   193.232.179.186    AS208626   coopertino.ru                (seit 2026-10-06)
+   109.122.27.132     AS48031    ipbnb                        (seit 2026-10-19)
+
+🔀 ASN-MIGRATIONEN (3)
+   94.26.38.78 | AS202412 RetryHost → AS51130 RetryHost
+   109.122.196.119 | AS49872 Jahan Ruye Khat PJSC → AS213887 WAIcore Ltd
+   87.251.77.52 | AS199785 Cloud Hosting Solutions, Limited. → AS210546 Cloud Hosting Solutions, Limited.
+
+🔑 ZERTIFIKAT-WECHSEL (5)
+   162.246.232.246 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   188.130.238.37 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   45.92.170.52 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   95.181.164.140 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   87.251.77.52 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     153 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  49 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    48 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 44 Hosts  ██████████████████████████████
+   AS204490   Contel OOO                    37 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 35 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           34 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     32 Hosts  ██████████████████████████████
+   AS63023    CleanVDS.com LLC              30 Hosts  ██████████████████████████████
+   AS215730   H2NEXUS LTD                   29 Hosts  █████████████████████████████
+
+==============================================================

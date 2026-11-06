@@ -1,0 +1,59 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-07
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1229
+
+🔴 NEU HEUTE (6)
+     193.233.75.209     AS209207   Digital Hosting Provider LLC DE  SSL:DESKTOP-TCRDU4C
+     194.226.228.72     AS39238    LLC "Internet Tehnologii"    RU  SSL:DESKTOP-TCRDU4C
+     85.209.88.134      AS204601   Podaon SIA                   NL  SSL:WIN-J9D866ESIJ2
+     185.64.76.150      AS208626   ServTech LTD                 RU  SSL:DESKTOP-TCRDU4C
+     152.234.209.159    AS401152   Vodafone Libertel B.V.       BR  SSL:WIN-J9D866ESIJ2
+     194.190.70.52      AS208626   coopertino.ru                RU  SSL:DESKTOP-TCRDU4C
+
+💀 VERSCHWUNDEN (18)
+   31.76.244.212      AS201988   Ace Data Centers II, LLC     (seit 2026-05-16)
+   193.39.68.88       AS208450   Content Service Company TOO  (seit 2026-03-10)
+   193.39.68.39       AS208450   Content Service Company TOO  (seit 2026-03-31)
+   95.81.122.12       AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-03-12)
+   185.39.207.157     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-05-24)
+   194.150.220.179    AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-06-07)
+   45.12.4.68         AS212872   Internet Hosting LLC         (seit 2026-03-10)
+   45.12.62.99        AS200823   MHost LLC                    (seit 2026-07-15)
+   31.56.240.177      AS208450   Megahost Kazakhstan TOO      (seit 2026-04-06)
+   45.132.106.83      AS204601   Podaon SIA                   (seit 2026-03-10)
+   195.211.98.91      AS204957   ROUTE 95 LLC                 (seit 2026-05-22)
+   150.241.103.235    AS207957   SERV.HOST GROUP LTD          (seit 2026-09-17)
+   91.132.161.20      AS213520   Senko Digital LLC            (seit 2026-04-21)
+   185.207.15.117     AS212171   UOWH LLC                     (seit 2026-09-08)
+   45.145.12.33       AS212171   UOWH LLC                     (seit 2026-09-22)
+   45.86.62.20        AS212171   UOWH LLC                     (seit 2026-09-23)
+   185.99.97.35       AS212171   UOWH LLC                     (seit 2026-10-08)
+   45.155.52.27       AS44094    Webhost LLC                  (seit 2026-08-15)
+
+🔀 ASN-MIGRATIONEN (3)
+   185.207.15.186 | AS214238 HOST TELECOM LTD → AS212171 UOWH LLC
+   194.33.61.149 | AS60781 RapidSeedbox Ltd → AS200823 MHost LLC
+   77.91.100.33 | AS44477 STARK INDUSTRIES SOLUTIONS LTD → AS212171 UOWH LLC
+
+🔑 ZERTIFIKAT-WECHSEL (5)
+   185.207.15.186 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   45.144.53.26 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   77.91.102.233 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   85.137.252.15 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   212.8.244.137 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     151 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    50 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 48 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  45 Hosts  ██████████████████████████████
+   AS204490   Contel OOO                    36 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 34 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           33 Hosts  ██████████████████████████████
+   AS63023    CleanVDS.com LLC              31 Hosts  ██████████████████████████████
+   AS215730   H2NEXUS LTD                   31 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     30 Hosts  ██████████████████████████████
+
+==============================================================

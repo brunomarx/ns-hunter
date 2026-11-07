@@ -1,0 +1,55 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-08
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1217
+
+🔴 NEU HEUTE (3)
+     194.87.85.211      AS205007   ALEKSEI FEDOROV PR KRUSEVAC  NL  SSL:WIN-J9D866ESIJ2
+     48.102.216.194     AS207957   Ace Data Centers II, LLC     US  SSL:WIN-J9D866ESIJ2
+     64.188.91.197      AS215730   H2NEXUS LTD                  NL  SSL:WIN-J9D866ESIJ2
+
+💀 VERSCHWUNDEN (20)
+   64.188.79.172      AS209693   1Cent Host                   (seit 2026-05-20)
+   95.217.146.247     AS24940    Hetzner Online GmbH          (seit 2026-03-10)
+   5.9.195.168        AS24940    Hetzner Online GmbH          (seit 2026-03-24)
+   188.40.208.178     AS24940    Hetzner Online GmbH          (seit 2026-03-25)
+   45.134.218.68      AS57043    Izitell Cloud - FZCO         (seit 2026-03-25)
+   185.244.41.4       AS204490   Izitell Cloud - FZCO         (seit 2026-03-26)
+   103.227.84.59      AS200823   MHost LLC                    (seit 2026-08-15)
+   195.226.192.71     AS201094   Mulgin Alexander Sergeevich  (seit 2026-03-24)
+   194.41.112.74      AS211955   NOTBAD HOSTING LTD           (seit 2026-03-13)
+   193.233.127.14     AS215540   OOO AGROSNAB                 (seit 2026-03-16)
+   85.209.88.220      AS204601   Podaon SIA                   (seit 2026-03-11)
+   185.231.70.178     AS204601   Podaon SIA                   (seit 2026-03-17)
+   80.76.43.198       AS198037   SPACECORE SOLUTION LTD       (seit 2026-03-11)
+   109.172.93.70      AS51247    Serverio technologijos MB    (seit 2026-06-19)
+   141.98.188.60      AS33993    UFO Hosting LLC              (seit 2026-03-20)
+   185.207.15.212     AS212171   UOWH LLC                     (seit 2026-07-31)
+   45.145.12.34       AS212171   UOWH LLC                     (seit 2026-09-19)
+   95.181.164.241     AS208626   coopertino.ru                (seit 2026-08-24)
+   5.154.181.202      AS44066    firstcolo GmbH               (seit 2026-03-13)
+   31.76.20.137       AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-10-21)
+
+🔀 ASN-MIGRATIONEN (1)
+   95.81.114.186 | AS39308 Hamara System Tabriz Engineering Company → AS209641 PSERVERS Enterprise Network
+
+🔑 ZERTIFIKAT-WECHSEL (4)
+   77.73.129.62 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   95.81.114.186 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.235.131.202 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   45.91.203.252 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     149 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    48 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 47 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  45 Hosts  ██████████████████████████████
+   AS204490   Contel OOO                    36 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 34 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           33 Hosts  ██████████████████████████████
+   AS215730   H2NEXUS LTD                   32 Hosts  ██████████████████████████████
+   AS63023    CleanVDS.com LLC              31 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     30 Hosts  ██████████████████████████████
+
+==============================================================

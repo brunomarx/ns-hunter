@@ -1,0 +1,49 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-09
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1209
+
+🔴 NEU HEUTE (1)
+     185.244.43.68      AS204490   Izitell Cloud - FZCO         RU  SSL:n/a
+
+💀 VERSCHWUNDEN (16)
+   31.76.110.108      AS216039   Aurorix Networks, Amsterdam. (seit 2026-10-21)
+   46.8.221.160       AS204490   Contel OOO                   (seit 2026-03-10)
+   46.8.220.19        AS204490   Contel OOO                   (seit 2026-03-10)
+   62.60.226.81       AS214351   FEMO IT SOLUTIONS LIMITED    (seit 2026-03-10)
+   45.89.65.238       AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-04-03)
+   149.154.64.212     AS29182    JSC IOT                      (seit 2026-10-21)
+   162.246.232.243    AS63023    Marketplace Guru LLC         (seit 2026-07-31)
+   31.202.132.44      AS34700    Maxnet LLC, Kharkiv          (seit 2026-03-10)
+   89.105.223.171     AS24875    NovoServe B.V.               (seit 2026-04-13)
+   144.31.63.151      AS213520   Senko Digital LLC            (seit 2026-03-28)
+   185.207.15.183     AS212171   UOWH LLC                     (seit 2026-08-25)
+   185.207.14.81      AS212171   UOWH LLC                     (seit 2026-09-11)
+   45.86.62.64        AS212171   UOWH LLC                     (seit 2026-09-11)
+   45.86.61.20        AS212171   UOWH LLC                     (seit 2026-09-14)
+   45.155.52.25       AS44094    Webhost LLC                  (seit 2026-08-30)
+   178.171.122.162    AS208626   coopertino.ru                (seit 2026-10-11)
+
+🔀 ASN-MIGRATIONEN (2)
+   45.86.63.147 | AS44477 STARK INDUSTRIES SOLUTIONS LTD → AS212171 UOWH LLC
+   82.117.254.226 | AS204957 Green Floid LLC → AS8254 Green Floid LLC
+
+🔑 ZERTIFIKAT-WECHSEL (3)
+   109.172.93.70 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   45.95.202.190 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   80.89.239.192 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     146 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    49 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 46 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  45 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 34 Hosts  ██████████████████████████████
+   AS204490   Contel OOO                    34 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           33 Hosts  ██████████████████████████████
+   AS215730   H2NEXUS LTD                   32 Hosts  ██████████████████████████████
+   AS63023    CleanVDS.com LLC              31 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     30 Hosts  ██████████████████████████████
+
+==============================================================

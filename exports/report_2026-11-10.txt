@@ -1,0 +1,45 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-10
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1198
+
+🔴 NEU HEUTE (1)
+     193.232.179.160    AS208626   coopertino.ru                RU  SSL:DESKTOP-TCRDU4C
+
+💀 VERSCHWUNDEN (14)
+   144.31.187.16      AS215590   Ace Data Centers II, LLC     (seit 2026-03-25)
+   23.189.104.205     AS214172   Angin Segar Ventures LLC     (seit 2026-03-10)
+   5.182.26.70        AS35682    BEST INTERNET SOLUTION XK    (seit 2026-03-10)
+   198.17.175.250     AS63023    CleanVDS.com LLC             (seit 2026-04-03)
+   172.81.63.165      AS398019   Dynu Systems Incorporated    (seit 2026-03-19)
+   87.251.69.100      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-14)
+   193.39.208.110     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-05-08)
+   45.136.56.107      AS208450   Megahost Kazakhstan TOO      (seit 2026-04-08)
+   185.77.219.6       AS51765    Oy Crea Nova Hosting Solution Ltd (seit 2026-03-15)
+   45.87.104.252      AS212872   Skystark LLC                 (seit 2026-08-18)
+   185.207.15.45      AS212171   UOWH LLC                     (seit 2026-07-17)
+   45.86.61.27        AS212171   UOWH LLC                     (seit 2026-09-18)
+   45.86.62.33        AS212171   UOWH LLC                     (seit 2026-10-05)
+   194.190.70.231     AS208626   coopertino.ru                (seit 2026-07-12)
+
+🔀 ASN-MIGRATIONEN (1)
+   45.151.139.240 | AS200590 vpsville.ru vps/vds hosting KZ region → AS212913 TIME-HOST-NET
+
+🔑 ZERTIFIKAT-WECHSEL (2)
+   45.151.139.240 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   193.39.68.21 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     143 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    49 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 46 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  43 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 34 Hosts  ██████████████████████████████
+   AS204490   Contel OOO                    34 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           33 Hosts  ██████████████████████████████
+   AS215730   H2NEXUS LTD                   32 Hosts  ██████████████████████████████
+   AS63023    CleanVDS.com LLC              30 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     29 Hosts  █████████████████████████████
+
+==============================================================

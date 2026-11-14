@@ -1,0 +1,56 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-15
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1184
+
+🔴 NEU HEUTE (0)
+   (keine neuen Hosts)
+
+💀 VERSCHWUNDEN (24)
+   193.23.209.47      AS213905   Ace Data Centers II, LLC     (seit 2026-08-17)
+   192.145.99.44      AS51628    Aleksey Ershov               (seit 2026-05-08)
+   92.46.186.100      AS9198     Alexander Rybalko            (seit 2026-04-12)
+   198.17.175.179     AS63023    CleanVDS.com LLC             (seit 2026-07-26)
+   46.8.255.79        AS204490   Contel OOO                   (seit 2026-03-25)
+   46.8.221.161       AS204490   Contel OOO                   (seit 2026-05-16)
+   109.120.137.251    AS215730   H2NEXUS LTD                  (seit 2026-03-10)
+   185.125.50.37      AS215730   H2NEXUS LTD                  (seit 2026-03-10)
+   95.216.91.105      AS24940    Hetzner Online GmbH          (seit 2026-03-24)
+   185.244.41.4       AS204490   Izitell Cloud - FZCO         (seit 2026-03-26)
+   5.181.158.242      AS39798    MivoCloud SRL                (seit 2026-06-06)
+   5.253.57.149       AS212171   Neterra Ltd.                 (seit 2026-07-13)
+   95.81.115.122      AS209641   PSERVERS Enterprise Network  (seit 2026-04-07)
+   193.163.203.92     AS207957   SERV.HOST GROUP LTD          (seit 2026-03-21)
+   91.132.162.145     AS213520   Senko Digital LLC            (seit 2026-03-10)
+   185.64.76.146      AS208626   ServTech LTD                 (seit 2026-10-16)
+   195.137.245.117    AS214379   South Park Networks LLC      (seit 2026-03-16)
+   45.86.61.2         AS212171   UOWH LLC                     (seit 2026-10-16)
+   5.34.180.253       AS21100    VDS and Dedicated subnet     (seit 2026-03-10)
+   95.85.238.144      AS218688   WULDI LLC                    (seit 2026-07-08)
+   45.13.186.4        AS218688   WULDI LLC                    (seit 2026-07-15)
+   195.93.253.87      AS198178   Webhost LLC                  (seit 2026-08-23)
+   95.181.164.149     AS208626   coopertino.ru                (seit 2026-08-07)
+   80.66.87.160       AS216127   nuxt.cloud hosting provider  (seit 2026-04-23)
+
+🔀 ASN-MIGRATIONEN (1)
+   64.188.124.14 | AS401152 Ace Data Centers II, LLC → AS213877 u1host ltd
+
+🔑 ZERTIFIKAT-WECHSEL (3)
+   45.8.157.196 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   64.188.124.14 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   139.28.170.193 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     143 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    50 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 50 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  40 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 37 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           34 Hosts  ██████████████████████████████
+   AS204490   Contel OOO                    30 Hosts  ██████████████████████████████
+   AS209207   Digital Hosting Provider LLC  30 Hosts  ██████████████████████████████
+   AS398019   Dynu Systems Incorporated     28 Hosts  ████████████████████████████
+   AS63023    CleanVDS.com LLC              27 Hosts  ███████████████████████████
+
+==============================================================

@@ -1,0 +1,53 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-16
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1177
+
+🔴 NEU HEUTE (5)
+     193.233.198.149    AS209207   Digital Hosting Provider LLC US  SSL:DESKTOP-TCRDU4C
+     185.125.50.76      AS215730   H2NEXUS LTD                  DE  SSL:WIN-J9D866ESIJ2
+     185.91.126.121     AS211971   LLP Triest                   KZ  SSL:WIN-J9D866ESIJ2
+     185.87.49.30       AS209641   PSERVERS Enterprise Network  RU  SSL:WIN-J9D866ESIJ2
+     31.77.116.182      AS201988   Vitalijs Jurkevics           GB  SSL:DESKTOP-2NFCDE2
+
+💀 VERSCHWUNDEN (19)
+   150.241.124.236    AS218731   Ace Data Centers II, LLC     (seit 2026-08-30)
+   85.209.129.119     AS218731   Andris Jakovlevs             (seit 2026-09-29)
+   46.8.220.190       AS204490   Contel OOO                   (seit 2026-05-23)
+   46.8.220.200       AS204490   Contel OOO                   (seit 2026-05-28)
+   188.130.139.134    AS204490   Contel OOO                   (seit 2026-07-17)
+   185.112.59.209     AS209207   Digital Hosting Provider LLC (seit 2026-10-17)
+   193.233.164.97     AS215590   DpkgSoft International Limited (seit 2026-03-10)
+   172.81.63.158      AS398019   Dynu Systems Incorporated    (seit 2026-03-10)
+   93.170.72.97       AS42447    EQU Technologies LLP         (seit 2026-10-26)
+   168.113.215.251    AS209207   LLC "Internet Tehnologii"    (seit 2026-10-12)
+   5.181.158.238      AS39798    MivoCloud SRL                (seit 2026-06-18)
+   195.226.192.34     AS201094   Mulgin Alexander Sergeevich  (seit 2026-03-17)
+   89.105.223.94      AS24875    NovoServe B.V.               (seit 2026-03-18)
+   91.217.80.105      AS209641   PSERVERS Enterprise Network  (seit 2026-04-09)
+   185.244.216.151    AS204601   Podaon SIA                   (seit 2026-03-10)
+   45.145.12.35       AS212171   UOWH LLC                     (seit 2026-09-21)
+   185.179.191.100    AS44094    Webhost LLC                  (seit 2026-03-11)
+   95.181.164.15      AS208626   coopertino.ru                (seit 2026-07-27)
+   194.28.226.180     AS216127   nuxt.cloud hosting provider  (seit 2026-03-10)
+
+🔀 ASN-MIGRATIONEN (1)
+   45.138.159.232 | AS34665 IT Hostline Ltd → AS35682 BEST INTERNET SOLUTION XK
+
+🔑 ZERTIFIKAT-WECHSEL (1)
+   185.112.102.151 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     142 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 50 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    49 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  40 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 37 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           34 Hosts  ██████████████████████████████
+   AS209207   Digital Hosting Provider LLC  30 Hosts  ██████████████████████████████
+   AS205090   FIRST SERVER, SOCIEDAD LIMITADA  28 Hosts  ████████████████████████████
+   AS63023    CleanVDS.com LLC              27 Hosts  ███████████████████████████
+   AS204490   Contel OOO                    27 Hosts  ███████████████████████████
+
+==============================================================

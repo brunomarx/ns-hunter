@@ -1,0 +1,89 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-20
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1178
+
+🔴 NEU HEUTE (10)
+     185.231.204.8      AS209207   Digital Hosting Provider LLC ES  SSL:DESKTOP-TCRDU4C
+     2.27.2.225         AS200203   F3CLOUD FRANKFURT            GB  SSL:WIN-J9D866ESIJ2
+     185.139.68.10      AS204997   FIRST SERVER, SOCIEDAD LIMITADA RU  SSL:n/a
+     179.255.188.112    AS214238   IT Hostline Ltd              BR  SSL:WIN-J9D866ESIJ2
+     185.86.79.241      AS201094   Mulgin Alexander Sergeevich  UA  SSL:WIN-J9D866ESIJ2
+     5.253.57.126       AS212171   UOWH LLC                     FR  SSL:WIN-J9D866ESIJ2
+     45.13.186.192      AS218688   WULDI LLC                    NL  SSL:WIN-J9D866ESIJ2
+     185.102.115.36     AS218688   WULDI LLC                    DE  SSL:WIN-J9D866ESIJ2
+     201.4.74.31        AS48031    ipbnb                        BR  SSL:WIN-J9D866ESIJ2
+     144.31.76.217      AS213877   u1host ltd                   US  SSL:WIN-J9D866ESIJ2
+
+💀 VERSCHWUNDEN (40)
+   31.76.225.239      AS206134   Ace Data Centers II, LLC     (seit 2026-10-15)
+   45.86.66.104       AS51765    BEAFORT LIMITED              (seit 2026-08-07)
+   45.128.60.16       AS51765    BEAFORT LIMITED              (seit 2026-09-05)
+   45.86.66.101       AS51765    BEAFORT LIMITED              (seit 2026-09-27)
+   46.8.220.138       AS204490   Contel OOO                   (seit 2026-03-13)
+   46.8.220.221       AS204490   Contel OOO                   (seit 2026-10-11)
+   185.112.59.40      AS209207   Digital Hosting Provider LLC (seit 2026-07-09)
+   168.113.215.203    AS209207   Digital Hosting Provider LLC (seit 2026-10-13)
+   142.202.188.253    AS398019   Dynu Systems Incorporated    (seit 2026-03-14)
+   185.128.105.46     AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-03-13)
+   185.233.200.69     AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-03-22)
+   185.102.139.125    AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-04-21)
+   185.103.109.209    AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-04-21)
+   95.81.121.233      AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-05-10)
+   78.153.155.79      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-10)
+   185.39.207.54      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-10)
+   89.23.107.64       AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-17)
+   195.123.240.171    AS204957   Green Floid LLC              (seit 2026-03-20)
+   109.120.137.252    AS215730   H2NEXUS LTD                  (seit 2026-03-10)
+   144.31.0.107       AS215730   H2NEXUS LTD                  (seit 2026-03-12)
+   187.52.43.7        AS63023    IPbnb LLC                    (seit 2026-10-26)
+   45.12.62.89        AS200823   MHost LLC                    (seit 2026-09-30)
+   193.148.56.120     AS218688   Neterra Ltd.                 (seit 2026-10-16)
+   45.144.51.61       AS49791    Newserverlife LLC            (seit 2026-03-17)
+   188.165.139.166    AS16276    OVH HOSTING OY               (seit 2026-03-10)
+   185.241.52.189     AS204601   Podaon SIA                   (seit 2026-03-10)
+   212.8.246.145      AS204601   Podaon SIA                   (seit 2026-04-05)
+   212.192.31.53      AS210546   RCS Technologies FZE LLC     (seit 2026-04-03)
+   94.156.155.15      AS207957   SERV.HOST GROUP LTD          (seit 2026-03-20)
+   185.170.153.136    AS207957   SERV.HOST GROUP LTD          (seit 2026-07-24)
+   179.254.171.123    AS207957   SERV.HOST GROUP LTD          (seit 2026-10-28)
+   45.87.104.175      AS212872   Skystark LLC                 (seit 2026-06-15)
+   80.76.42.17        AS212913   TIME-HOST-NET                (seit 2026-03-14)
+   45.92.170.2        AS212171   UOWH LLC                     (seit 2026-06-30)
+   185.207.15.195     AS212171   UOWH LLC                     (seit 2026-07-15)
+   185.207.15.5       AS212171   UOWH LLC                     (seit 2026-07-21)
+   45.155.52.244      AS44094    Webhost LLC                  (seit 2026-10-10)
+   103.101.85.66      AS199479   ahbr company limited         (seit 2026-03-14)
+   185.164.57.90      AS207461   host-industry HOSTING INDUSTRY LIMITED (seit 2026-10-25)
+   31.77.157.8        AS215439   play2go.cloud - Cheap and reliable hosting (seit 2026-10-28)
+
+🔀 ASN-MIGRATIONEN (2)
+   132.243.204.24 | AS14962 NCR Corporation → AS198178 365.partners INC
+   193.233.23.140 | AS51765 ALEKSEI FEDOROV PR KRUSEVAC → AS216024 ALEKSEI FEDOROV PR KRUSEVAC
+
+🔑 ZERTIFIKAT-WECHSEL (10)
+   46.8.153.104 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   198.17.175.147 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   195.137.244.60 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   185.242.246.204 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   94.103.1.67 | Old CN: WIN-J9D866ESIJ2 → New CN: DESKTOP-TCRDU4C
+   103.101.85.69 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.138.88.17 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   31.76.64.198 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   185.232.170.108 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   109.69.59.125 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     145 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    51 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 51 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 37 Hosts  ██████████████████████████████
+   AS209207   Digital Hosting Provider LLC  35 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  35 Hosts  ██████████████████████████████
+   AS63023    CleanVDS.com LLC              30 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           30 Hosts  ██████████████████████████████
+   AS205090   FIRST SERVER, SOCIEDAD LIMITADA  28 Hosts  ████████████████████████████
+   AS398019   Dynu Systems Incorporated     28 Hosts  ████████████████████████████
+
+==============================================================

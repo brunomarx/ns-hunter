@@ -1,0 +1,112 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-23
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1185
+
+🔴 NEU HEUTE (18)
+     185.176.220.72     AS39845    2 Cloud Ltd.                 LV  SSL:WIN-J9D866ESIJ2
+     191.217.210.19     AS210457   Ace Data Centers II, LLC     BR  SSL:WIN-J9D866ESIJ2
+     48.102.0.195       AS401152   Ace Data Centers II, LLC     US  SSL:WIN-J9D866ESIJ2
+     194.124.251.13     AS34534    BEAFORT LIMITED              NL  SSL:WIN-J9D866ESIJ2
+     45.137.190.216     AS57271    BitWeb LLC                   RU  SSL:DESKTOP-TCRDU4C
+     143.14.75.144      AS50049    Company 64d3452fsoKGnMTR     US  SSL:WIN-J9D866ESIJ2
+     147.45.61.220      AS209207   Digital Hosting Provider LLC RU  SSL:DESKTOP-TCRDU4C
+     193.233.198.112    AS209207   Digital Hosting Provider LLC US  SSL:DESKTOP-TCRDU4C
+     94.103.1.163       AS209207   Digital Hosting Provider LLC MD  SSL:DESKTOP-TCRDU4C
+     138.124.126.174    AS209207   Digital Hosting Provider LLC RS  SSL:DESKTOP-TCRDU4C
+     72.51.56.45        AS398019   Dynu Systems Incorporated    CA  SSL:WIN-J9D866ESIJ2
+     45.9.73.27         AS205090   FIRST SERVER, SOCIEDAD LIMITADA RU  SSL:WIN-J9D866ESIJ2
+     46.8.41.129        AS57043    Izitell Cloud - FZCO         RU  SSL:WIN-J9D866ESIJ2
+     82.146.63.123      AS29182    JSC Datacenter               RU  SSL:WIN-J9D866ESIJ2
+     82.146.58.104      AS29182    JSC Datacenter               RU  SSL:WIN-J9D866ESIJ2
+     144.76.189.14      AS24940    Openwave Messaging GmbH      DE  SSL:DESKTOP-TCRDU4C
+     170.168.103.230    AS63023    Xyber Wave Trade & Marketing - FZCO US  SSL:DESKTOP-TCRDU4C
+     187.52.43.58       AS63023    ipbnb                        BR  SSL:WIN-J9D866ESIJ2
+
+💀 VERSCHWUNDEN (50)
+   194.87.85.46       AS205007   ALEKSEI FEDOROV PR KRUSEVAC  (seit 2026-11-01)
+   2.26.51.221        AS215439   Ace Data Centers II, LLC     (seit 2026-10-31)
+   108.165.164.38     AS210457   Ace Data Centers, Inc.       (seit 2026-03-20)
+   108.165.164.77     AS210457   Ace Data Centers, Inc.       (seit 2026-08-01)
+   132.243.225.248    AS218731   Andris Jakovlevs             (seit 2026-09-13)
+   31.76.41.25        AS210546   CHSL ONE LTD                 (seit 2026-10-27)
+   198.17.175.140     AS63023    CleanVDS.com LLC             (seit 2026-08-21)
+   46.8.255.23        AS204490   Contel OOO                   (seit 2026-03-28)
+   46.8.220.63        AS204490   Contel OOO                   (seit 2026-05-30)
+   142.202.191.237    AS398019   Dynu Systems Incorporated    (seit 2026-03-22)
+   109.238.94.71      AS62212    EE SmartApe OU               (seit 2026-10-20)
+   92.38.49.154       AS42447    EQU Technologies LLP         (seit 2026-03-31)
+   89.44.86.184       AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-04-12)
+   45.148.101.231     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-24)
+   78.153.155.249     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-30)
+   185.39.207.105     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-05-31)
+   185.168.208.21     AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-10-24)
+   85.90.199.4        AS204957   GREEN FLOID LLC              (seit 2026-03-10)
+   45.144.53.246      AS215730   H2NEXUS LTD                  (seit 2026-09-11)
+   144.31.5.89        AS215730   H2NEXUS LTD                  (seit 2026-09-28)
+   65.21.160.49       AS24940    HOS-682814                   (seit 2026-03-10)
+   157.90.14.133      AS24940    Hetzner Online GmbH          (seit 2026-03-26)
+   187.52.43.12       AS63023    IPbnb LLC                    (seit 2026-10-31)
+   187.52.43.5        AS63023    IPbnb LLC                    (seit 2026-10-31)
+   23.27.197.13       AS63023    InterLIR LLC                 (seit 2026-11-04)
+   185.163.46.12      AS39798    MivoCloud SRL                (seit 2026-03-10)
+   185.163.46.90      AS39798    MivoCloud SRL                (seit 2026-03-30)
+   85.137.253.84      AS215428   Mykyta Skorobohatko          (seit 2026-06-30)
+   85.137.253.253     AS215428   Mykyta Skorobohatko          (seit 2026-10-01)
+   85.137.252.37      AS215428   Mykyta Skorobohatko          (seit 2026-10-23)
+   194.41.112.71      AS211955   NOTBAD HOSTING LTD           (seit 2026-04-20)
+   80.89.239.36       AS24875    NovoServe B.V.               (seit 2026-03-12)
+   64.188.66.97       AS215439   PLAY2GO INTERNATIONAL LIMITED (seit 2026-08-15)
+   92.119.112.20      AS204601   Podaon SIA                   (seit 2026-03-10)
+   141.98.6.48        AS213702   QWINS LTD                    (seit 2026-04-01)
+   80.253.249.189     AS218731   QWINS LTD                    (seit 2026-10-16)
+   195.211.96.75      AS204957   ROUTE 95 LLC                 (seit 2026-06-05)
+   194.87.24.204      AS218731   Reliable Communications s.r.o. (seit 2026-09-10)
+   2.26.90.122        AS207957   SERV.HOST GROUP LTD          (seit 2026-05-16)
+   193.42.110.201     AS60144    UA-Hosting SIA               (seit 2026-03-18)
+   45.145.12.24       AS212171   UOWH LLC                     (seit 2026-10-11)
+   185.99.97.120      AS212171   UOWH LLC                     (seit 2026-10-26)
+   31.76.94.38        AS201988   VPSPay Networks LTD          (seit 2026-10-03)
+   87.120.216.48      AS213887   WAIcore Ltd                  (seit 2026-05-21)
+   95.85.233.145      AS213887   WAIcore Ltd                  (seit 2026-07-13)
+   95.85.238.91       AS218688   WULDI LLC                    (seit 2026-07-10)
+   95.85.238.117      AS218688   WULDI LLC                    (seit 2026-07-10)
+   45.155.52.206      AS44094    Webhost LLC                  (seit 2026-08-14)
+   194.190.70.61      AS208626   coopertino.ru                (seit 2026-07-26)
+   2.26.194.210       AS216127   nuxt.cloud hosting provider  (seit 2026-09-14)
+
+🔀 ASN-MIGRATIONEN (2)
+   152.234.234.55 | AS401152 Vodafone Libertel B.V. → AS215590 Vodafone Libertel B.V.
+   45.136.126.14 | AS41111 FAST GEO HOSTING S.R.L. → AS51765 BEAFORT LIMITED
+
+🔑 ZERTIFIKAT-WECHSEL (15)
+   198.17.175.228 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   195.137.244.61 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   171.22.16.43 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   45.86.62.62 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   45.90.46.118 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   45.134.218.68 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.184.122.90 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   78.153.130.227 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   194.190.70.112 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   81.90.181.6 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   31.77.159.21 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   85.209.90.23 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   185.91.126.112 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   45.14.12.83 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   95.81.113.45 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     145 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    56 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 48 Hosts  ██████████████████████████████
+   AS209207   Digital Hosting Provider LLC  39 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  36 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 35 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           29 Hosts  █████████████████████████████
+   AS63023    CleanVDS.com LLC              28 Hosts  ████████████████████████████
+   AS205090   FIRST SERVER, SOCIEDAD LIMITADA  28 Hosts  ████████████████████████████
+   AS398019   Dynu Systems Incorporated     25 Hosts  █████████████████████████
+
+==============================================================

@@ -1,0 +1,114 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-24
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1209
+
+🔴 NEU HEUTE (12)
+     46.28.71.244       AS8254     * As ISP we provide hosting, virtual, and dedicated servers. UA  SSL:WIN-J9D866ESIJ2
+     45.137.190.188     AS57271    BitWeb LLC                   RU  SSL:DESKTOP-TCRDU4C
+     45.137.190.200     AS57271    BitWeb LLC                   RU  SSL:DESKTOP-TCRDU4C
+     138.249.133.207    AS63023    Costel Savulescu             FI  SSL:WIN-J9D866ESIJ2
+     77.246.145.78      AS29182    E-PLANET Hosting Provider    RU  SSL:DESKTOP-2NFCDE2
+     5.181.3.153        AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP US  SSL:WIN-J9D866ESIJ2
+     185.91.126.147     AS211971   LLP Triest                   KZ  SSL:WIN-J9D866ESIJ2
+     5.181.157.68       AS39798    MivoCloud SRL                MD  SSL:WIN-OQQ4DG50KQN
+     48.102.219.75      AS207957   SERV.HOST GROUP LTD          US  SSL:WIN-J9D866ESIJ2
+     130.49.186.251     AS212913   TIME-HOST LTD                US  SSL:WIN-J9D866ESIJ2
+     185.99.97.34       AS212171   UOWH LLC                     NL  SSL:DESKTOP-TCRDU4C
+     87.232.83.144      AS63023    ipbnb                        IE  SSL:WIN-J9D866ESIJ2
+
+💀 VERSCHWUNDEN (43)
+   82.118.16.61       AS21100    * As ISP we provide hosting, virtual, and dedicated servers. (seit 2026-10-29)
+   46.28.69.224       AS21100    * As an ISP, we provide hosting, virtual, and dedicated servers. (seit 2026-11-06)
+   46.8.221.206       AS204490   Contel OOO                   (seit 2026-03-21)
+   46.8.255.210       AS204490   Contel OOO                   (seit 2026-10-07)
+   207.174.0.93       AS398019   Dynu Systems Incorporated    (seit 2026-04-16)
+   72.51.59.83        AS398019   Dynu Systems Incorporated    (seit 2026-08-28)
+   104.164.60.132     AS26383    EGIHosting                   (seit 2026-10-25)
+   62.133.60.162      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-04-06)
+   45.150.66.24       AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-10-28)
+   5.34.177.6         AS204957   Green Floid LLC              (seit 2026-11-05)
+   185.237.100.133    AS51395    IP Fiber Inc                 (seit 2026-03-10)
+   185.244.41.42      AS204490   Izitell Cloud - FZCO         (seit 2026-03-26)
+   185.244.41.238     AS204490   Izitell Cloud - FZCO         (seit 2026-05-28)
+   161.104.90.126     AS204490   Kontel LLC                   (seit 2026-11-05)
+   2.26.252.25        AS210457   Kyonix Networks Limited      (seit 2026-10-15)
+   144.31.151.49      AS210457   Kyonix Networks Limited      (seit 2026-10-21)
+   94.183.224.117     AS198685   LUNAR CLOUD SOLUTIONS        (seit 2026-11-06)
+   45.153.219.209     AS200823   MHost LLC                    (seit 2026-11-05)
+   45.136.59.13       AS208450   Megahost Kazakhstan TOO      (seit 2026-04-17)
+   2.27.1.82          AS210546   NETSHIELD LTD                (seit 2026-10-13)
+   86.54.25.9         AS210006   ORG-SMA119-RIPE              (seit 2026-10-04)
+   185.122.171.50     AS214927   PSB HOSTING LTD              (seit 2026-06-09)
+   94.142.139.5       AS209641   PSERVERS Enterprise Network  (seit 2026-11-05)
+   77.83.172.45       AS204601   Podaon SIA                   (seit 2026-03-10)
+   80.89.228.95       AS204601   Podaon SIA                   (seit 2026-03-10)
+   45.132.106.74      AS204601   Podaon SIA                   (seit 2026-03-10)
+   45.137.66.170      AS204601   Podaon SIA                   (seit 2026-03-24)
+   185.51.247.240     AS204601   Podaon SIA                   (seit 2026-04-05)
+   212.86.109.119     AS204601   Podaon SIA                   (seit 2026-04-05)
+   80.89.229.120      AS204601   Podaon SIA                   (seit 2026-06-23)
+   195.211.98.160     AS204957   ROUTE 95 LLC                 (seit 2026-03-29)
+   195.211.98.103     AS204957   ROUTE 95 LLC                 (seit 2026-11-05)
+   144.31.216.127     AS207957   SERV.HOST GROUP LTD          (seit 2026-10-24)
+   176.114.4.218      AS56485    TheHost LLC                  (seit 2026-06-12)
+   77.91.86.126       AS213877   U1 DIGITAL SERVICES LTD      (seit 2026-11-06)
+   185.99.97.66       AS212171   UOWH LLC                     (seit 2026-09-30)
+   185.166.152.249    AS212171   UOWH LLC                     (seit 2026-10-13)
+   45.86.62.75        AS212171   UOWH LLC                     (seit 2026-10-16)
+   179.253.86.57      AS401152   Vodafone Libertel B.V.       (seit 2026-11-05)
+   84.252.66.89       AS200823   WS Telecom Inc               (seit 2026-11-05)
+   144.31.142.46      AS215590   Xorek.Cloud Frankfurt        (seit 2026-11-04)
+   193.232.179.183    AS208626   coopertino.ru                (seit 2026-10-25)
+   201.3.227.116      AS63023    ipbnb                        (seit 2026-11-06)
+
+🔀 ASN-MIGRATIONEN (6)
+   185.231.244.142 | AS202984 Argotel ltd. → AS208427 Argotel ltd.
+   84.21.189.250 | AS60781 RapidSeedbox Ltd → AS218731 QWINS LTD
+   77.91.123.21 | AS44477 STARK INDUSTRIES SOLUTIONS LTD → AS212171 UOWH LLC
+   45.86.66.202 | AS41111 FAST GEO HOSTING S.R.L. → AS51765 BEAFORT LIMITED
+   45.136.126.12 | AS41111 FAST GEO HOSTING S.R.L. → AS51765 BEAFORT LIMITED
+   185.176.94.98 | AS214309 EdgeSec Technologies Limited → AS218239 Aurorix Networks, Frankfurt.
+
+🔑 ZERTIFIKAT-WECHSEL (26)
+   188.40.208.180 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   85.202.87.141 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   195.137.245.118 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   45.90.46.66 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   45.144.53.23 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   198.17.175.251 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   185.207.15.43 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   193.39.68.76 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   45.87.104.42 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   92.46.186.113 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.231.244.142 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   64.188.79.27 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   142.202.191.245 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   144.31.30.25 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   150.241.116.44 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   45.87.104.250 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   217.12.206.195 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   77.91.123.21 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   185.213.211.109 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   92.119.112.20 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   45.12.4.40 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   45.136.126.12 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   80.85.141.201 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   45.129.97.215 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   185.176.94.98 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   185.241.55.96 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     146 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    56 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 47 Hosts  ██████████████████████████████
+   AS209207   Digital Hosting Provider LLC  40 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 36 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  35 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           30 Hosts  ██████████████████████████████
+   AS63023    CleanVDS.com LLC              29 Hosts  █████████████████████████████
+   AS205090   FIRST SERVER, SOCIEDAD LIMITADA  28 Hosts  ████████████████████████████
+   AS398019   Dynu Systems Incorporated     25 Hosts  █████████████████████████
+
+==============================================================

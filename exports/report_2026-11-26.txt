@@ -1,0 +1,139 @@
+==============================================================
+  NetSupport RAT Infrastructure Hunter — 2026-11-26
+==============================================================
+
+📊 GESAMT AKTIVE HOSTS: 1210
+
+🔴 NEU HEUTE (19)
+     89.35.130.167      AS218239   Aurorix Networks, Frankfurt. DE  SSL:WIN-J9D866ESIJ2
+     85.202.87.244      AS57271    BitWeb LLC                   RU  SSL:DESKTOP-TCRDU4C
+     81.16.141.161      AS57271    BitWeb LLC                   RU  SSL:DESKTOP-TCRDU4C
+     2.26.65.178        AS210546   CHSL ONE LTD                 GB  SSL:WIN-J9D866ESIJ2
+     138.249.133.136    AS63023    Costel Savulescu             FI  SSL:WIN-J9D866ESIJ2
+     94.103.1.155       AS209207   Digital Hosting Provider LLC MD  SSL:DESKTOP-TCRDU4C
+     147.45.39.171      AS209207   Digital Hosting Provider LLC RU  SSL:DESKTOP-TCRDU4C
+     185.221.160.80     AS205090   FIRST SERVER, SOCIEDAD LIMITADA DE  SSL:WIN-J9D866ESIJ2
+     216.87.53.83       AS208440   GmhostGrupp OU               US  SSL:WIN-J9D866ESIJ2
+     45.90.57.207       AS204957   Green Floid LLC              CH  SSL:WIN-J9D866ESIJ2
+     87.232.113.31      AS62212    IPbnb LLC                    IE  SSL:WIN-J9D866ESIJ2
+     23.27.197.27       AS63023    InterLIR LLC                 US  SSL:WIN-J9D866ESIJ2
+     193.148.57.105     AS218688   Neterra Ltd.                 FR  SSL:WIN-J9D866ESIJ2
+     31.59.116.220      AS213915   Private Customer             US  SSL:DESKTOP-TCRDU4C
+     31.76.69.235       AS207957   SERV.HOST GROUP LTD          GB  SSL:WIN-J9D866ESIJ2
+     45.86.62.68        AS212171   UOWH LLC                     GB  SSL:DESKTOP-TCRDU4C
+     45.86.63.153       AS212171   UOWH LLC                     GB  SSL:WIN-J9D866ESIJ2
+     92.118.231.227     AS212171   UOWH LLC                     GB  SSL:WIN-J9D866ESIJ2
+     95.85.238.84       AS218688   WULDI LLC                    CZ  SSL:WIN-J9D866ESIJ2
+
+💀 VERSCHWUNDEN (69)
+   79.137.248.93      AS210644   AEZA GROUP LLC               (seit 2026-03-22)
+   193.23.219.97      AS213520   Ace Data Centers II, LLC     (seit 2026-03-10)
+   193.23.199.36      AS210457   Ace Data Centers II, LLC     (seit 2026-03-10)
+   150.241.116.138    AS215590   Ace Data Centers II, LLC     (seit 2026-03-14)
+   193.23.209.72      AS213905   Ace Data Centers II, LLC     (seit 2026-03-26)
+   150.241.123.11     AS215590   Ace Data Centers II, LLC     (seit 2026-10-26)
+   48.102.216.194     AS207957   Ace Data Centers II, LLC     (seit 2026-11-08)
+   150.241.106.107    AS215590   Ace Data Centers II, LLC     (seit 2026-11-11)
+   108.165.236.89     AS213529   Ace Data Centers, Inc.       (seit 2026-07-10)
+   5.253.31.112       AS153914   BEAFORT LIMITED              (seit 2026-08-05)
+   95.130.227.196     AS35682    BEST INTERNET SOLUTION XK    (seit 2026-03-12)
+   45.130.148.220     AS35682    BEST INTERNET SOLUTION XK    (seit 2026-03-24)
+   198.17.175.7       AS63023    CleanVDS.com LLC             (seit 2026-04-02)
+   198.17.175.196     AS63023    CleanVDS.com LLC             (seit 2026-07-20)
+   2.26.73.33         AS210546   Cloud Hosting Solutions, Limited. (seit 2026-10-20)
+   92.46.41.196       AS9198     Co-location                  (seit 2026-04-16)
+   46.8.220.8         AS204490   Contel OOO                   (seit 2026-04-19)
+   91.210.146.183     AS199479   Datagio Systems Ltd.         (seit 2026-10-27)
+   153.80.249.142     AS209207   Digital Hosting Provider LLC (seit 2026-10-06)
+   138.124.79.73      AS209207   Digital Hosting Provider LLC (seit 2026-10-27)
+   207.174.3.211      AS398019   Dynu Systems Incorporated    (seit 2026-03-10)
+   162.216.240.82     AS398019   Dynu Systems Incorporated    (seit 2026-03-10)
+   142.202.188.238    AS398019   Dynu Systems Incorporated    (seit 2026-03-10)
+   172.81.63.162      AS398019   Dynu Systems Incorporated    (seit 2026-04-22)
+   195.110.216.12     AS62212    EE SmartApe OU               (seit 2026-11-11)
+   85.137.164.110     AS62212    EE SmartApe OU               (seit 2026-11-12)
+   141.133.175.34     AS62212    EE SmartApe OU               (seit 2026-11-12)
+   185.128.105.168    AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-03-10)
+   45.95.202.190      AS205090   FIRST SERVER, SOCIEDAD LIMITADA (seit 2026-04-24)
+   89.23.107.171      AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP (seit 2026-03-11)
+   45.88.160.7        AS63023    GLOBALTELEHOST Corp.         (seit 2026-08-12)
+   45.88.160.36       AS63023    GLOBALTELEHOST Corp.         (seit 2026-09-10)
+   82.117.254.226     AS8254     Green Floid LLC              (seit 2026-03-13)
+   82.117.252.171     AS8254     Green Floid LLC              (seit 2026-11-11)
+   109.120.137.239    AS215730   H2NEXUS LTD                  (seit 2026-03-12)
+   185.246.154.15     AS50098    Happy Technologies LLC       (seit 2026-08-06)
+   178.219.159.57     AS59684    Hoster kg, Ltd.              (seit 2026-07-01)
+   176.126.166.213    AS59684    Hoster kg, Ltd.              (seit 2026-07-14)
+   94.154.35.15       AS202412   Individual entrepreneur Dyachenko Valentina Ivanovna (seit 2026-03-14)
+   45.12.6.213        AS212872   Internet Hosting LLC         (seit 2026-04-11)
+   144.31.106.133     AS210457   Kyonix Networks Limited      (seit 2026-08-29)
+   109.248.247.233    AS215670   LLP Internet Company First Page (seit 2026-11-11)
+   194.33.61.149      AS200823   MHost LLC                    (seit 2026-03-10)
+   185.163.46.76      AS39798    MivoCloud SRL                (seit 2026-10-02)
+   85.137.253.80      AS215428   Mykyta Skorobohatko          (seit 2026-03-14)
+   87.120.107.237     AS215428   Neterra Ltd.                 (seit 2026-09-19)
+   80.89.239.192      AS24875    NovoServe B.V.               (seit 2026-03-10)
+   185.125.218.113    AS209641   PSERVERS Enterprise Network  (seit 2026-03-14)
+   94.142.141.230     AS209641   PSERVERS Enterprise Network  (seit 2026-05-22)
+   185.5.248.50       AS209641   PSERVERS Enterprise Network  (seit 2026-10-24)
+   45.88.79.17        AS204601   Peetinvest B.V.              (seit 2026-04-02)
+   185.154.13.207     AS204601   Podaon SIA                   (seit 2026-03-12)
+   212.86.102.74      AS204601   Podaon SIA                   (seit 2026-03-17)
+   178.159.38.46      AS204601   Podaon SIA                   (seit 2026-03-26)
+   45.87.104.63       AS212872   Skystark LLC                 (seit 2026-05-17)
+   195.137.245.123    AS214379   South Park Networks LLC      (seit 2026-03-20)
+   185.113.134.17     AS207333   TOO "Kompaniya Hoster.KZ"    (seit 2026-03-16)
+   185.207.15.224     AS212171   UOWH LLC                     (seit 2026-06-20)
+   185.207.14.54      AS212171   UOWH LLC                     (seit 2026-07-10)
+   77.91.100.24       AS212171   UOWH LLC                     (seit 2026-07-14)
+   185.166.154.159    AS212171   UOWH LLC                     (seit 2026-09-18)
+   185.166.154.160    AS212171   UOWH LLC                     (seit 2026-09-18)
+   45.86.62.67        AS212171   UOWH LLC                     (seit 2026-09-22)
+   2.26.122.251       AS201988   VPSPay Networks LTD          (seit 2026-08-15)
+   185.179.191.39     AS44094    Webhost LLC                  (seit 2026-05-12)
+   185.179.190.104    AS44094    Webhost LLC                  (seit 2026-09-05)
+   213.21.253.43      AS215590   Xorek.Cloud Frankfurt        (seit 2026-03-10)
+   94.141.161.13      AS215590   Xorek.Cloud Frankfurt        (seit 2026-05-23)
+   45.129.99.122      AS201094   gmhost Mulgin Alexander Sergeevich (seit 2026-03-13)
+
+🔀 ASN-MIGRATIONEN (4)
+   185.207.14.66 | AS214238 HOST TELECOM LTD → AS212171 UOWH LLC
+   64.188.81.8 | AS2914 Ace Data Centers II, LLC → AS209693 1Cent Host
+   85.137.253.82 | AS6739 ONO_HFC → AS215428 Mykyta Skorobohatko
+   195.78.48.99 | AS51847 rainbow network corporation limited → AS213220 Delta Ltd
+
+🔑 ZERTIFIKAT-WECHSEL (20)
+   45.145.12.33 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   198.17.175.166 | Old CN: DESKTOP-2NFCDE2 → New CN: DESKTOP-2NFCDE2
+   45.12.4.142 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   147.45.198.207 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   147.45.50.88 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.207.14.66 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   80.71.227.99 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   45.86.61.252 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   46.8.220.12 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   92.118.230.223 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   141.98.188.25 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   193.23.199.130 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   185.179.189.128 | Old CN: DESKTOP-TCRDU4C → New CN: DESKTOP-TCRDU4C
+   195.226.192.92 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   195.123.240.77 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   80.253.249.35 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   85.137.253.82 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   91.227.18.165 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   185.230.88.220 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+   77.83.174.253 | Old CN: WIN-J9D866ESIJ2 → New CN: WIN-J9D866ESIJ2
+
+📡 TOP ASNs (aktive Hosts)
+   AS212171   UOWH LLC                     148 Hosts  ██████████████████████████████
+   AS204601   Podaon SIA                    56 Hosts  ██████████████████████████████
+   AS208626   coopertino.ru                 48 Hosts  ██████████████████████████████
+   AS209207   Digital Hosting Provider LLC  43 Hosts  ██████████████████████████████
+   AS39798    MivoCloud SRL                 37 Hosts  ██████████████████████████████
+   AS215540   GLOBAL CONNECTIVITY SOLUTIONS LLP  35 Hosts  ██████████████████████████████
+   AS207957   SERV.HOST GROUP LTD           31 Hosts  ██████████████████████████████
+   AS63023    CleanVDS.com LLC              29 Hosts  █████████████████████████████
+   AS204490   Contel OOO                    28 Hosts  ████████████████████████████
+   AS205090   FIRST SERVER, SOCIEDAD LIMITADA  27 Hosts  ███████████████████████████
+
+==============================================================
